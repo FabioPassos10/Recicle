@@ -4,7 +4,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-
 } from "react-router-dom";
 import Sobre from "./Sobre";
 import Home from "./Home";
@@ -26,17 +25,13 @@ import {
   FormText,
   Container,
 } from 'reactstrap';
-
 export default function App() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
   return (
 
-
-
     <Router>
-
       <Container className="themed-container" fluid={true}>
 
         <Navbar color="dark" dark expand="md">
