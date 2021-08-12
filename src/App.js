@@ -38,7 +38,7 @@ export default function App() {
           <NavbarBrand href="/">Home</NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
-            <Nav className="mr-auto" navbar>
+            <Nav className="mr-auto" navbar> 
               <NavItem>
                 <NavLink href="/Sobre">Sobre</NavLink>
               </NavItem>
