@@ -54,10 +54,6 @@ export default function App() {
         </Navbar>
       </Container>
 
-
-
-
-
       <Switch>
         <Route path="/Sobre">
           <Sobre />
