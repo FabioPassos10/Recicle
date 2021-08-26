@@ -24,5 +24,5 @@ return(
 }
 }
 export default GoogleApiWrapper({
-    apiKey: ("Chave_API")//apaguei por segurança 
+    apiKey: ("Chave_API")//Removi a API_KEY por segurança
   })(Home);
