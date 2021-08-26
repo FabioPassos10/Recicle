@@ -1,17 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
+let map;
 
-
-
+function initMap() {
+    map = new Map(document.getElementById("map"), {
+        center: { lat: -34.397, lng: 150.644 },
+        zoom: 8,
+    });
+}
 export default function sobre(props) {
+
+
 
 
     return (
         <>
-            <p>testando</p>
-            <p id="teste"> teste teste oiiiii ai ai i iaiaifiii i i iogh 423htui3q rhwh </p>
-            <p>:)</p>
-            <p>testando a Branche</p>
-           
+<p>oi</p>
+
         </>
     )
 
