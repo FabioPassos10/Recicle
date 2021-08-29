@@ -32,13 +32,11 @@ export default function App() {
   return (
 
     <Router>
-      <Container className="themed-container" fluid={true}>
-
-        <Navbar color="dark" dark expand="md">
-          <NavbarBrand href="/">Home</NavbarBrand>
+      <header className="header"> <Navbar color="dark" dark expand="md">
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
-            <Nav className="mr-auto" navbar> 
+            <Nav className="mr-auto" navbar>
+              <NavbarBrand href="/">Home</NavbarBrand>
               <NavItem>
                 <NavLink href="/Sobre">Sobre</NavLink>
               </NavItem>
@@ -46,13 +44,14 @@ export default function App() {
                 <NavLink href="/Mais">Mais</NavLink>
               </NavItem>
             </Nav>
-            <NavbarText>Recicle</NavbarText>
-
           </Collapse>
-         
-
         </Navbar>
-      </Container>
+    </header>
+       
+
+
+
+
 
       <Switch>
         <Route path="/Sobre">
