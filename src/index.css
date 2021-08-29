@@ -1,10 +1,11 @@
 body {
-  margin: 0;
+  
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
@@ -26,3 +27,25 @@ code {
   width: 100% !important;
  
 }
+.mr-auto{
+padding-left: 45px !important;
+height: 45px;
+position: sticky;
+
+
+
+}
+
+body {
+  padding-bottom: 80px; /* Altura do menu */
+}
+.header {
+  position: fixed;
+ margin-bottom: 60px;
+  padding-bottom: 40px;
+  width: 100%;
+}
+section{
+  padding-top: 60px;
+}
+
