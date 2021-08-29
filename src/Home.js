@@ -1,28 +1,17 @@
-import React, {Component} from "react";
-import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+import React, { Component } from "react";
+import { Container, Row, Col } from 'reactstrap';
+import Mapa from './Map'
 
 
-class Home extends Component{
-render(){
-
+export default function Home() {
 return(
 
-
-<div style={{height: 500, width: '100%'}}><Map google={this.props.google} zoom={14}>
-  
- <Marker onClick={this.onMarkerClick}
-         name={'Current location'} />
-
- <InfoWindow onClose={this.onInfoWindowClose}>
-    
- </InfoWindow>
-</Map></div>
+<section>
+<div ><Mapa></Mapa></div>
 
 
 
-);
+</section>
+
+)
 }
-}
-export default GoogleApiWrapper({
-    apiKey: ("Chave_API")//Removi a API_KEY por segurança
-  })(Home);
