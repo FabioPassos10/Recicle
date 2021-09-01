@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from 'reactstrap';
-import Mapa from './Map'
+import Mapa from './Componentes/Map'
 
 
 export default function Home() {
