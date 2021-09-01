@@ -1,5 +1,7 @@
 
 import React, { useState } from "react";
+
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -30,7 +32,7 @@ export default function App() {
 
   const toggle = () => setIsOpen(!isOpen);
   return (
-
+<>
     <Router>
       <header className="header"> <Navbar color="dark" dark expand="md">
           <NavbarToggler onClick={toggle} />
@@ -47,11 +49,6 @@ export default function App() {
           </Collapse>
         </Navbar>
     </header>
-       
-
-
-
-
 
       <Switch>
         <Route path="/Sobre">
@@ -65,13 +62,14 @@ export default function App() {
         </Route>
       </Switch>
 
-
-
-
-
     </Router>
+  
+   
+  </>
+      
+    
 
-  );
+  )
 }
 
 
