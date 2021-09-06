@@ -1,15 +1,9 @@
-
 import React, { useState } from "react";
-
-
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Sobre from "./Sobre";
 import Home from "./Home";
 import Mais from "./Mais";
+import Logo from "./Componentes/logo";
 import {
   Collapse,
   Navbar,
@@ -26,7 +20,8 @@ import {
   Input,
   FormText,
   Container,
-} from 'reactstrap';
+} from "reactstrap";
+
 export default function App() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -71,13 +66,3 @@ export default function App() {
 
   )
 }
-
-
-
-
-
-
-
-
-
-
