@@ -32,6 +32,9 @@ code {
 
 body {
   padding-bottom: 80px; /* Altura do menu */
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 .header {
   position: fixed;
@@ -41,7 +44,9 @@ body {
 }
 
 section {
+  height: 1000px;
   padding-top: 60px;
+  min-height: 100%;
 }
 
 navbar {
@@ -54,4 +59,35 @@ logo {
   margin-right: 100px;
 }
 
-/* =====Footer===== */
+*  {
+  margin:0;
+  padding:0;
+}
+
+html, body {height:100%;}
+
+.geral {
+  min-height:100%;
+  position:relative;
+  width:800px;
+}
+
+.footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+
+.content {overflow:hidden;}
+.aside {width:200px;}
+.fleft {float:left;}
+.fright {float:right;}
+
+
+
+
+
+
+
+
+
