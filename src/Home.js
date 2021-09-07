@@ -5,9 +5,7 @@ import Mapa from "./Componentes/Map";
 export default function Home() {
   return (
     <section>
-      <div>
-        <Mapa></Mapa>
-      </div>
+      <div>{/* <Mapa></Mapa> Descomente para o mapa aparecer*/}</div>
     </section>
   );
 }
