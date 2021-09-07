@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Sobre from "./Sobre";
 import Home from "./Home";
-import Mais from "./Mais";
+import Dicas from "./Dicas";
 import Logo from "./Componentes/logo";
 import {
   Collapse,
@@ -38,7 +38,7 @@ export default function App() {
                 <NavLink href="/Sobre">Sobre</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Mais">Mais</NavLink>
+                <NavLink href="/Dicas">Dicas</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
@@ -49,16 +49,15 @@ export default function App() {
         <Route path="/Sobre">
           <Sobre />
         </Route>
-        <Route path="/Mais">
-          <Mais />
+        <Route path="/Dicas">
+          <Dicas />
         </Route>
         <Route path="/">
           <Home />
         </Route>
       </Switch>
-
     </Router>
-  <p>teste</p>
+
    
   </>
       
