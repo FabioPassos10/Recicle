@@ -4,6 +4,7 @@ import Sobre from "./Sobre";
 import Home from "./Home";
 import Dicas from "./Dicas";
 import Logo from "./Componentes/logo";
+import Footer from "./Componentes/Footer";
 import {
   Collapse,
   Navbar,
@@ -27,41 +28,41 @@ export default function App() {
 
   const toggle = () => setIsOpen(!isOpen);
   return (
-<>
-    <Router>
-      <header className="header"> <Navbar color="dark" dark expand="md">
-          <NavbarToggler onClick={toggle} />
-          <Collapse isOpen={isOpen} navbar>
-            <Nav className="mr-auto" navbar>
-              <NavbarBrand href="/">Home</NavbarBrand>
-              <NavItem>
-                <NavLink href="/Sobre">Sobre</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/Dicas">Dicas</NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
-        </Navbar>
-    </header>
+    <>
+      <Router>
+        <header className="header">
+          <Navbar color="dark" dark expand="md" className="navbar">
+            <NavbarToggler onClick={toggle} />
+            <Collapse isOpen={isOpen} navbar>
+              <Nav className="mr-auto" navbar>
+                <NavLink className="LinksNav" href="/">
+                  Home
+                </NavLink>
+                <NavItem>
+                  <NavLink href="/Sobre">Sobre</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/Dicas">Dicas</NavLink>
+                </NavItem>
+              </Nav>
+            </Collapse>
+            <Logo className="logo" />
+          </Navbar>
+        </header>
+        <Switch>
+          <Route path="/Sobre">
+            <Sobre />
+          </Route>
+          <Route path="/Dicas">
+            <Dicas />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
 
-      <Switch>
-        <Route path="/Sobre">
-          <Sobre />
-        </Route>
-        <Route path="/Dicas">
-          <Dicas />
-        </Route>
-        <Route path="/">
-          <Home />
-        </Route>
-      </Switch>
-    </Router>
-
-   
-  </>
-      
-    
-
-  )
+      <Footer />
+    </>
+  );
 }
