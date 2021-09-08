@@ -4,8 +4,12 @@ import Mapa from "./Componentes/Map";
 
 export default function Home() {
   return (
-    <section>
-      <div>{/* <Mapa></Mapa> Descomente para o mapa aparecer*/}</div>
+    <section className="geral">
+      <Container className="oi" fluid={true}></Container>
+      <div id="Mapa">
+        {/* {" "}
+        <Mapa></Mapa>{" "} */}
+      </div>
     </section>
   );
 }
