@@ -1,15 +1,18 @@
 import React, { Component } from "react";
+import Cards from "./Componentes/Card";
 import { Container, Row, Col } from "reactstrap";
 import Mapa from "./Componentes/Map";
 
-export default function Home() {
+export default function Home(props) {
   return (
-    <section className="geral">
-      <Container className="oi" fluid={true}></Container>
+    <>
+      <Container id="Hero" fluid={true}></Container>
       <div id="Mapa">
         {/* {" "}
         <Mapa></Mapa>{" "} */}
       </div>
-    </section>
+
+      <div id="DivCard_Home"></div>
+    </>
   );
 }
