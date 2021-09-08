@@ -4,7 +4,7 @@ import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
 class Home extends Component {
   render() {
     return (
-      <div style={{ height: 500, width: "100%" }}>
+      <div style={{ height: 300, width: "100%" }}>
         <Map google={this.props.google} zoom={14}>
           <Marker onClick={this.onMarkerClick} name={"Current location"} />
 
