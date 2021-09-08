@@ -12,6 +12,7 @@ export default function Home(props) {
         <Mapa></Mapa>{" "} */}
       </div>
 
+      <div id="test"></div>
       <div id="DivCard_Home"></div>
     </>
   );
