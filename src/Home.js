@@ -1,17 +1,19 @@
-import React from "react";
+import React, { Component } from "react";
+import Cards from "./Componentes/Card";
+import { Container, Row, Col } from "reactstrap";
+import Mapa from "./Componentes/Map";
 
+export default function Home(props) {
+  return (
+    <>
+      <Container id="Hero" fluid={true}></Container>
+      <div id="Mapa">
+        {/* {" "}
+        <Mapa></Mapa>{" "} */}
+      </div>
 
-export default function Home (){
-return(
-
-<>
-    <p>estamos no Home</p>
-    <p>sim, estamos aqui!</p>
-    <p>de fato, estamos no home</p>
-    <p>Eu disse que estavmos no Home</p>
-    <p>Oi maromo vc é uma flor, te amamos sz </p>
-    <p>...?</p>
-</>
-
-)
+      <div id="test"></div>
+      <div id="DivCard_Home"></div>
+    </>
+  );
 }
