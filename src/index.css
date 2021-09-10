@@ -1,9 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100% !important;
+  padding-bottom: 60px; /* Altura do menu */
+  display: flex;
+  flex-direction: column;
+}
+html {
+  height: 100%;
+}
+.geral {
+  min-height: 100%;
+  width: 100%;
 }
 
 code {
@@ -14,80 +29,54 @@ code {
 #Div-btn {
   float: left;
 }
-#Div-Serch {
-  display: block;
-  width: 600px;
-  background-color: brown;
-}
-#map {
-  height: 400px !important;
-
-  width: 100% !important;
-}
 .mr-auto {
   padding-left: 45px !important;
   height: 45px;
   position: sticky;
 }
 
-body {
-  padding-bottom: 80px; /* Altura do menu */
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
 .header {
   position: fixed;
-  margin-bottom: 60px;
-  padding-bottom: 40px;
+  /* margin-bottom: 60px; */
+  padding-bottom: 0px;
   width: 100%;
 }
 
 section {
-  height: 1000px;
   padding-top: 60px;
-  min-height: 100%;
+  height: 100%;
 }
 
 navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  position: absolute;
 }
 
 logo {
   margin-right: 100px;
 }
-
-*  {
-  margin:0;
-  padding:0;
+/* =========Home============= */
+#Hero {
+  background-color: rgb(160, 158, 158);
+  width: 100%;
+  height: 400px;
 }
-
-html, body {height:100%;}
-
-.geral {
-  min-height:100%;
-  position:relative;
-  width:800px;
+#DivCard_Home {
+  bottom: 0px;
+  padding-top: 20px;
+  margin-top: 20%;
+  width: 100%;
+  height: 900px;
+  background-color: rgba(22, 111, 40, 0.918);
+  /* border-radius: 190px 190px 0px 0px; */
 }
-
-.footer {
-  position:absolute;
-  bottom:0;
-  width:100%;
+#test {
+  margin-bottom: 0;
+  margin-top: 10%;
+  background-color: grey;
+  float: right;
+  height: 90px;
+  width: 60%;
 }
-
-.content {overflow:hidden;}
-.aside {width:200px;}
-.fleft {float:left;}
-.fright {float:right;}
-
-
-
-
-
-
-
-
-
