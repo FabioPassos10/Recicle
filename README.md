@@ -1,5 +1,5 @@
 <h1 align="center">♻ Recicle </h1>
- README em Desenvolvimento...🚀
+ README em Desenvolvimento...🚀😊
  
 <h1>Conheça o projeto😉</h1>
 <p align="center">
