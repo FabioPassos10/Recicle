@@ -1,0 +1,15 @@
+/* =========Home============= */
+#Hero {
+  background-color: rgb(160, 158, 158);
+  width: 100%;
+  height: 400px;
+}
+#DivCard_Home {
+  bottom: 0px;
+  padding-top: 20px;
+  margin-top: 20%;
+  width: 100%;
+  height: 900px;
+  background-color: rgba(34, 140, 133, 0.918);
+  /* border-radius: 190px 190px 0px 0px; */
+}
