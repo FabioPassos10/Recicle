@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none !important;
+  list-style: none !important;
 }
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -9,7 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100% !important;
-  padding-bottom: 60px; /* Altura do menu */
+
   display: flex;
   flex-direction: column;
 }
@@ -43,40 +45,19 @@ code {
 }
 
 section {
-  padding-top: 60px;
+  padding-top: 90px;
   height: 100%;
 }
 
-navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  position: absolute;
+@media (max-width: 1048px) {
+  section {
+    padding-top: 90px;
+    height: 100%;
+  }
 }
-
-logo {
-  margin-right: 100px;
-}
-/* =========Home============= */
-#Hero {
-  background-color: rgb(160, 158, 158);
-  width: 100%;
-  height: 400px;
-}
-#DivCard_Home {
-  bottom: 0px;
-  padding-top: 20px;
-  margin-top: 20%;
-  width: 100%;
-  height: 900px;
-  background-color: rgba(22, 111, 40, 0.918);
-  /* border-radius: 190px 190px 0px 0px; */
-}
-#test {
-  margin-bottom: 0;
-  margin-top: 10%;
-  background-color: grey;
-  float: right;
-  height: 90px;
-  width: 60%;
+@media (max-width: 900px) {
+  section {
+    padding-top: 90px;
+    height: 100%;
+  }
 }
