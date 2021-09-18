@@ -1,9 +1,5 @@
-#Mapa {
-  margin-top: 10%;
-  height: 800px !important;
-  width: 90% !important;
-  margin-left: 5%;
-  margin-right: 5%;
-  background-color: rgb(34, 32, 32);
-  border-radius: 20px;
+#Map {
+  position: "fixed " !important;
+  justify-content: center;
+  align-items: center;
 }
