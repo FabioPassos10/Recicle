@@ -1,4 +1,5 @@
 import React from "react";
+import Grafico from "../../Componentes/Grafico";
 
 export default function Dicas() {
   return (
@@ -7,6 +8,7 @@ export default function Dicas() {
       <p>Em Desenvolvimento...</p>
       <p>oi</p>
       <p>kkk</p>
+      {/* <Grafico /> Grafico comentado */}
     </section>
   );
 }
