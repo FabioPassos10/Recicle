@@ -1,9 +1,9 @@
 import React from "react";
 
 export default function sobre(props) {
-    return (
-        <section>
-            <p>
+  return (
+    <section>
+      {/* <p>
                 Lorem ipsum primis vestibulum pretium viverra porttitor potenti, ut inceptos elementum aenean netus orci mi eget, dolor fringilla faucibus himenaeos nisi mauris.
                 class quisque hendrerit leo eleifend neque pretium sit aenean, euismod praesent placerat potenti tempus suscipit lacinia, ullamcorper curabitur mattis curabitur congue aliquam turpis.
                 nunc lectus libero nam varius quisque libero elit imperdiet habitasse curabitur gravida rutrum, fusce nostra ut orci in vitae iaculis consequat integer amet.
@@ -64,9 +64,7 @@ export default function sobre(props) {
                 enim interdum dui nisl aptent vestibulum habitasse dolor eget, platea lorem velit maecenas malesuada magna vestibulum ut, ligula cras sodales vulputate porta sollicitudin dictum.
                 quam varius taciti himenaeos felis id proin morbi fermentum aliquam class, posuere blandit dui vulputate ac mi aliquam nunc leo nec, pulvinar ut sollicitudin magna litora conubia luctus hac quam.
                 odio molestie conubia metus curabitur facilisis magna viverra, sed suspendisse tempor platea sed pellentesque aptent, imperdiet tellus porta tortor venenatis potenti.
-            </p>
-
-        </section>
-    )
-
+            </p> */}
+    </section>
+  );
 }
