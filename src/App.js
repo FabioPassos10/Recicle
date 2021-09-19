@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Sobre from "./Sobre";
-import Home from "./Home";
-import Dicas from "./Dicas";
-import Logo from "./Componentes/logo";
+import Sobre from "./Pages/Sobre/Sobre";
+import Home from "./Pages/Home/Home";
+import Test from "./Pages/Teste/Test.js";
+import Dicas from "./Pages/Dicas/Dicas";
 import Footer from "./Componentes/Footer";
+import NavBar from "./Componentes/NavBar";
 import {
   Collapse,
   Navbar,
@@ -22,27 +23,14 @@ export default function App() {
     <>
       <Router>
         <header className="header">
-          <Navbar color="dark" dark expand="md" className="navbar">
-            <NavbarToggler onClick={toggle} />
-            <Collapse isOpen={isOpen} navbar>
-              <Nav className="mr-auto" navbar>
-                <NavLink className="LinksNav" href="/">
-                  Home
-                </NavLink>
-                <NavItem>
-                  <NavLink href="/Sobre">Sobre</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="/Dicas">Dicas</NavLink>
-                </NavItem>
-              </Nav>
-            </Collapse>
-            <Logo className="logo" />
-          </Navbar>
+          <NavBar />
         </header>
         <Switch>
           <Route path="/Sobre">
             <Sobre />
+          </Route>
+          <Route path="/Test">
+            <Test />
           </Route>
           <Route path="/Dicas">
             <Dicas />
