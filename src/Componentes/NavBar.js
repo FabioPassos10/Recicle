@@ -12,26 +12,20 @@ export default function NavBar() {
       ></link>
       <nav>
         {/* <Logo className="logo" /> */}
-        <label className="logo">ReCircle</label>
+        <label className="logo">Recicle</label>
         <ul>
           <li>
-            <a href="/" className="active">
-              Home
-            </a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="/Dicas" className="active">
-              Dicas
-            </a>
+            <a href="/Dicas">Dicas</a>
           </li>
           <li>
-            <a href="/Sobre" className="active">
-              Sobre Nós
-            </a>
+            <a href="/Sobre">Sobre Nós</a>
           </li>
         </ul>
         <label id="icon">
-          <i class="fas fa-bars"></i>
+          <i class="fas fa-bars">s</i>
         </label>
       </nav>
     </>
