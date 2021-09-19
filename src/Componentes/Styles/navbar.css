@@ -15,7 +15,7 @@ label.logo {
   font-size: 35px;
   font-weight: bold;
   color: white;
-  padding: 0 100px;
+  padding: 0 70px;
   line-height: 80px;
   float: right;
 }
@@ -39,6 +39,10 @@ nav a {
 
 a.active,
 a:hover,
+a.visited {
+  border-bottom: 4px solid rgb(43, 106, 97);
+  transform: 0.5s;
+}
 a.visited {
   border-bottom: 4px solid rgb(43, 106, 97);
   transform: 0.5s;
