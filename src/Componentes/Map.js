@@ -9,7 +9,7 @@ class Mapa extends Component {
       lat: -22.432,
       lng: -46.9582,
     },
-    zoom: 11,
+    zoom: 17,
   };
 
   render() {
@@ -28,8 +28,17 @@ class Mapa extends Component {
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
         >
+          <AnyReactComponent
+            lat={-22.42535322294484}
+            lng={-46.951487362065985}
+            text="My Marker"
+          />
+          <AnyReactComponent
+            lat={-22.4316255344502855}
+            lng={-46.938099329403144}
+            text="Santa Rita Reciclagem"
+          />
           <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
-          <AnyReactComponent lat={59.955463} lng={30.339044} text="My Marker" />
           <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
         </GoogleMapReact>
       </div>
