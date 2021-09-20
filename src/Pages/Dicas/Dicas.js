@@ -9,6 +9,7 @@ export default function Dicas() {
       <p>oi</p>
       <p>kkk</p>
       {/* <Grafico /> */}
+      {/* comentei de novo */}
     </section>
   );
 }
