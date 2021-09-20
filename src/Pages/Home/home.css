@@ -38,13 +38,23 @@
   border-bottom: 400px solid rgba(35, 226, 204, 0.66);
   float: right;
 }
+@media (max-width: 1900px) {
+  #Triangulo {
+    width: 0;
+    height: 0;
+    border-left: 1565px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 400px solid rgba(35, 226, 204, 0.66);
+    float: right;
+  }
+}
 @media (max-width: 1048px) {
   #Triangulo {
     width: 0;
     height: 0;
     border-left: 1565px solid transparent;
     border-right: 0px solid transparent;
-    border-bottom: 400px solid rgba(58, 165, 58, 0.857);
+    border-bottom: 400px solid rgba(35, 226, 204, 0.66);
     float: right;
   }
 }
@@ -54,7 +64,7 @@
     height: 0;
     border-left: 904px solid transparent;
     border-right: 0px solid transparent;
-    border-bottom: 304px solid rgba(58, 165, 58, 0.857);
+    border-bottom: 304px solid rgba(35, 226, 204, 0.66);
     float: right;
   }
 }
@@ -64,7 +74,7 @@
     height: 0;
     border-left: 790px solid transparent;
     border-right: 0px solid transparent;
-    border-bottom: 250px solid rgba(58, 165, 58, 0.857);
+    border-bottom: 250px solid rgba(35, 226, 204, 0.66);
     float: right;
   }
 }
@@ -74,7 +84,7 @@
     height: 0;
     border-left: 600px solid transparent;
     border-right: 0px solid transparent;
-    border-bottom: 150px solid rgba(58, 165, 58, 0.857);
+    border-bottom: 150px solid rgba(35, 226, 204, 0.66);
     float: right;
   }
 }
