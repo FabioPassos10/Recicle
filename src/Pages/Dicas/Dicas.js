@@ -8,7 +8,7 @@ export default function Dicas() {
       <p>Em Desenvolvimento...</p>
       <p>oi</p>
       <p>kkk</p>
-      {/* <Grafico /> Grafico comentado */}
+      <Grafico />
     </section>
   );
 }
