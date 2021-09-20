@@ -1,9 +1,19 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import Cards from "../../Componentes/Card";
-import { Container, Row, Col } from "reactstrap";
+import "../../Componentes/Styles/card.css";
+import {
+  Container,
+  Row,
+  Col,
+  ButtonDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+} from "reactstrap";
 import Mapa from "../../Componentes/Map";
 import "./home.css";
 import Card from "../../Componentes/Card";
+
 export default function Home(props) {
   return (
     <>
@@ -14,7 +24,7 @@ export default function Home(props) {
       </div>
       <div id="Triangulo"></div>
       <div id="DivCard_Home">
-        <div id="CardDent">{/* <Card></Card> */}</div>
+        <div id="CardDent"></div>
       </div>
     </>
   );

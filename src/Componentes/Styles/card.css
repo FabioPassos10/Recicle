@@ -1,15 +1,130 @@
-#Card1 {
-  height: 600px;
-  width: 350px;
-  background-color: rgb(255, 255, 255);
+/* #DivCard {
+  background-color: rgba(19, 120, 105, 0.857);
+  width: 100% !important;
+  height: 1300px;
+} */
+#divPrin {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 80px;
+  padding-top: 5%;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
-#Card2 {
-  height: 600px;
-  width: 350px;
+/* ===================Cards============= */
+#CardPapel {
+  height: 500px;
+  width: 280px;
   background-color: rgb(255, 255, 255);
+  box-shadow: rgba(44, 43, 43, 0.925) 8px 8px 8px 0px;
+  border-style: solid;
+  border-color: rgba(12, 65, 190, 0.7);
+  /* border-radius: 12px; */
 }
-#Card3 {
-  height: 600px;
-  width: 350px;
+#CardPlastico {
+  height: 500px;
+  width: 280px;
   background-color: rgb(255, 255, 255);
+  box-shadow: rgba(44, 43, 43, 0.925) 8px 8px 8px 0px;
+  border-style: solid;
+  border-color: rgba(190, 12, 27, 0.7);
+  /* border-radius: 12px; */
+}
+#CardVidro {
+  height: 500px;
+  width: 280px;
+  border-style: solid;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(44, 43, 43, 0.925) 8px 8px 8px 0px;
+  border-style: solid;
+  border-color: rgba(125, 190, 12, 0.7);
+  /* border-radius: 12px; */
+}
+#CardOrganico {
+  height: 500px;
+  width: 280px;
+  /* border-style: solid; */
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(44, 43, 43, 0.925) 8px 8px 8px 0px;
+  border-style: solid;
+  border-color: rgba(152, 63, 12, 0.7);
+  /* border-radius: 12px; */
+}
+#CardMetal {
+  height: 500px;
+  width: 280px;
+  border-style: solid;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(44, 43, 43, 0.925) 8px 8px 8px 0px;
+  border-style: solid;
+  border-color: rgba(255, 197, 8, 0.741);
+  /* border-radius: 12px; */
+}
+#CardEletronico {
+  height: 500px;
+  width: 280px;
+  border-style: solid;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(44, 43, 43, 0.925) 8px 8px 8px 0px;
+  border-style: solid;
+  border-color: rgba(239, 8, 255, 0.741);
+  /* border-radius: 12px; */
+}
+
+/* ==========Ab============== */
+#abPapel {
+  /* position: absolute; */
+  border-style: solid;
+  border-color: rgba(12, 65, 190, 0.7);
+  border-radius: 12px;
+  height: 90px;
+  width: 90px;
+  margin-left: 10%;
+
+  /* top: 0; */
+}
+#abPlastico {
+  /* position: relative; */
+  border-style: solid;
+  border-color: rgba(190, 12, 27, 0.7);
+  border-radius: 12px;
+  height: 90px;
+  width: 90px;
+  margin-left: 10%;
+}
+#abVidro {
+  /* position: relative; */
+  border-style: solid;
+  border-color: rgb(125, 190, 12, 0.7);
+  border-radius: 12px;
+  height: 90px;
+  width: 90px;
+  margin-left: 10%;
+}
+#abOrganico {
+  border-style: solid;
+  border-color: rgba(152, 63, 12, 0.7);
+  border-radius: 12px;
+  height: 90px;
+  width: 90px;
+  margin-left: 10%;
+}
+#abMetal {
+  border-style: solid;
+  border-color: rgba(255, 197, 8, 0.741);
+  border-radius: 12px;
+  height: 90px;
+  width: 90px;
+  margin-left: 10%;
+}
+#abEletronico {
+  border-style: solid;
+  border-color: rgba(239, 8, 255, 0.741);
+  border-radius: 12px;
+  height: 90px;
+  width: 90px;
+  margin-left: 10%;
 }

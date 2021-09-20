@@ -14,30 +14,37 @@ import {
 const Example = (props) => {
   return (
     <>
-      <div id="Card1">
-        <div>
-          <p>
-            Lorem ipsum primis vestibulum pretium viverra porttitor potenti, ut
-            inceptos elementum aenean netus orci mi eget, dolor fringilla
-            faucibus himenaeos nisi mauris. class quisque hendrerit leo eleifend
-            neque pretium sit aenean,
-          </p>
-        </div>
-      </div>
-      <div id="Card2">
-        <div>
-          Lorem ipsum primis vestibulum pretium viverra porttitor potenti, ut
-          inceptos elementum aenean netus orci mi eget, dolor fringilla faucibus
-          himenaeos nisi mauris. class quisque hendrerit leo eleifend neque
-          pretium sit aenean,
-        </div>
-      </div>
-      <div id="Card3">
-        <div>
-          Lorem ipsum primis vestibulum pretium viverra porttitor potenti, ut
-          inceptos elementum aenean netus orci mi eget, dolor fringilla faucibus
-          himenaeos nisi mauris. class quisque hendrerit leo eleifend neque
-          pretium sit aenean,
+      <div id="DivCard">
+        <div id="divPrin">
+          <div id="CardPapel">
+            <div id="abPapel"></div>
+            <h1>Papel</h1>
+          </div>
+
+          <div id="CardPlastico">
+            <div id="abPlastico"></div>
+            <h1>Plastico</h1>
+          </div>
+
+          <div id="CardVidro">
+            <div id="abVidro"></div>
+            <h1>Vidro</h1>
+          </div>
+
+          <div id="CardOrganico">
+            <div id="abOrganico"></div>
+            <h1>Organico</h1>
+          </div>
+
+          <div id="CardMetal">
+            <div id="abMetal"></div>
+            <h1>Metal</h1>
+          </div>
+
+          <div id="CardEletronico">
+            <div id="abEletronico"></div>
+            <h1>Eletronico</h1>
+          </div>
         </div>
       </div>
     </>

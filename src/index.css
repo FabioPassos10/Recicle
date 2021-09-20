@@ -38,7 +38,7 @@ code {
 }
 
 .header {
-  position: fixed;
+  /* position: fixed; */
   /* margin-bottom: 60px; */
   padding-bottom: 0px;
   width: 100%;

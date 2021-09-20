@@ -1,42 +1,41 @@
 /* =========Home============= */
 #Mapadiv {
-  margin-top: 10%;
+  margin-top: 5%;
   height: 800px;
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: rgb(34, 32, 32);
-  border-radius: 20px;
-  position: inherit;
-  justify-content: center;
-  align-items: center;
+  /* background-color: rgb(34, 32, 32); */
+  position: inherit !important;
 }
 #Hero {
   background-color: rgb(160, 158, 158);
   width: 100%;
   height: 400px;
   background-image: url(../../assets/projetoHero.jpg);
-  box-shadow: 0px 0px 0px 3px rgba(20, 20, 20, 0.626);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 #DivCard_Home {
   bottom: 0px;
-  padding-top: 20px;
+  padding-top: 10%;
   margin-top: 20%;
+  padding-left: 20%;
+  padding-right: 10%;
   width: 100%;
-  height: 900px;
-  background-color: rgba(37, 83, 80, 0.918);
+  height: 1600px;
+  background-color: rgba(40, 88, 85, 0.918);
   /* border-radius: 190px 190px 0px 0px; */
   /* background-image: url(../../assets/IlustraçãoFreepik.png); */
-  background-repeat: no-repeat;
-  background-position-y: bottom;
-  background-size: 1690px 500px;
+  /* background-repeat: no-repeat;
+  background-position-y: bottom; */
+  /* background-size: 1690px 500px; */
 }
 #Triangulo {
   width: 0;
   height: 0;
   border-left: 1565px solid transparent;
   border-right: 0px solid transparent;
-  border-bottom: 400px solid rgba(58, 165, 58, 0.857);
+  border-bottom: 400px solid rgba(35, 226, 204, 0.66);
   float: right;
 }
 @media (max-width: 1048px) {
