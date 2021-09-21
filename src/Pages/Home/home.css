@@ -3,17 +3,18 @@
   margin-top: 5%;
   height: 800px;
   width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
   /* background-color: rgb(34, 32, 32); */
   position: inherit !important;
 }
 #Hero {
   background-color: rgb(160, 158, 158);
-  width: 100%;
+  width: 100vw;
   height: 400px;
+  max-height: 40vh;
   background-image: url(../../assets/projetoHero.jpg);
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  background-size: 100vw;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 #DivCard_Home {
   bottom: 0px;
