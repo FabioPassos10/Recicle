@@ -5,7 +5,7 @@ import "./Styles/map.css";
 
 const Mapa = () => {
   return (
-    <MapContainer
+    <> <MapContainer
       center={[51.505, -0.09]}
       zoom={13}
       scrollWheelZoom={false}
@@ -20,7 +20,8 @@ const Mapa = () => {
           A pretty CSS3 popup. <br /> Easily customizable.
         </Popup>
       </Marker>
-    </MapContainer>
+    </MapContainer></>
+   
   );
 };
 
