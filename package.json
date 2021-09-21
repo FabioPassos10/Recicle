@@ -6,17 +6,25 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.9.4",
+    "@types/react-dom": "^17.0.9",
     "bootstrap": "^5.0.2",
     "bootstrap-icons": "^1.5.0",
     "google-map-react": "^2.1.10",
     "google-maps-react": "^2.0.6",
+    "leaflet": "^1.7.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-google-charts": "^3.0.15",
+    "react-leaflet": "^3.1.0",
+    "react-leaflet-fullscreen": "^1.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "reactstrap": "^8.9.0",
-    "web-vitals": "^1.1.2"
+    "typescript": "^4.4.3",
+    "web-vitals": "^1.1.2",
+    "yarn": "^1.22.11"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,16 +38,13 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/leaflet": "^1.7.5",
+    "@types/react": "^17.0.22"
   }
 }
