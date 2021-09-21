@@ -1,5 +1,5 @@
 import React from "react";
-import Grafico from "../../Componentes/Grafico";
+import Grafico from "../../Components/Grafico";
 
 export default function Dicas() {
   return (
