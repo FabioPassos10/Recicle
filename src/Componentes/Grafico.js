@@ -25,13 +25,14 @@ function Grafico() {
   return (
     <div className="App">
       <header className="App-header">
-        <div style={{ display: "flex" }}>
+        <div style={{ display: "flex"}}>
           <Chart
             width={"500px"}
             height={"300px"}
             chartType="PieChart"
             data={data}
             options={options}
+            
           />
           <Chart
             width={"500px"}
