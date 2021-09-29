@@ -7,7 +7,7 @@ export default function Dicas() {
       <p>tst</p>
       <p>Em Desenvolvimento...</p>
       <p>oi</p>
-      <p>kkk</p>
+      
       {/* <Grafico /> */}
     </section>
   );
