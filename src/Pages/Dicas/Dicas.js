@@ -2,6 +2,9 @@ import React from "react";
 import PieChart from "../../Components/PieChart";
 import BarChart from "../../Components/BarChart";
 import "./dicas.css";
+{
+  /* Importando o css que faltava */
+}
 
 export default function Dicas() {
   return (
