@@ -74,6 +74,7 @@ const Mapa = () => {
         </Popup>
       </Marker>
     </MapContainer>
+   
   );
 };
 
