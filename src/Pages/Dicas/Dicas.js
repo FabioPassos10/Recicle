@@ -31,7 +31,7 @@ export default function Dicas() {
           </p>
         </div>
       </div>
-      {/* <BarChart /> */}
+      {/* <BarChart /> */} {/*<====== descomenta pra usar o outro grafico  */}
       {/*  Gráfico de Barra */}
       {/* usa esses de exemplo caso não qeira apaga tudo */}
     </section>
