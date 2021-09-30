@@ -1,3 +1,13 @@
-#grafico{
-    box-shadow: red;
+#grafico {
+  box-shadow: 1em 1em rgb(193, 191, 191);
+  background-color: gray;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#divtextDicas {
+  margin-top: 5%;
 }
