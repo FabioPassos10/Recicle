@@ -40,13 +40,13 @@ nav a {
 a.active,
 a:hover,
 a.visited {
-  border-bottom: 4px solid rgb(43, 106, 97);
+  border-bottom: 4px solid rgb(56, 123, 113) !important;
+  text-decoration: underline overline;
+  text-decoration: underline;
+  color: #0f0;
   transform: 0.5s;
 }
-a.visited {
-  border-bottom: 4px solid rgb(43, 106, 97);
-  transform: 0.5s;
-}
+
 nav #icon {
   color: white;
   font-size: 30px;
