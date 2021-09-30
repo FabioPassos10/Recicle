@@ -1,11 +1,15 @@
 import React from "react";
-import Grafico from "../../Components/Grafico";
+import PieChart from "../../Components/PieChart";
+import BarChart from "../../Components/BarChart";
 
 export default function Dicas() {
   return (
     <section>
       <div id="grafico">
-        <Grafico />
+        <PieChart /> {/*Gráfico de pizza */}
+        {/* Eu separei os graficos em dois para você conseguir colocar eles nolocal correto*/}
+        <BarChart />
+        {/*  Gráfico de Barra */}
         <p>
           Lorem ipsum dolor sit amet. Eos iste nemo sit animi sunt vel enim
           dignissimos sed alias voluptatem eos nostrum quis sed eaque vero et
