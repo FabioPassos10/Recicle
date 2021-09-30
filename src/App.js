@@ -4,8 +4,8 @@ import Sobre from "./Pages/Sobre/Sobre";
 import Home from "./Pages/Home/Home";
 import Test from "./Pages/Teste/Test.js";
 import Dicas from "./Pages/Dicas/Dicas";
-import Footer from "./Componentes/Footer";
-import NavBar from "./Componentes/NavBar";
+import Footer from "./Components/Footer";
+import NavBar from "./Components/NavBar";
 import {
   Collapse,
   Navbar,

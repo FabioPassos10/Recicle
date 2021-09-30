@@ -1,6 +1,6 @@
 import React, { Component, useState } from "react";
-import Cards from "../../Componentes/Card";
-import "../../Componentes/Styles/card.css";
+import Cards from "../../Components/Card";
+import "../../Components/Styles/card.css";
 import {
   Container,
   Row,
@@ -10,9 +10,8 @@ import {
   DropdownMenu,
   DropdownItem,
 } from "reactstrap";
-import Mapa from "../../Componentes/Map";
+import Mapa from "../../Components/Map.tsx";
 import "./home.css";
-import Card from "../../Componentes/Card";
 
 export default function Home(props) {
   return (
