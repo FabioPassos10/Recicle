@@ -32,11 +32,6 @@ code {
 #Div-btn {
   float: left;
 }
-.mr-auto {
-  padding-left: 45px !important;
-  height: 45px;
-  position: sticky;
-}
 
 .header {
   /* position: fixed; */
