@@ -1,4 +1,11 @@
 .leaflet-container {
-  height: 600px;
   width: 100vw;
+  height: 600px;
+}
+
+#divBottons {
+  background-color: rgb(216, 215, 215);
+  height: 90px;
+  width: 80%;
+  margin: 0 auto;
 }
