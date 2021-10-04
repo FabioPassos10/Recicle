@@ -8,12 +8,7 @@ function Grafico() {
   const [optionsBar, setOptionsBar] = useState({
     title: "Geração RSU Brasil",
   });
-  const [data, setData] = useState([
-    ["Lixo", "Quantidade produzida em toneladas por ano"],
-    ["Papel", 39],
-    ["metais", 16],
-    ["Metal", 50],
-  ]);
+
   const [dataBar, setDataBar] = useState([
     ["", "2010 Geração de RSU", "2019 Geração de RSU"],
     ["Norte", 4400000, 5800000],
@@ -27,15 +22,8 @@ function Grafico() {
       <header className="App-header">
         <div style={{ display: "flex" }}>
           <Chart
-            width={"500px"}
-            height={"300px"}
-            chartType="PieChart"
-            data={data}
-            options={options}
-          />
-          <Chart
-            width={"500px"}
-            height={"300px"}
+            width={"600px"}
+            height={"400px"}
             chartType="BarChart"
             data={dataBar}
             options={optionsBar}

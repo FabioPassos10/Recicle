@@ -12,7 +12,7 @@ export default function NavBar() {
       ></link>
       <nav>
         {/* <Logo className="logo" /> */}
-        <label className="logo">Recicle</label>
+        <label className="logo">ReCircle</label>
         <ul>
           <li>
             <a href="/">Home</a>
