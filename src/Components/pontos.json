@@ -14,7 +14,8 @@
   {
     "nome": "Santa Rita Reciclagem",
     "x": -22.431625344502855,
-    "y": -46.938099329403144
+    "y": -46.938099329403144,
+    "descricao": ""
   },
   {
     "nome": "Nelson Sucatas",
@@ -31,13 +32,14 @@
   {
     "nome": "Ecorecicla",
     "x": -22.372842415387957,
-    "y": -46.9542089465968
+    "y": -46.9542089465968,
+    "descricao": ""
   },
   {
     "nome": "Rei Fer",
     "x": -22.415497503455164,
     "y": -46.962247002417406,
-    "descricao": "Metais (ferro velho)"
+    "descricao": "Metal (ferro velho)"
   },
   {
     "nome": "Pro Vaso Comércio Fertilizantes Orgânicos",
