@@ -1,6 +1,10 @@
 import React from "react";
 import PieChart from "../../Components/PieChart";
 import BarChart from "../../Components/BarChart";
+import "./dicas.css";
+{
+  /* Importando o css que faltava */
+}
 
 export default function Dicas() {
   return (
@@ -8,48 +12,28 @@ export default function Dicas() {
       <div id="grafico">
         <PieChart /> {/*Gráfico de pizza */}
         {/* Eu separei os graficos em dois para você conseguir colocar eles nolocal correto*/}
-        <BarChart />
-        {/*  Gráfico de Barra */}
-        <p>
-          Lorem ipsum dolor sit amet. Eos iste nemo sit animi sunt vel enim
-          dignissimos sed alias voluptatem eos nostrum quis sed eaque vero et
-          Quis cupiditate. Est labore excepturi aut maxime distinctio eos cumque
-          quos sit facilis expedita. In ipsa dolor et molestiae doloremque et
-          impedit reprehenderit est voluptate dolores ea corrupti suscipit. Qui
-          galisum consequatur ut totam sequi ex vitae ipsum.{" "}
-        </p>
-        <p>
-          Sed quas consequatur qui laboriosam veritatis est molestiae velit aut
-          nihil delectus sed dolor molestiae hic eius optio qui deserunt
-          accusantium. Eos nisi aliquid et perspiciatis corrupti vel dolor
-          molestiae sed rerum quae.{" "}
-        </p>
-        <p>
-          Non rerum quia qui necessitatibus sequi ut quas nihil. Ea totam
-          ducimus quo dignissimos voluptatem ut maiores modi ut nemo obcaecati
-          et harum totam?{" "}
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet. Eos iste nemo sit animi sunt vel enim
-          dignissimos sed alias voluptatem eos nostrum quis sed eaque vero et
-          Quis cupiditate. Est labore excepturi aut maxime distinctio eos cumque
-          quos sit facilis expedita. In ipsa dolor et molestiae doloremque et
-          impedit reprehenderit est voluptate dolores ea corrupti suscipit. Qui
-          galisum consequatur ut totam sequi ex vitae ipsum.{" "}
-        </p>
-        <p>
-          Sed quas consequatur qui laboriosam veritatis est molestiae velit aut
-          nihil delectus sed dolor molestiae hic eius optio qui deserunt
-          accusantium. Eos nisi aliquid et perspiciatis corrupti vel dolor
-          molestiae sed rerum quae.{" "}
-        </p>
-        <p>
-          Non rerum quia qui necessitatibus sequi ut quas nihil. Ea totam
-          ducimus quo dignissimos voluptatem ut maiores modi ut nemo obcaecati
-          et harum totam?{" "}
-        </p>
+        <div id="divtextDicas">
+          {" "}
+          <p>
+            Lorem ipsum dolor sit amet. Eos iste nemo sit animi sunt vel enim
+            dignissimos sed alias voluptatem eos nostrum quis sed eaque vero et
+            Quis cupiditate. Est labore excepturi aut maxime distinctio eos
+            cumque quos sit facilis expedita. In ipsa dolor et molestiae
+            doloremque et impedit reprehenderit est voluptate dolores ea
+            corrupti suscipit. Qui galisum consequatur ut totam sequi ex vitae
+            ipsum.{" "}
+          </p>
+          <p>
+            Sed quas consequatur qui laboriosam veritatis est molestiae velit
+            aut nihil delectus sed dolor molestiae hic eius optio qui deserunt
+            accusantium. Eos nisi aliquid et perspiciatis corrupti vel dolor
+            molestiae sed rerum quae.{" "}
+          </p>
+        </div>
       </div>
-      {/* comentei de novo */}
+      {/* <BarChart /> */} {/*<====== descomenta pra usar o outro grafico  */}
+      {/*  Gráfico de Barra */}
+      {/* usa esses de exemplo caso não qeira apaga tudo */}
     </section>
   );
 }
