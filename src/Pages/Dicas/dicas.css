@@ -1,13 +1,30 @@
-#grafico {
-  box-shadow: 1em 1em rgb(193, 191, 191);
-  background-color: gray;
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
-  padding-left: 5%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+section {
+  background-color: rgb(71, 70, 70);
 }
-#divtextDicas {
-  margin-top: 5%;
+
+.div-2 {
+  margin: 1em;
+}
+
+.col-4 {
+  margin-bottom: 2em;
+  padding-top: 2em;
+}
+
+.col-8 {
+  margin-bottom: 2em;
+  padding-top: 2em;
+}
+
+.dicas {
+  background-color: gray;
+  width: 100%;
+}
+
+.graf1 {
+  box-shadow: 1em 1em rgb(184,182,182);
+}
+
+.graf2{
+  box-shadow: 1em 1em rgb(184,182,182);
 }
