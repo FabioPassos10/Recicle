@@ -1,15 +1,7 @@
 import React, { Component, useState } from "react";
 import Cards from "../../Components/Card";
 import "../../Components/Styles/card.css";
-import {
-  Container,
-  Row,
-  Col,
-  ButtonDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-} from "reactstrap";
+import { Container } from "reactstrap";
 import Mapa from "../../Components/Map.tsx";
 import "./home.css";
 
