@@ -22,8 +22,8 @@ function Grafico() {
       <header className="App-header">
         <div style={{ display: "flex" }}>
           <Chart
-            width={"600px"}
-            height={"400px"}
+            width={"37.5rem"}
+            height={"25rem"}
             chartType="BarChart"
             data={dataBar}
             options={optionsBar}
