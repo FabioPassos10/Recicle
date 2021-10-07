@@ -18,8 +18,10 @@ export default function Home(props) {
     <>
       <Container id="Hero" fluid={true}></Container>
       <div id="divBottons"></div>
-      <div id="Mapadiv">
-        <Mapa></Mapa>
+      <div id="DivCMap">
+        <div id="Mapadiv">
+          <Mapa></Mapa>
+        </div>
       </div>
       <div id="Triangulo"></div>
       <div id="DivCard_Home">

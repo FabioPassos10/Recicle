@@ -1,11 +1,18 @@
 /* =========Home============= */
 #Mapadiv {
-  margin-top: 5%;
-  height: 800px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 3%;
+}
+#DivCMap {
+  background-color: rgb(34, 32, 32);
   width: 90%;
+  margin-top: 5%;
+  padding-top: 1px;
+  height: 700px;
   margin-left: 5%;
   margin-right: 5%;
-  /* background-color: rgb(34, 32, 32); */
+  border-radius: 22px;
 }
 #Hero {
   background-color: rgb(160, 158, 158);
