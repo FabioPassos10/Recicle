@@ -1,0 +1,62 @@
+[
+  {
+    "nome": "Hospital 22 de outubro",
+    "x": -22.42535322294484,
+    "y": -46.9647394661826,
+    "descricao": "Pilhas e Baterias"
+  },
+  {
+    "nome": "Unidade de Reciclagem de resíduos",
+    "x": -22.426459414665985,
+    "y": -46.95148736206531,
+    "descricao": "Eletrônicos"
+  },
+  {
+    "nome": "Santa Rita Reciclagem",
+    "x": -22.431625344502855,
+    "y": -46.938099329403144,
+    "descricao": ""
+  },
+  {
+    "nome": "Nelson Sucatas",
+    "x": -22.43084032629549,
+    "y": -46.9594548331026,
+    "descricao": "Metal"
+  },
+  {
+    "nome": "RBM Comércio Reciclagem e Beneficiamento de Metais",
+    "x": -22.418894546959958,
+    "y": -46.97793400111249,
+    "descricao": "Metal"
+  },
+  {
+    "nome": "Ecorecicla",
+    "x": -22.372842415387957,
+    "y": -46.9542089465968,
+    "descricao": ""
+  },
+  {
+    "nome": "Rei Fer",
+    "x": -22.415497503455164,
+    "y": -46.962247002417406,
+    "descricao": "Metal (ferro velho)"
+  },
+  {
+    "nome": "Pro Vaso Comércio Fertilizantes Orgânicos",
+    "x": -22.418425233503182,
+    "y": -46.971520289469275,
+    "descricao": "Orgânicos"
+  },
+  {
+    "nome": "Eco Óleo Comércio de Óleos",
+    "x": -22.434673516033623,
+    "y": -46.98502202642122,
+    "descricao": "Óleos"
+  },
+  {
+    "nome": "R J Pereira Mogi Mirim",
+    "x": -22.41516279382412,
+    "y": -46.96197569501861,
+    "descricao": "Papel"
+  }
+]

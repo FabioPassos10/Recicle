@@ -96,11 +96,3 @@
 #CardDent {
   display: grid;
 }
-#divBottons {
-  background-color: rgb(179, 179, 179);
-  height: 90px;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2%;
-}
