@@ -9,7 +9,7 @@ export default function Home(props) {
   return (
     <>
       <Container id="Hero" fluid={true}></Container>
-      <div id="divBottons"></div>
+
       <div id="DivCMap">
         <div id="Mapadiv">
           <Mapa></Mapa>
