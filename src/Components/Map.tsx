@@ -5,27 +5,41 @@ import pontos from "./pontos.json";
 import "./Styles/map.css";
 
 const Mapa = () => {
-  const [filtro, setFiltro] = useState("");
+  const [filtroTipo, setFiltroTipo] = useState("");
+  const [filtroCidade, setFiltroCidade] = useState("");
 
-  const pontoss = pontos.filter((pontos) => pontos.descricao?.includes(filtro));
-  const mudarFiltro = (arg: string) => setFiltro(arg);
+  const pontosFiltrados = pontos
+    .filter((pontos) => pontos.descricao?.includes(filtroTipo))
+    .filter((pontos) => pontos.local?.includes(filtroCidade));
+  const mudarFiltroTipo = (arg: string) => setFiltroTipo(arg);
+  const mudarFiltroCidade = (arg: string) => setFiltroCidade(arg);
 
   return (
     <div className="container">
       <div id="divBottons">
-        <button onClick={() => mudarFiltro("Papel")}>Papel</button>
-        <button onClick={() => mudarFiltro("Metal")}>Metal</button>
-        <button onClick={() => mudarFiltro("Óleos")}>Óleos</button>
-        <button onClick={() => mudarFiltro("Pilhas")}>Pilhas</button>
-        <button onClick={() => mudarFiltro("Eletrônicos")}>Eletrônicos</button>
-        <button onClick={() => mudarFiltro("Orgânicos")}>Orgânicos</button>
-        <button onClick={() => mudarFiltro("")}>Outros</button>
+        <button onClick={() => mudarFiltroTipo("Papel")}>Papel</button>
+        <button onClick={() => mudarFiltroTipo("Metal")}>Metal</button>
+        <button onClick={() => mudarFiltroTipo("Óleos")}>Óleos</button>
+        <button onClick={() => mudarFiltroTipo("Pilhas")}>Pilhas</button>
+        <button onClick={() => mudarFiltroTipo("Eletrônicos")}>
+          Eletrônicos
+        </button>
+        <button onClick={() => mudarFiltroTipo("Orgânicos")}>Orgânicos</button>
+        <button onClick={() => mudarFiltroTipo("")}>Outros</button>
+        <button onClick={() => mudarFiltroCidade("Mogi Mirim")}>
+          Mogi Mirim
+        </button>
+        <button onClick={() => mudarFiltroCidade("Mogi Guaçu")}>
+          Mogi Guaçu
+        </button>
+        <button onClick={() => mudarFiltroCidade("Itapira")}>Itapira</button>
+        <button onClick={() => mudarFiltroCidade("")}>Todas</button>
       </div>
 
       <MapContainer
         id="mapa"
-        center={[-22.432, -46.9582]}
-        zoom={15}
+        center={[-22.4136, -46.9029]}
+        zoom={13}
         scrollWheelZoom={false}
         fullscreenControl={true}
       >
@@ -33,7 +47,7 @@ const Mapa = () => {
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        {pontoss.map((pontos) => (
+        {pontosFiltrados.map((pontos) => (
           <Marker position={[pontos.x, pontos.y]}>
             <Popup>
               <h5>{pontos.nome}</h5>
