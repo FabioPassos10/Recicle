@@ -24,3 +24,5 @@ yarn-debug.log*
 yarn-error.log*
 src/assets/IlustraçãoFreepik.png
 src/assets/Freepik.png
+
+.vercel
