@@ -3,15 +3,16 @@
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 3.5%;
+  width: 90% !important;
 }
 #DivCMap {
   background-color: rgba(26, 49, 54, 0.966);
-  width: 90%;
+  width: 96%;
   margin-top: 5%;
   padding-top: 1px;
   height: 850px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
   border-radius: 22px;
 }
 #Hero {
