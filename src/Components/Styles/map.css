@@ -1,12 +1,14 @@
-.leaflet-container {
-  width: 100%;
-  height: 600px;
-}
-
-#divBottons {
+#divButtons {
   background-color: rgb(216, 215, 215);
   height: 90px;
   width: 80%;
   margin: 0 auto;
   margin-bottom: 2%;
+}
+
+#mapa {
+  width: 100%;
+  height: 750px;
+  border: 80px solid rgba(26, 49, 54, 0.966);
+  border-radius: 22px;
 }

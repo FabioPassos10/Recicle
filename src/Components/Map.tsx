@@ -16,7 +16,7 @@ const Mapa = () => {
 
   return (
     <div className="container">
-      <div id="divBottons">
+      <div id="divButtons">
         <button onClick={() => mudarFiltroTipo("Papel")}>Papel</button>
         <button onClick={() => mudarFiltroTipo("Metal")}>Metal</button>
         <button onClick={() => mudarFiltroTipo("Óleos")}>Óleos</button>
