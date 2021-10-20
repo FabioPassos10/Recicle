@@ -1,97 +1,186 @@
 import React from "react";
 import Grafico from "../../Components/BarChart";
 import PieChart from "../../Components/PieChart";
+
+import LixoAmarelo from "../../Components/lixoAmarelo";
+import LixoAzul from "../../Components/lixoAzul";
+import LixoMarrom from "../../Components/lixoMarrom";
+import LixoVerde from "../../Components/lixoVerde";
+import LixoVermelho from "../../Components/lixoVermelho";
+
 import "../../Pages/Dicas/dicas.css";
-
-function handleMouseOver(e) {
-  e.target.style.transform = "scale(1.02)";
-}
-
-function handleMouseOut(e) {
-  e.target.style.transform = "scale(1)";
-}
 
 export default function Dicas() {
   return (
     <section>
       <div class="container">
-        <div class="row mb-4 graf1">
-          <div class="col-6">
-            {<PieChart />}
-          </div>
-          <div class="col-6 bg-white">
-            asdas	Lorem ipsum lobortis pharetra lobortis tempor dapibus velit eget, bibendum consectetur ipsum ut praesent cursus malesuada aptent, malesuada quam metus nec sociosqu molestie in. vestibulum porttitor inceptos tempor pulvinar vehicula, orci rhoncus cursus pulvinar. molestie tristique fermentum arcu maecenas a cursus nam, porta eros iaculis in vivamus blandit conubia phasellus, praesent rhoncus laoreet fermentum ligula taciti. est consectetur etiam nunc urna conubia facilisis ut dictumst, fermentum risus lacus sagittis turpis mauris posuere consequat enim, a tristique platea posuere etiam non aenean. platea et pulvinar molestie elit lacus iaculis sem ipsum curabitur, habitasse malesuada donec dictum pretium ultricies gravida fringilla, tempor ligula per facilisis duis curabitur elementum placerat.
-
-            Ipsum diam nam mattis in nibh consequat leo litora, pellentesque mauris viverra euismod faucibus quis molestie nulla aliquam, curabitur himenaeos commodo donec et id luctus. donec bibendum porta mattis feugiat platea cubilia diam nisl, sagittis hendrerit et pretium quam inceptos scelerisque sapien consequat, in tempus dictumst varius vulputate sodales vestibulum. molestie leo quisque vivamus faucibus per luctus lorem at ultrices, massa faucibus hendrerit iaculis egestas metus pharetra iaculis, consectetur elit massa fames et curabitur aliquam nec. magna inceptos turpis condimentum accumsan adipiscing aliquam, consectetur gravida consectetur mi laoreet, aenean dui at nostra proin.
+        <div class="row">
+          <div class="graf row">
+            <div class="col-xs-7 col-md-7 col-sm-12 grafico">
+              {<Grafico />}
+            </div>
+            <div class="col-xs-5 col-md-5 col-sm-12">
+              <p class="text-grafico">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                usto! Laudantium, quod?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                usto! Laudantium, quod?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                usto! Laudantium, quod?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                usto! Laudantium, quod?
+                </p>
+            </div>
           </div>
         </div>
-
-        <div class="row mt-4 graf2">
-          <div class="col-6">
-            {<Grafico />}
-          </div>
-          <div class="col-6 bg-white">
-            asdasdasdasdasdsad
+        
+        <div class="row">
+          <div class="graf">
+            <div class="col-12 justify-content-center chart">
+              {<PieChart />}
+            </div>
+            <div class="col-12">
+              <p class="text-chart">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                  Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                  usto! Laudantium, quod?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                  Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                  usto! Laudantium, quod?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                  Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                  usto! Laudantium, quod?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                  Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                  usto! Laudantium, quod?
+                  </p>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="dicas">
+      <div class="container text-mid">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+          Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+          usto! Laudantium, quod?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+          Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+          usto! Laudantium, quod?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+          Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+          usto! Laudantium, quod?</p>
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-10 vl">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+            Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+            usto! Laudantium, quod?</p>
+          </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+          Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+          usto! Laudantium, quod?</p>
+      </div>
+
+      <div class="dicas d-flex">
         <div class="container">
-          <div class="row">
-            <div class="col-4">
-              <div class="card">
-                <h2 class="card-title m-2" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-                  CARD 1
-                </h2>
-                <div class="card-body">Beba água</div>
+          <div class="external">
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-2 div-img d-flex justify-content-center">
+                    <div class="img-dica">
+                      {<LixoAmarelo/>}
+                    </div>
+                  </div>
+                  <div class="col-1"></div>
+                  <div class="col-9">
+                    <p class="text-dicas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                      Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                      usto! Laudantium, quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                      Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                      usto! Laudantium, quod?</p>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="col-8">
-              <div class="card">
-                <h2 class="card-title m-2" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-                  CARD 2
-                </h2>
-                <div class="card-body">Beba água</div>
+              <hr class="hr" />
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-9">
+                    <p class="text-dicas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                      Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                      usto! Laudantium, quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                      Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                      usto! Laudantium, quod?</p>
+                  </div>
+                  <div class="col-1"></div>
+                  <div class="col-2 div-img d-flex justify-content-center">
+                    <div class="img-dica">
+                      {<LixoAzul/>}
+                    </div>
+                  </div>  
+                </div>
               </div>
-            </div>
-            <div class="col-8">
-              <div class="card">
-                <h2 class="card-title m-2" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-                  CARD 3
-                </h2>
-                <div class="card-body">Beba água</div>
+              <hr class="hr" />
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-2 div-img img-dica d-flex justify-content-center">
+                    <div class="img-dica">
+                      {<LixoMarrom/>}
+                    </div>
+                  </div>
+                  <div class="col-1"></div>
+                  <div class="col-9">
+                    <p class="text-dicas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                      Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                      usto! Laudantium, quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                      Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                      usto! Laudantium, quod?</p>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="col-4">
-              <div class="card">
-                <h2 class="card-title m-2" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-                  CARD 4
-                </h2>
-                <div class="card-body">Beba água</div>
+              <hr class="hr" />
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-9">
+                    <p class="text-dicas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                      Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                      usto! Laudantium, quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                      Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                      usto! Laudantium, quod?</p>
+                  </div>
+                  <div class="col-1"></div>
+                  <div class="col-2 div-img d-flex justify-content-center">
+                    <div class="img-dica">
+                      {<LixoVerde/>}
+                    </div>  
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="col-4">
-              <div class="card">
-                <h2 class="card-title m-2" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-                  CARD 5
-                </h2>
-                <div class="card-body">Beba água</div>
-              </div>
-            </div>
-            <div class="col-8">
-              <div class="card">
-                <h2 class="card-title m-2" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-                  CARD 6
-                </h2>
-                <div class="card-body">Beba água</div>
+              <hr class="hr" />
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-2 div-img d-flex justify-content-center">
+                    <div class="img-dica">
+                      {<LixoVermelho/>}
+                    </div>
+                  </div>
+                  <div class="col-1"></div>
+                  <div class="col-9">
+                    <p class="text-dicas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                      Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                      usto! Laudantium, quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                      Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                      usto! Laudantium, quod?</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* </div> */}
     </section>
   );
 }
-
