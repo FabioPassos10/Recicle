@@ -13,14 +13,14 @@ import "../../Pages/Dicas/dicas.css";
 export default function Dicas() {
   return (
     <section>
-      <div class="container">
-        <div class="row">
-          <div class="graf row">
-            <div class="col-xs-7 col-md-7 col-sm-12 grafico">
+      <div className="container">
+        <div className="row">
+          <div className="graf row">
+            <div className="col-xs-7 col-md-7 col-sm-12 grafico">
               {<Grafico />}
             </div>
-            <div class="col-xs-5 col-md-5 col-sm-12">
-              <p class="text-grafico">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+            <div className="col-xs-5 col-md-5 col-sm-12">
+              <p className="text-grafico">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
                 Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
                 usto! Laudantium, quod?
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
@@ -37,13 +37,13 @@ export default function Dicas() {
           </div>
         </div>
         
-        <div class="row">
-          <div class="graf">
-            <div class="col-12 justify-content-center chart">
+        <div className="row">
+          <div className="graf">
+            <div className="col-12 justify-content-center chart">
               {<PieChart />}
             </div>
-            <div class="col-12">
-              <p class="text-chart">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+            <div className="col-12">
+              <p className="text-chart">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
                   Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
                   usto! Laudantium, quod?
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
@@ -61,7 +61,7 @@ export default function Dicas() {
         </div>
       </div>
 
-      <div class="container text-mid">
+      <div className="container text-mid">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
           Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
           usto! Laudantium, quod?</p>
@@ -71,9 +71,9 @@ export default function Dicas() {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
           Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
           usto! Laudantium, quod?</p>
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-10 vl">
+        <div className="row">
+          <div className="col-2"></div>
+          <div className="col-10 vl">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
             Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
             usto! Laudantium, quod?</p>
@@ -84,20 +84,20 @@ export default function Dicas() {
           usto! Laudantium, quod?</p>
       </div>
 
-      <div class="dicas d-flex">
-        <div class="container">
-          <div class="external">
-            <div class="row">
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-2 div-img d-flex justify-content-center">
-                    <div class="img-dica">
+      <div className="dicas d-flex">
+        <div className="container">
+          <div className="external">
+            <div className="row">
+              <div className="col-12">
+                <div className="row">
+                  <div className="col-2 div-img d-flex justify-content-center">
+                    <div className="img-dica">
                       {<LixoAmarelo/>}
                     </div>
                   </div>
-                  <div class="col-1"></div>
-                  <div class="col-9">
-                    <p class="text-dicas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                  <div className="col-1"></div>
+                  <div className="col-9">
+                    <p className="text-dicas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
                       Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
                       usto! Laudantium, quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
                       Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
@@ -105,35 +105,35 @@ export default function Dicas() {
                   </div>
                 </div>
               </div>
-              <hr class="hr" />
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-9">
-                    <p class="text-dicas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+              <hr className="hr" />
+              <div className="col-12">
+                <div className="row">
+                  <div className="col-9">
+                    <p className="text-dicas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
                       Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
                       usto! Laudantium, quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
                       Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
                       usto! Laudantium, quod?</p>
                   </div>
-                  <div class="col-1"></div>
-                  <div class="col-2 div-img d-flex justify-content-center">
-                    <div class="img-dica">
+                  <div className="col-1"></div>
+                  <div className="col-2 div-img d-flex justify-content-center">
+                    <div className="img-dica">
                       {<LixoAzul/>}
                     </div>
                   </div>  
                 </div>
               </div>
-              <hr class="hr" />
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-2 div-img img-dica d-flex justify-content-center">
-                    <div class="img-dica">
+              <hr className="hr" />
+              <div className="col-12">
+                <div className="row">
+                  <div className="col-2 div-img img-dica d-flex justify-content-center">
+                    <div className="img-dica">
                       {<LixoMarrom/>}
                     </div>
                   </div>
-                  <div class="col-1"></div>
-                  <div class="col-9">
-                    <p class="text-dicas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                  <div className="col-1"></div>
+                  <div className="col-9">
+                    <p className="text-dicas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
                       Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
                       usto! Laudantium, quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
                       Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
@@ -141,35 +141,35 @@ export default function Dicas() {
                   </div>
                 </div>
               </div>
-              <hr class="hr" />
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-9">
-                    <p class="text-dicas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+              <hr className="hr" />
+              <div className="col-12">
+                <div className="row">
+                  <div className="col-9">
+                    <p className="text-dicas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
                       Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
                       usto! Laudantium, quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
                       Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
                       usto! Laudantium, quod?</p>
                   </div>
-                  <div class="col-1"></div>
-                  <div class="col-2 div-img d-flex justify-content-center">
-                    <div class="img-dica">
+                  <div className="col-1"></div>
+                  <div className="col-2 div-img d-flex justify-content-center">
+                    <div className="img-dica">
                       {<LixoVerde/>}
                     </div>  
                   </div>
                 </div>
               </div>
-              <hr class="hr" />
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-2 div-img d-flex justify-content-center">
-                    <div class="img-dica">
+              <hr className="hr" />
+              <div className="col-12">
+                <div className="row">
+                  <div className="col-2 div-img d-flex justify-content-center">
+                    <div className="img-dica">
                       {<LixoVermelho/>}
                     </div>
                   </div>
-                  <div class="col-1"></div>
-                  <div class="col-9">
-                    <p class="text-dicas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                  <div className="col-1"></div>
+                  <div className="col-9">
+                    <p className="text-dicas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
                       Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
                       usto! Laudantium, quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
                       Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i

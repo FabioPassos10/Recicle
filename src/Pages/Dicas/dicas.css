@@ -58,7 +58,7 @@
 
 .col-9 {
   background-color: white;
-  height: 220px;
+  /* height: 220px; */
 }
 
 .div-img {
@@ -68,6 +68,7 @@
 .img-dica {
   margin-top: 10px;
   margin-bottom: 10px;
+  padding-left: 10px;
 }
 
 .text-dicas {
