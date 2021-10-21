@@ -7,6 +7,7 @@ import LixoAzul from "../../Components/lixoAzul";
 import LixoMarrom from "../../Components/lixoMarrom";
 import LixoVerde from "../../Components/lixoVerde";
 import LixoVermelho from "../../Components/lixoVermelho";
+// import { Container, Row, Col } from 'reactstrap';
 
 import "../../Pages/Dicas/dicas.css";
 
