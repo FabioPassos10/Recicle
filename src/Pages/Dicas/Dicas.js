@@ -18,7 +18,7 @@ export default function Dicas() {
         <div className="row">
           <div className="graf row">
             <div className="col-xs-7 col-md-7 col-sm-12 grafico">
-              {<Grafico />}
+              <Grafico />
             </div>
             <div className="col-xs-5 col-md-5 col-sm-12">
               <p className="text-grafico">
@@ -44,9 +44,9 @@ export default function Dicas() {
 
         <div className="row">
           <div className="graf">
-            <div className="col-12 justify-content-center chart">
-              {<PieChart />}
-            </div>
+            
+            <PieChart />
+
             <div className="col-12">
               <p className="text-chart">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.

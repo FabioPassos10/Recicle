@@ -18,7 +18,7 @@ function PieChart() {
   return (
     <div className="App">
       <header className="App-header">
-        <div style={{ display: "flex" }}>
+        <div style={{ display: "flex", paddingTop: "12px", height: "500px" }}>
           <Chart
             width={"100%"}
             height={"100%"}
