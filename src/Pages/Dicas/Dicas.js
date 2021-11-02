@@ -7,7 +7,7 @@ import LixoAzul from "../../Components/lixoAzul";
 import LixoMarrom from "../../Components/lixoMarrom";
 import LixoVerde from "../../Components/lixoVerde";
 import LixoVermelho from "../../Components/lixoVermelho";
-// import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col } from "reactstrap";
 
 import "../../Pages/Dicas/dicas.css";
 
@@ -44,7 +44,6 @@ export default function Dicas() {
 
         <div className="row">
           <div className="graf">
-            
             <PieChart />
 
             <div className="col-12">
@@ -108,6 +107,22 @@ export default function Dicas() {
         </p>
       </div>
 
+      <Row xs="2">
+        <Col className="bg-light border">
+          <LixoAmarelo />
+        </Col>
+        <Col className="bg-light border">
+          <p className="text-dicas">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+            minima dolorem facere optio quam. Aliquam possimus ab qui facere
+            placeat magnam laboriosam quod temporibus iure autem, exercitationem
+            i usto! Laudantium, quod?Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Possimus minima dolorem facere optio quam. Aliquam
+            possimus ab qui facere placeat magnam laboriosam quod temporibus
+            iure autem, exercitationem i usto! Laudantium, quod?
+          </p>
+        </Col>
+      </Row>
       <div className="dicas d-flex">
         <div className="container">
           <div className="external">
@@ -115,7 +130,9 @@ export default function Dicas() {
               <div className="col-12">
                 <div className="row">
                   <div className="col-2 div-img d-flex justify-content-center">
-                    <div className="img-dica">{<LixoAmarelo />}</div>
+                    <div className="img-dica">
+                      <LixoAmarelo />
+                    </div>
                   </div>
                   <div className="col-1"></div>
                   <div className="col-9">
