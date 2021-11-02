@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import "./Styles/navbar.css";
+import { MenuOutlined } from "@ant-design/icons";
 
 // import Logo from "./Logo";
 
@@ -25,7 +26,9 @@ export default function NavBar() {
           </li>
         </ul>
         <label id="icon">
-          <i class="fas fa-bars">s</i>
+          <i>
+            <MenuOutlined />
+          </i>
         </label>
       </nav>
     </>
