@@ -1,6 +1,7 @@
 import React, { Component, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import pontos from "./pontos.json";
+import { ButtonDropdown, DropdownToggle,DropdownItem,DropdownMenu,Button} from "reactstrap";
 
 import "./Styles/map.css";
 
@@ -34,6 +35,17 @@ const Mapa = () => {
         </button>
         <button onClick={() => mudarFiltroCidade("Itapira")}>Itapira</button>
         <button onClick={() => mudarFiltroCidade("")}>Todas</button>
+
+        <ButtonDropdown toggle={function noRefCheck() {}}>
+          <Button id="caret">Cidades</Button>
+          <DropdownToggle split />
+          <DropdownMenu>
+            <DropdownItem MogiMirim>Mogi Mirim</DropdownItem>
+            <DropdownItem MogiGuacu>Mogi guaçu</DropdownItem>
+            <DropdownItem Itapira>Itapira</DropdownItem>
+            <DropdownItem divider />
+          </DropdownMenu>
+        </ButtonDropdown>
       </div>
 
       <MapContainer
