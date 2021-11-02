@@ -108,7 +108,10 @@ export default function Dicas() {
       </div>
 
       <Row xs="2">
-        <Col className="bg-light border">
+        <Col
+          className="bg-light border"
+          style={{ textAlign: "center", paddingTop: "100px" }}
+        >
           <LixoAmarelo />
         </Col>
         <Col className="bg-light border">
