@@ -30,12 +30,12 @@
   bottom: 0px;
   padding-top: 10%;
   margin-top: 8%;
-  padding-left: 20%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   width: 100%;
-  height: 1600px;
   background-color: #044844ea;
   box-shadow: 0 1em 1em 1em black;
+  padding-bottom: 2%;
   /* border-radius: 190px 190px 0px 0px; */
   /* background-image: url(../../assets/IlustraçãoFreepik.png); */
   /* background-repeat: no-repeat;
@@ -93,7 +93,4 @@
     border-bottom: 150px solid rgba(35, 226, 204, 0.66);
     float: right;
   }
-}
-#CardDent {
-  display: grid;
 }
