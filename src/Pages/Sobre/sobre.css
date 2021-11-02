@@ -1,0 +1,12 @@
+.CardPartc1 {
+  text-align: justify;
+}
+.RedondPt1 {
+  margin: auto;
+  border-radius: 360px;
+  width: 300px;
+  height: 300px;
+  background-color: gray;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
