@@ -20,8 +20,8 @@ function PieChart() {
       <header className="App-header">
         <div style={{ display: "flex" }}>
           <Chart
-            width={"600px"}
-            height={"400px"}
+            width={"100%"}
+            height={"100%"}
             chartType="PieChart"
             data={data}
             options={options}
