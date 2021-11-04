@@ -19,7 +19,7 @@ export default function Home(props) {
       <div id="DivCard_Home">
         <div id="CardDent">
           <Container fluid={true} style={{ paddingTop: "200px" }}>
-            <Row xs="1" md="3" sm="3">
+            <Row xs="1" md="3" sm="2">
               <Col className="bg-light border">
                 <div className="CardPartc1">
                   <div className="RedondPt1"></div>
@@ -89,7 +89,7 @@ export default function Home(props) {
           </Container>
           <br />
           <Container fluid={true}>
-            <Row xs="1" md="3" sm="3">
+            <Row xs="1" md="3" sm="2">
               <Col className="bg-light border">
                 <div className="CardPartc1">
                   <div className="RedondPt1"></div>

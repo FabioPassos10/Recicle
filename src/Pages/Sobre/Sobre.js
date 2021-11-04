@@ -6,7 +6,7 @@ export default function sobre(props) {
   return (
     <section>
       <Container>
-        <Row xs="1" md="3" sm="3">
+        <Row xs="1" md="3" sm="2">
           <Col className="bg-light border">
             <div className="CardPartc1">
               <div className="RedondPt1"></div>

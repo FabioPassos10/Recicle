@@ -21,7 +21,8 @@
   height: 50vh;
   max-height: 50vh;
   background-image: url(../../assets/hero3.jpg);
-  background-size: 100vw;
+
+  
   background-attachment: fixed;
   background-repeat: no-repeat;
   box-shadow: 0 1em 1em rgba(0, 0, 0, 0.809);
@@ -49,9 +50,9 @@
     height: 0;
     border-left: 1490px solid transparent;
     border-right: 0px solid transparent;
-    border-bottom: 400px solid rgba(35, 226, 204, 0.66);
+    border-bottom: 400px solid rgba(45, 175, 160, 0.66);
     float: right;
-    position: inherit;
+  
   }
 }
 @media (max-width: 1048px) {
