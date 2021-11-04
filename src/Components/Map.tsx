@@ -37,12 +37,14 @@ const Mapa = () => {
         <button onClick={() => mudarFiltroCidade("")}>Todas</button>
 
         <ButtonDropdown toggle={function noRefCheck() {}}>
-          <Button id="caret">Cidades</Button>
-          <DropdownToggle split />
+          <DropdownToggle caret>
+          {filtroCidade === "" ? "Filtrar cidade" : filtroCidade}
+          </DropdownToggle>
           <DropdownMenu>
-            <DropdownItem MogiMirim>Mogi Mirim</DropdownItem>
-            <DropdownItem MogiGuacu>Mogi guaçu</DropdownItem>
-            <DropdownItem Itapira>Itapira</DropdownItem>
+            <DropdownItem MogiMirim onClick={() => mudarFiltroCidade("Mogi Mirim")}>Mogi Mirim</DropdownItem>
+            <DropdownItem MogiGuacu onClick={() => mudarFiltroCidade("Mogi Guaçu")}>Mogi guaçu</DropdownItem>
+            <DropdownItem Itapira onClick={() => mudarFiltroCidade("Itapira")}>Itapira</DropdownItem>
+            <DropdownItem Todas onClick={() => mudarFiltroCidade("")}>Todas</DropdownItem>
             <DropdownItem divider />
           </DropdownMenu>
         </ButtonDropdown>
