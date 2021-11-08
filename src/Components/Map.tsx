@@ -54,6 +54,7 @@ const Mapa = () => {
         zoom={13}
         scrollWheelZoom={false}
         fullscreenControl={true}
+     
       >
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
