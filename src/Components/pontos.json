@@ -3,60 +3,70 @@
     "nome": "Hospital 22 de outubro",
     "x": -22.42535322294484,
     "y": -46.9647394661826,
-    "descricao": "Pilhas e Baterias"
+    "descricao": "Pilhas e Baterias",
+    "local": "Mogi Mirim"
   },
   {
     "nome": "Unidade de Reciclagem de resíduos",
     "x": -22.426459414665985,
     "y": -46.95148736206531,
-    "descricao": "Eletrônicos"
+    "descricao": "Eletrônicos",
+    "local": "Mogi Mirim"
   },
   {
     "nome": "Santa Rita Reciclagem",
     "x": -22.431625344502855,
     "y": -46.938099329403144,
-    "descricao": ""
+    "descricao": "",
+    "local": "Mogi Mirim"
   },
   {
     "nome": "Nelson Sucatas",
     "x": -22.43084032629549,
     "y": -46.9594548331026,
-    "descricao": "Metal"
+    "descricao": "Metal",
+    "local": "Mogi Mirim"
   },
   {
     "nome": "RBM Comércio Reciclagem e Beneficiamento de Metais",
     "x": -22.418894546959958,
     "y": -46.97793400111249,
-    "descricao": "Metal"
-  },
-  {
-    "nome": "Ecorecicla",
-    "x": -22.372842415387957,
-    "y": -46.9542089465968,
-    "descricao": ""
+    "descricao": "Metal",
+    "local": "Mogi Mirim"
   },
   {
     "nome": "Rei Fer",
     "x": -22.415497503455164,
     "y": -46.962247002417406,
-    "descricao": "Metal (ferro velho)"
+    "descricao": "Metal (ferro velho)",
+    "local": "Mogi Mirim"
   },
   {
     "nome": "Pro Vaso Comércio Fertilizantes Orgânicos",
     "x": -22.418425233503182,
     "y": -46.971520289469275,
-    "descricao": "Orgânicos"
+    "descricao": "Orgânicos",
+    "local": "Mogi Mirim"
   },
   {
     "nome": "Eco Óleo Comércio de Óleos",
     "x": -22.434673516033623,
     "y": -46.98502202642122,
-    "descricao": "Óleos"
+    "descricao": "Óleos",
+    "local": "Mogi Mirim"
   },
   {
     "nome": "R J Pereira Mogi Mirim",
     "x": -22.41516279382412,
     "y": -46.96197569501861,
-    "descricao": "Papel"
+    "descricao": "Papel",
+    "local": "Mogi Mirim"
+  },
+  {
+    "nome": "Ecorecicla",
+    "x": -22.372842415387957,
+    "y": -46.9542089465968,
+    "descricao": "",
+    "local": "Mogi Guaçu"
   }
 ]

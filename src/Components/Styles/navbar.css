@@ -40,10 +40,10 @@ nav a {
 a.active,
 a:hover,
 a.visited {
-  border-bottom: 4px solid rgb(56, 123, 113) !important;
+  border-bottom: 4px solid rgb(20, 228, 197) !important;
   text-decoration: underline overline;
   text-decoration: underline;
-  color: #0f0;
+  color: rgb(0, 255, 170) !important;
   transform: 0.5s;
 }
 
