@@ -1,7 +1,7 @@
 import React, { Component, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import pontos from "./pontos.json";
-import { ButtonDropdown, DropdownToggle, DropdownItem, DropdownMenu, Button, Container, Col, Row } from "reactstrap";
+import { ButtonGroup, Button, Container, Col, Row, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from "reactstrap";
 import lixoMetal from '../../src/assets/lixo metal.png';
 import lixoOleo from '../../src/assets/lixo oleo.png';
 import lixoOrganico from '../../src/assets/lixo organico.png';
@@ -57,27 +57,13 @@ const Mapa = () => {
             </Col>
           </Row>
         </Container>
-        {/* <button onClick={() => mudarFiltroCidade("Mogi Mirim")}>
-          Mogi Mirim
-        </button>
-        <button onClick={() => mudarFiltroCidade("Mogi Guaçu")}>
-          Mogi Guaçu
-        </button>
-        <button onClick={() => mudarFiltroCidade("Itapira")}>Itapira</button>
-        <button onClick={() => mudarFiltroCidade("")}>Todas</button> */}
+          <ButtonGroup>
+            <button onClick={() => mudarFiltroCidade("Mogi Mirim")}>Mogi Mirim</button>
+            <button onClick={() => mudarFiltroCidade("Mogi Guaçu")}>Mogi Guaçu</button>
+            <button onClick={() => mudarFiltroCidade("Itapira")}>Itapira</button>
+            <button onClick={() => mudarFiltroCidade("")}>Todas</button>
+          </ButtonGroup>
 
-        <ButtonDropdown toggle={function noRefCheck() { }}>
-          <DropdownToggle caret>
-            {filtroCidade === "" ? "Filtrar cidade" : filtroCidade}
-          </DropdownToggle>
-          <DropdownMenu>
-            <DropdownItem MogiMirim onClick={() => mudarFiltroCidade("Mogi Mirim")}>Mogi Mirim</DropdownItem>
-            <DropdownItem MogiGuacu onClick={() => mudarFiltroCidade("Mogi Guaçu")}>Mogi guaçu</DropdownItem>
-            <DropdownItem Itapira onClick={() => mudarFiltroCidade("Itapira")}>Itapira</DropdownItem>
-            <DropdownItem Todas onClick={() => mudarFiltroCidade("")}>Todas</DropdownItem>
-            <DropdownItem divider />
-          </DropdownMenu>
-        </ButtonDropdown>
       </div>
 
       <MapContainer
