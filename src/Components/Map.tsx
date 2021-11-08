@@ -18,7 +18,7 @@ const Mapa = () => {
   return (
 
     <div className="container">
-      <Container fluid={true} style={{ paddingTop: "200px" }}>
+      <Container fluid={true} >
         <Row
          xs="4" md="8" sm="4" xl="8" lg="8"
         >
