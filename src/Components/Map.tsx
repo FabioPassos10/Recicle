@@ -65,6 +65,7 @@ const Mapa = () => {
             <Popup>
               <h5>{pontos.nome}</h5>
               <p>{pontos.descricao}</p>
+              <p>{pontos.endereco}</p>
             </Popup>
           </Marker>
         ))}
