@@ -19,10 +19,10 @@ export default function Home(props) {
       <div id="DivCard_Home">
         <div id="CardDent">
           <Container fluid={true} style={{ paddingTop: "200px" }}>
-            <Row xs="1" md="3" sm="2">
+            <Row xs="1" md="2" sm="1" xl="3" lg="3" >
               <Col className="bg-light border">
                 <div className="CardPartc1">
-                  <div className="RedondPt1"></div>
+                  <div className="RedondPt2"></div>
                 </div>
                 <div className="CardPartc1">
                   Urna quam curabitur fermentum ullamcorper tortor metus ut arcu
@@ -44,7 +44,7 @@ export default function Home(props) {
               <br />
               <Col className="bg-light border">
                 <div className="CardPartc1">
-                  <div className="RedondPt1"></div>
+                  <div className="RedondPt2"></div>
                 </div>
                 <div className="CardPartc1">
                   Urna quam curabitur fermentum ullamcorper tortor metus ut arcu
@@ -66,7 +66,7 @@ export default function Home(props) {
               <br />
               <Col className="bg-light border">
                 <div className="CardPartc1">
-                  <div className="RedondPt1"></div>
+                  <div className="RedondPt2"></div>
                 </div>
                 <div className="CardPartc1">
                   Urna quam curabitur fermentum ullamcorper tortor metus ut arcu
@@ -89,10 +89,10 @@ export default function Home(props) {
           </Container>
           <br />
           <Container fluid={true}>
-            <Row xs="1" md="3" sm="2">
-              <Col className="bg-light border">
+            <Row xs="1" md="2" sm="1" xl="3" lg="3" >
+              <Col className="col-HomeCard">
                 <div className="CardPartc1">
-                  <div className="RedondPt1"></div>
+                  <div className="RedondPt2"></div>
                 </div>
                 <div className="CardPartc1">
                   Urna quam curabitur fermentum ullamcorper tortor metus ut arcu
@@ -112,9 +112,9 @@ export default function Home(props) {
                 </div>
               </Col>
               <br />
-              <Col className="bg-light border">
+              <Col className="col-HomeCard">
                 <div className="CardPartc1">
-                  <div className="RedondPt1"></div>
+                  <div className="RedondPt2"></div>
                 </div>
                 <div className="CardPartc1">
                   Urna quam curabitur fermentum ullamcorper tortor metus ut arcu
@@ -134,9 +134,9 @@ export default function Home(props) {
                 </div>
               </Col>
               <br />
-              <Col className="bg-light border">
+              <Col className="col-HomeCard">
                 <div className="CardPartc1">
-                  <div className="RedondPt1"></div>
+                  <div className="RedondPt2"></div>
                 </div>
                 <div className="CardPartc1">
                   Urna quam curabitur fermentum ullamcorper tortor metus ut arcu

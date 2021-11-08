@@ -22,4 +22,5 @@
   height: 750px;
   border: 80px solid rgba(26, 49, 54, 0.966);
   border-radius: 22px;
+  z-index: 3 !important;
 }

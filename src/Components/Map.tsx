@@ -10,6 +10,7 @@ import lixoPapel from '../../src/assets/lixo papel.png';
 import lixoVidro from '../../src/assets/lixo vidro.png';
 
 
+
 import "./Styles/map.css";
 
 const Mapa = () => {
@@ -23,7 +24,39 @@ const Mapa = () => {
   const mudarFiltroCidade = (arg: string) => setFiltroCidade(arg);
 
   return (
+
     <div className="container">
+      <Container fluid={true} style={{ paddingTop: "200px" }}>
+        <Row
+         xs="4" md="8" sm="4" xl="8" lg="8"
+        >
+          <Col className="bg-light border">
+          {/* Btn 1 */}
+    </Col>
+          <Col className="bg-light border">
+          {/* Btn 1 */}
+    </Col>
+          <Col className="bg-light border">
+          {/* Btn 1 */}
+    </Col>
+          <Col className="bg-light border">
+          {/* Btn 1 */}
+    </Col>
+    <Col className="bg-light border">
+          {/* Btn 1 */}
+    </Col>
+          <Col className="bg-light border">
+          {/* Btn 1 */}
+    </Col>
+          <Col className="bg-light border">
+          {/* Btn 1 */}
+    </Col>
+          <Col className="bg-light border">
+          {/* Btn 1 */}
+    </Col>
+    
+        </Row>
+      </Container>
       <div id="divButtons">
         <Container>
           <Row
@@ -64,6 +97,16 @@ const Mapa = () => {
             <button onClick={() => mudarFiltroCidade("")}>Todas</button>
           </ButtonGroup>
 
+        <ButtonDropdown toggle={function noRefCheck() { }}>
+          <Button id="caret">Cidades</Button>
+          <DropdownToggle split />
+          <DropdownMenu>
+            <DropdownItem MogiMirim>Mogi Mirim</DropdownItem>
+            <DropdownItem MogiGuacu>Mogi guaçu</DropdownItem>
+            <DropdownItem Itapira>Itapira</DropdownItem>
+            <DropdownItem divider />
+          </DropdownMenu>
+        </ButtonDropdown>
       </div>
 
       <MapContainer
@@ -72,6 +115,7 @@ const Mapa = () => {
         zoom={13}
         scrollWheelZoom={false}
         fullscreenControl={true}
+
       >
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
