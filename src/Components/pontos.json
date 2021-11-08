@@ -4,7 +4,8 @@
     "x": -22.42535322294484,
     "y": -46.9647394661826,
     "descricao": "Pilhas e Baterias",
-    "local": "Mogi Mirim"
+    "local": "Mogi Mirim",
+    "endereco": "endereco"
   },
   {
     "nome": "Unidade de Reciclagem de resíduos",
@@ -17,7 +18,7 @@
     "nome": "Santa Rita Reciclagem",
     "x": -22.431625344502855,
     "y": -46.938099329403144,
-    "descricao": "",
+    "descricao": "Papel, Metal, Plástico, Óleos, Eletrônicos, Orgânicos",
     "local": "Mogi Mirim"
   },
   {

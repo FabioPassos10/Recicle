@@ -1,7 +1,14 @@
 import React, { Component, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import pontos from "./pontos.json";
-import { ButtonDropdown, DropdownToggle,DropdownItem,DropdownMenu,Button} from "reactstrap";
+import { ButtonDropdown, DropdownToggle, DropdownItem, DropdownMenu, Button, Container, Col, Row } from "reactstrap";
+import lixoMetal from '../../src/assets/lixo metal.png';
+import lixoOleo from '../../src/assets/lixo oleo.png';
+import lixoOrganico from '../../src/assets/lixo organico.png';
+import lixoEletronico from '../../src/assets/lixo eletronico.png';
+import lixoPapel from '../../src/assets/lixo papel.png';
+import lixoVidro from '../../src/assets/lixo vidro.png';
+
 
 import "./Styles/map.css";
 
@@ -18,27 +25,50 @@ const Mapa = () => {
   return (
     <div className="container">
       <div id="divButtons">
-        <button onClick={() => mudarFiltroTipo("Papel")}>Papel</button>
-        <button onClick={() => mudarFiltroTipo("Metal")}>Metal</button>
-        <button onClick={() => mudarFiltroTipo("Óleos")}>Óleos</button>
-        <button onClick={() => mudarFiltroTipo("Pilhas")}>Pilhas</button>
-        <button onClick={() => mudarFiltroTipo("Eletrônicos")}>
-          Eletrônicos
-        </button>
-        <button onClick={() => mudarFiltroTipo("Orgânicos")}>Orgânicos</button>
-        <button onClick={() => mudarFiltroTipo("")}>Outros</button>
-        <button onClick={() => mudarFiltroCidade("Mogi Mirim")}>
+        <Container>
+          <Row
+            md="8"
+            sm="4"
+            xs="2"
+          >
+            <Col className="bg-light border">
+              <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Papel")}><img src={lixoPapel} width="50px" height="60px" /> Papel</button>
+            </Col>
+            <Col className="bg-light border">
+              <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Metal")}><img src={lixoMetal} width="50px" height="60px" /> Metal</button>
+            </Col>
+            <Col className="bg-light border">
+              <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Óleos")}><img src={lixoOleo} width="50px" height="60px" /> Óleos</button>
+            </Col>
+            <Col className="bg-light border">
+              <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Pilhas")}><img src={lixoOleo} width="50px" height="60px" /> Pilhas</button>
+            </Col>
+            <Col className="bg-light border">
+              <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Plástico")}><img src={lixoMetal} width="50px" height="60px" /> Plástico</button>
+            </Col>
+            <Col className="bg-light border">
+              <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Eletrônicos")}><img src={lixoEletronico} width="50px" height="60px" /> Eletrônicos</button>
+            </Col>
+            <Col className="bg-light border">
+              <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Orgânicos")}><img src={lixoOrganico} width="50px" height="60px" /> Ôrganicos</button>
+            </Col>
+            <Col className="bg-light border">
+              <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("")}>Outros</button>
+            </Col>
+          </Row>
+        </Container>
+        {/* <button onClick={() => mudarFiltroCidade("Mogi Mirim")}>
           Mogi Mirim
         </button>
         <button onClick={() => mudarFiltroCidade("Mogi Guaçu")}>
           Mogi Guaçu
         </button>
         <button onClick={() => mudarFiltroCidade("Itapira")}>Itapira</button>
-        <button onClick={() => mudarFiltroCidade("")}>Todas</button>
+        <button onClick={() => mudarFiltroCidade("")}>Todas</button> */}
 
-        <ButtonDropdown toggle={function noRefCheck() {}}>
+        <ButtonDropdown toggle={function noRefCheck() { }}>
           <DropdownToggle caret>
-          {filtroCidade === "" ? "Filtrar cidade" : filtroCidade}
+            {filtroCidade === "" ? "Filtrar cidade" : filtroCidade}
           </DropdownToggle>
           <DropdownMenu>
             <DropdownItem MogiMirim onClick={() => mudarFiltroCidade("Mogi Mirim")}>Mogi Mirim</DropdownItem>
@@ -66,6 +96,7 @@ const Mapa = () => {
             <Popup>
               <h5>{pontos.nome}</h5>
               <p>{pontos.descricao}</p>
+              <p>{pontos.endereco}</p>
             </Popup>
           </Marker>
         ))}

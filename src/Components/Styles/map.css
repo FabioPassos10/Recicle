@@ -4,6 +4,17 @@
   width: 80%;
   margin: 0 auto;
   margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 70px;
+}
+
+.tiposDeLixo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #mapa {
