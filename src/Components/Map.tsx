@@ -10,7 +10,6 @@ import lixoPapel from '../../src/assets/lixo papel.png';
 import lixoVidro from '../../src/assets/lixo vidro.png';
 
 
-
 import "./Styles/map.css";
 
 const Mapa = () => {
@@ -24,98 +23,61 @@ const Mapa = () => {
   const mudarFiltroCidade = (arg: string) => setFiltroCidade(arg);
 
   return (
-
     <div className="container">
-      <Container fluid={true} style={{ paddingTop: "200px" }}>
-        <Row
-         xs="4" md="8" sm="4" xl="8" lg="8"
-        >
-          <Col className="bg-light border">
-          {/* Btn 1 */}
-    </Col>
-          <Col className="bg-light border">
-          {/* Btn 1 */}
-    </Col>
-          <Col className="bg-light border">
-          {/* Btn 1 */}
-    </Col>
-          <Col className="bg-light border">
-          {/* Btn 1 */}
-    </Col>
-    <Col className="bg-light border">
-          {/* Btn 1 */}
-    </Col>
-          <Col className="bg-light border">
-          {/* Btn 1 */}
-    </Col>
-          <Col className="bg-light border">
-          {/* Btn 1 */}
-    </Col>
-          <Col className="bg-light border">
-          {/* Btn 1 */}
-    </Col>
-    
-        </Row>
-      </Container>
       <div id="divButtons">
-        <Container>
+        {/* <Container>
           <Row
-            md="8"
+            md="4"
             sm="4"
             xs="2"
           >
-            <Col className="bg-light border">
+            <Col className="bg-light">
               <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Papel")}><img src={lixoPapel} width="50px" height="60px" /> Papel</button>
             </Col>
-            <Col className="bg-light border">
+            <Col className="bg-light">
               <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Metal")}><img src={lixoMetal} width="50px" height="60px" /> Metal</button>
             </Col>
-            <Col className="bg-light border">
+            <Col className="bg-light">
               <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Óleos")}><img src={lixoOleo} width="50px" height="60px" /> Óleos</button>
             </Col>
-            <Col className="bg-light border">
+            <Col className="bg-light">
               <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Pilhas")}><img src={lixoOleo} width="50px" height="60px" /> Pilhas</button>
             </Col>
-            <Col className="bg-light border">
+            <Col className="bg-light">
               <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Plástico")}><img src={lixoMetal} width="50px" height="60px" /> Plástico</button>
             </Col>
-            <Col className="bg-light border">
+            <Col className="bg-light">
               <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Eletrônicos")}><img src={lixoEletronico} width="50px" height="60px" /> Eletrônicos</button>
             </Col>
-            <Col className="bg-light border">
+            <Col className="bg-light">
               <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Orgânicos")}><img src={lixoOrganico} width="50px" height="60px" /> Ôrganicos</button>
             </Col>
-            <Col className="bg-light border">
+            <Col className="bg-light">
               <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("")}>Outros</button>
             </Col>
           </Row>
-        </Container>
-          <ButtonGroup>
-            <button onClick={() => mudarFiltroCidade("Mogi Mirim")}>Mogi Mirim</button>
-            <button onClick={() => mudarFiltroCidade("Mogi Guaçu")}>Mogi Guaçu</button>
-            <button onClick={() => mudarFiltroCidade("Itapira")}>Itapira</button>
-            <button onClick={() => mudarFiltroCidade("")}>Todas</button>
-          </ButtonGroup>
-
-        <ButtonDropdown toggle={function noRefCheck() { }}>
-          <Button id="caret">Cidades</Button>
-          <DropdownToggle split />
-          <DropdownMenu>
-            <DropdownItem MogiMirim>Mogi Mirim</DropdownItem>
-            <DropdownItem MogiGuacu>Mogi guaçu</DropdownItem>
-            <DropdownItem Itapira>Itapira</DropdownItem>
-            <DropdownItem divider />
-          </DropdownMenu>
-        </ButtonDropdown>
+        </Container> */}
+        <Button color="primary" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Papel")}><img src={lixoPapel} width="50px" height="60px" /> Papel</Button>
+        <Button color="warning" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Metal")}><img src={lixoMetal} width="50px" height="60px" /> Metal</Button>
+        <Button color="orange" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Óleos")}><img src={lixoOleo} width="50px" height="60px" /> Óleos</Button>
+        <Button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Pilhas")}><img src={lixoOleo} width="50px" height="60px" /> Pilhas</Button>
+        <Button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Plástico")}><img src={lixoMetal} width="50px" height="60px" /> Plástico</Button>
+        <Button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Eletrônicos")}><img src={lixoEletronico} width="50px" height="60px" /> Eletrônicos</Button>
+        <Button color="danger" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Orgânicos")}><img src={lixoOrganico} width="50px" height="60px" /> Ôrganicos</Button>
+        <Button color="info" className="tiposDeLixo" onClick={() => mudarFiltroTipo("")}>Outros</Button>
       </div>
-
+      <ButtonGroup id="cidades">
+          <Button outline onClick={() => mudarFiltroCidade("Mogi Mirim")}>Mogi Mirim</Button>
+          <Button outline onClick={() => mudarFiltroCidade("Mogi Guaçu")}>Mogi Guaçu</Button>
+          <Button outline onClick={() => mudarFiltroCidade("Itapira")}>Itapira</Button>
+          <Button outline onClick={() => mudarFiltroCidade("")}>Todas</Button>
+        </ButtonGroup>
       <MapContainer
         id="mapa"
         center={[-22.4136, -46.9029]}
         zoom={13}
         scrollWheelZoom={false}
         fullscreenControl={true}
-
       >
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
