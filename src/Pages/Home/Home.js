@@ -20,9 +20,9 @@ export default function Home(props) {
         <div id="CardDent">
           <Container fluid={true} style={{ paddingTop: "200px" }}>
             <Row xs="1" md="2" sm="1" xl="3" lg="3" >
-              <Col className="bg-light border">
-                <div className="CardPartc1">
-                  <div className="RedondPt2"></div>
+              <Col>
+              <div className="col-HomeCard"> <div className="CardPartc1">
+                  <div className="DivImgLixo"></div>
                 </div>
                 <div className="CardPartc1">
                   Urna quam curabitur fermentum ullamcorper tortor metus ut arcu
@@ -39,12 +39,13 @@ export default function Home(props) {
                   mollis commodo fermentum aenean neque, in fusce id dictumst
                   potenti vivamus aptent sodales mattis, porttitor per felis
                   curabitur donec ornare interdum.
-                </div>
+                </div></div>
+               
               </Col>
               <br />
-              <Col className="bg-light border">
-                <div className="CardPartc1">
-                  <div className="RedondPt2"></div>
+              <Col>
+                <div className="col-HomeCard"> <div className="CardPartc1">
+                  <div className="DivImgLixo"></div>
                 </div>
                 <div className="CardPartc1">
                   Urna quam curabitur fermentum ullamcorper tortor metus ut arcu
@@ -61,12 +62,13 @@ export default function Home(props) {
                   mollis commodo fermentum aenean neque, in fusce id dictumst
                   potenti vivamus aptent sodales mattis, porttitor per felis
                   curabitur donec ornare interdum.
-                </div>
+                </div></div>
+               
               </Col>
               <br />
-              <Col className="bg-light border">
-                <div className="CardPartc1">
-                  <div className="RedondPt2"></div>
+              <Col >
+              <div className="col-HomeCard"><div className="CardPartc1">
+                  <div className="DivImgLixo"></div>
                 </div>
                 <div className="CardPartc1">
                   Urna quam curabitur fermentum ullamcorper tortor metus ut arcu
@@ -83,16 +85,17 @@ export default function Home(props) {
                   mollis commodo fermentum aenean neque, in fusce id dictumst
                   potenti vivamus aptent sodales mattis, porttitor per felis
                   curabitur donec ornare interdum.
-                </div>
+                </div></div>
+                
               </Col>
             </Row>
           </Container>
           <br />
           <Container fluid={true}>
             <Row xs="1" md="2" sm="1" xl="3" lg="3" >
-              <Col className="col-HomeCard">
-                <div className="CardPartc1">
-                  <div className="RedondPt2"></div>
+              <Col >
+              <div className="col-HomeCard">  <div className="CardPartc1">
+                  <div className="DivImgLixo"></div>
                 </div>
                 <div className="CardPartc1">
                   Urna quam curabitur fermentum ullamcorper tortor metus ut arcu
@@ -109,12 +112,13 @@ export default function Home(props) {
                   mollis commodo fermentum aenean neque, in fusce id dictumst
                   potenti vivamus aptent sodales mattis, porttitor per felis
                   curabitur donec ornare interdum.
-                </div>
+                </div></div>{/* */}
+              
               </Col>
               <br />
-              <Col className="col-HomeCard">
-                <div className="CardPartc1">
-                  <div className="RedondPt2"></div>
+              <Col >
+              <div className="col-HomeCard"> <div className="CardPartc1">
+                  <div className="DivImgLixo"></div>
                 </div>
                 <div className="CardPartc1">
                   Urna quam curabitur fermentum ullamcorper tortor metus ut arcu
@@ -131,12 +135,13 @@ export default function Home(props) {
                   mollis commodo fermentum aenean neque, in fusce id dictumst
                   potenti vivamus aptent sodales mattis, porttitor per felis
                   curabitur donec ornare interdum.
-                </div>
+                </div></div>
+               
               </Col>
               <br />
-              <Col className="col-HomeCard">
-                <div className="CardPartc1">
-                  <div className="RedondPt2"></div>
+              <Col>
+              <div className="col-HomeCard"><div className="CardPartc1">
+                  <div className="DivImgLixo"></div>
                 </div>
                 <div className="CardPartc1">
                   Urna quam curabitur fermentum ullamcorper tortor metus ut arcu
@@ -153,7 +158,8 @@ export default function Home(props) {
                   mollis commodo fermentum aenean neque, in fusce id dictumst
                   potenti vivamus aptent sodales mattis, porttitor per felis
                   curabitur donec ornare interdum.
-                </div>
+                </div></div>
+                
               </Col>
             </Row>
           </Container>
