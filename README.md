@@ -14,7 +14,7 @@
 
 <p align="justifi">Recicle é um projeto de TCC com o intuito de promover a reciclagem e os cuidados com o lixo através da educação ambiental, utilizando de: </p>
 
-- Um mapa com os principais pontos de descarte (a princípio, apenas da cidade de Mogi Mirim)🗺;
+- Um mapa com os principais pontos de descarte (a princípio, apenas das cidades de Mogi Mirim, Mogi Guaçu e Itapira)🗺;
 - Dicas para reciclagem e separação do lixo 🚮;
 - Indices de danos ambientais.
 
