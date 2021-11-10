@@ -8,8 +8,8 @@
 
 #mapa {
   width: 100%;
-  height: 750px;
-  border: 80px solid rgba(26, 49, 54, 0.966);
+  height: 800px;
+  border: 60px solid rgba(26, 49, 54, 0.966);
   border-radius: 22px;
   z-index: 3 !important;
 }

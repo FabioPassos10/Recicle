@@ -6,11 +6,11 @@
 }
 
 nav {
-  position: fixed !important;
+  position: fixed;
   height: 80px;
   width: 100%;
   background: rgba(5, 98, 95, 0.952);
-  z-index: 1;
+  z-index: 5 !important;
 }
 label.logo {
   font-size: 35px;

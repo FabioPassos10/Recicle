@@ -1,7 +1,7 @@
 import React, { Component, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import pontos from "./pontos.json";
-import { ButtonDropdown, DropdownToggle,DropdownItem,DropdownMenu,Button} from "reactstrap";
+import { ButtonDropdown, DropdownToggle, DropdownItem, DropdownMenu, Button, Container, Row, Col } from "reactstrap";
 
 import "./Styles/map.css";
 
@@ -16,7 +16,39 @@ const Mapa = () => {
   const mudarFiltroCidade = (arg: string) => setFiltroCidade(arg);
 
   return (
+
     <div className="container">
+      <Container fluid={true} >
+        <Row
+         xs="4" md="8" sm="4" xl="8" lg="8"
+        >
+          <Col className="bg-light border">
+          {/* Btn 1 */}
+    </Col>
+          <Col className="bg-light border">
+          {/* Btn 1 */}
+    </Col>
+          <Col className="bg-light border">
+          {/* Btn 1 */}
+    </Col>
+          <Col className="bg-light border">
+          {/* Btn 1 */}
+    </Col>
+    <Col className="bg-light border">
+          {/* Btn 1 */}
+    </Col>
+          <Col className="bg-light border">
+          {/* Btn 1 */}
+    </Col>
+          <Col className="bg-light border">
+          {/* Btn 1 */}
+    </Col>
+          <Col className="bg-light border">
+          {/* Btn 1 */}
+    </Col>
+    
+        </Row>
+      </Container>
       <div id="divButtons">
         <button onClick={() => mudarFiltroTipo("Papel")}>Papel</button>
         <button onClick={() => mudarFiltroTipo("Metal")}>Metal</button>
@@ -36,7 +68,7 @@ const Mapa = () => {
         <button onClick={() => mudarFiltroCidade("Itapira")}>Itapira</button>
         <button onClick={() => mudarFiltroCidade("")}>Todas</button>
 
-        <ButtonDropdown toggle={function noRefCheck() {}}>
+        <ButtonDropdown toggle={function noRefCheck() { }}>
           <Button id="caret">Cidades</Button>
           <DropdownToggle split />
           <DropdownMenu>
@@ -54,7 +86,7 @@ const Mapa = () => {
         zoom={13}
         scrollWheelZoom={false}
         fullscreenControl={true}
-     
+
       >
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
