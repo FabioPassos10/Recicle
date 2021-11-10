@@ -1,10 +1,10 @@
 /* =========Home============= */
-#Mapadiv {
+/* #Mapadiv {
   margin-left: 2.5%;
   margin-right: 2.5%;
   margin-top: 3.5%;
   width: 95% !important;
-}
+} */
 #Hero {
   background-color: rgb(160, 158, 158);
   width: 100%;
@@ -38,11 +38,7 @@
   background-color: #044844ea;
   box-shadow: 0 1em 1em 1em black;
   padding-bottom: 2%;
-  /* border-radius: 190px 190px 0px 0px; */
-  /* background-image: url(../../assets/IlustraçãoFreepik.png); */
-  /* background-repeat: no-repeat;
-  background-position-y: bottom; */
-  /* background-size: 1690px 500px; */
+  
 }
 
 @media (max-width: 1900px) and (orientation: landscape) {
@@ -51,7 +47,7 @@
     height: 0;
     border-left: 1490px solid transparent;
     border-right: 0px solid transparent;
-    border-bottom: 400px solid rgba(35, 226, 204, 0.66);
+    border-bottom: 400px solid rgba(57, 212, 223, 0.66);
     float: right;
     z-index: 1;
   }
