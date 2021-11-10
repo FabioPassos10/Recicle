@@ -8,6 +8,7 @@ import lixoOrganico from '../../src/assets/lixo organico.png';
 import lixoEletronico from '../../src/assets/lixo eletronico.png';
 import lixoPapel from '../../src/assets/lixo papel.png';
 import lixoVidro from '../../src/assets/lixo vidro.png';
+import lixoPlastico from '../../src/assets/lixo plastico.png';
 
 
 import "./Styles/map.css";
@@ -25,46 +26,14 @@ const Mapa = () => {
   return (
     <div className="container">
       <div id="divButtons">
-        {/* <Container>
-          <Row
-            md="4"
-            sm="4"
-            xs="2"
-          >
-            <Col className="bg-light">
-              <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Papel")}><img src={lixoPapel} width="50px" height="60px" /> Papel</button>
-            </Col>
-            <Col className="bg-light">
-              <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Metal")}><img src={lixoMetal} width="50px" height="60px" /> Metal</button>
-            </Col>
-            <Col className="bg-light">
-              <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Óleos")}><img src={lixoOleo} width="50px" height="60px" /> Óleos</button>
-            </Col>
-            <Col className="bg-light">
-              <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Pilhas")}><img src={lixoOleo} width="50px" height="60px" /> Pilhas</button>
-            </Col>
-            <Col className="bg-light">
-              <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Plástico")}><img src={lixoMetal} width="50px" height="60px" /> Plástico</button>
-            </Col>
-            <Col className="bg-light">
-              <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Eletrônicos")}><img src={lixoEletronico} width="50px" height="60px" /> Eletrônicos</button>
-            </Col>
-            <Col className="bg-light">
-              <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Orgânicos")}><img src={lixoOrganico} width="50px" height="60px" /> Ôrganicos</button>
-            </Col>
-            <Col className="bg-light">
-              <button className="tiposDeLixo" onClick={() => mudarFiltroTipo("")}>Outros</button>
-            </Col>
-          </Row>
-        </Container> */}
-        <Button color="primary" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Papel")}><img src={lixoPapel} width="50px" height="60px" /> Papel</Button>
-        <Button color="warning" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Metal")}><img src={lixoMetal} width="50px" height="60px" /> Metal</Button>
-        <Button color="orange" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Óleos")}><img src={lixoOleo} width="50px" height="60px" /> Óleos</Button>
-        <Button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Pilhas")}><img src={lixoOleo} width="50px" height="60px" /> Pilhas</Button>
-        <Button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Plástico")}><img src={lixoMetal} width="50px" height="60px" /> Plástico</Button>
-        <Button className="tiposDeLixo" onClick={() => mudarFiltroTipo("Eletrônicos")}><img src={lixoEletronico} width="50px" height="60px" /> Eletrônicos</Button>
-        <Button color="danger" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Orgânicos")}><img src={lixoOrganico} width="50px" height="60px" /> Ôrganicos</Button>
-        <Button color="info" className="tiposDeLixo" onClick={() => mudarFiltroTipo("")}>Outros</Button>
+        <Button id="botaoPapel" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Papel")}><img src={lixoPapel} width="50px" height="60px" /> Papel</Button>
+        <Button id="botaoMetal" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Metal")}><img src={lixoMetal} width="50px" height="60px" /> Metal</Button>
+        <Button id="botaoVidro" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Vidro")}><img src={lixoVidro} width="50px" height="60px" /> Vidro</Button>
+        <Button id="botaoPlastico" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Plástico")}><img src={lixoPlastico} width="50px" height="60px" /> Plástico</Button>
+        <Button id="botaoOrganicos" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Orgânicos")}><img src={lixoOrganico} width="50px" height="60px" /> Ôrganicos</Button>
+        <Button id="botaoEletronicos" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Eletrônicos")}><img src={lixoEletronico} width="50px" height="60px" /> Eletrônicos</Button>
+        <Button id="botaoOleos" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Óleos")}><img src={lixoOleo} width="50px" height="60px" /> Óleos</Button>
+        <Button id="botaoLimpar" className="tiposDeLixo" onClick={() => mudarFiltroTipo("")}>Limpar Filtros</Button>
       </div>
       <ButtonGroup id="cidades">
           <Button outline onClick={() => mudarFiltroCidade("Mogi Mirim")}>Mogi Mirim</Button>
