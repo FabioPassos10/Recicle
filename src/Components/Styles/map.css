@@ -1,6 +1,4 @@
 #divButtons {
-  background-color: rgb(216, 215, 215);
-  height: 90px;
   width: 80%;
   margin: 0 auto;
   margin-bottom: 2%;
@@ -12,6 +10,7 @@
 }
 
 .tiposDeLixo {
+  background-color: rgb(255, 255, 255);
   width: 82px;
   height: 88px;
   display: flex;
@@ -19,14 +18,19 @@
   align-items: center;
   transition: all .5s ease;
   border: none;
+  padding: 2px;
 }
 
 #botaoPapel {
-  background-color: rgb(23, 38, 170);
+  padding: 2px;
+  color: rgb(23, 38, 170);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(23, 38, 170);
 }
 
 #botaoPapel:hover {
   background-color: rgb(0, 13, 131);
+  color: #fff;
 }
 
 #botaoMetal {
