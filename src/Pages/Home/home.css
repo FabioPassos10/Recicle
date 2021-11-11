@@ -162,8 +162,9 @@
   margin-right: 0.5%;
   padding: 12px;
   border-radius: 12px;
-  border: solid 2px blue;
+  border: solid 3px rgba(40, 40, 228, 0.877);
   margin-top: 5%;
+  box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.63);
 }
 
 .col-HomeCardPlastico {
@@ -171,8 +172,9 @@
   margin-right: 0.5%;
   padding: 12px;
   border-radius: 12px;
-  border: solid 2px red;
+  border: solid 3px rgba(224, 0, 0, 0.904);
   margin-top: 5%;
+  box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.63);
 }
 
 .col-HomeCardVidro {
@@ -180,8 +182,9 @@
   margin-right: 0.5%;
   padding: 12px;
   border-radius: 12px;
-  border: solid 2px green;
+  border: solid 3px rgba(23, 150, 23, 0.747);
   margin-top: 5%;
+  box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.63);
 }
 
 .col-HomeCardMetal {
@@ -189,8 +192,9 @@
   margin-right: 0.5%;
   padding: 12px;
   border-radius: 12px;
-  border: solid 2px yellow;
+  border: solid 3px rgba(251, 255, 23, 0.897);
   margin-top: 5%;
+  box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.63);
 }
 
 .col-HomeCardOrganico {
@@ -198,8 +202,9 @@
   margin-right: 0.5%;
   padding: 12px;
   border-radius: 12px;
-  border: solid 2px brown;
+  border: solid 3px rgba(82, 14, 14, 0.973);
   margin-top: 5%;
+  box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.63);
 }
 
 .col-HomeCardEletronico {
@@ -207,8 +212,9 @@
   margin-right: 0.5%;
   padding: 12px;
   border-radius: 12px;
-  border: solid 2px white;
+  border: solid 3px gray;
   margin-top: 5%;
+  box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.63);
 }
 
 .DivImgLixoPapel {
@@ -218,7 +224,7 @@
   background-color: gray;
   margin: auto;
   margin-bottom: 30px;
-  border: solid 2px blue;
+  border: solid 2px  rgba(40, 40, 228, 0.877);
 }
 
 .DivImgLixoPlastico {
@@ -228,7 +234,7 @@
   background-color: gray;
   margin: auto;
   margin-bottom: 30px;
-  border: solid 2px red;
+  border: solid 2px rgba(224, 0, 0, 0.904);
 }
 
 .DivImgLixoVidro {
@@ -238,7 +244,7 @@
   background-color: gray;
   margin: auto;
   margin-bottom: 30px;
-  border: solid 2px green;
+  border: solid 2px rgba(23, 150, 23, 0.747);
 }
 
 .DivImgLixoMetal {
@@ -248,7 +254,7 @@
   background-color: gray;
   margin: auto;
   margin-bottom: 30px;
-  border: solid 2px yellow;
+  border: solid 2px rgba(251, 255, 23, 0.897);
 }
 
 .DivImgLixoEletronico {
@@ -258,7 +264,7 @@
   background-color: gray;
   margin: auto;
   margin-bottom: 30px;
-  border: solid 2px white;
+  border: solid 2px gray;
 }
 
 .DivImgLixoOrganico {
@@ -268,7 +274,7 @@
   background-color: gray;
   margin: auto;
   margin-bottom: 30px;
-  border: solid 2px brown;
+  border: solid 2px rgba(82, 14, 14, 0.973);
 }
 
 #DivIlustracaoHome {
