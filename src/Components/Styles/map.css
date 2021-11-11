@@ -28,7 +28,7 @@
   border: 2px solid rgb(23, 38, 170);
 }
 
-#botaoPapel:hover {
+#botaoPapel:hover, #botaoPapel:focus {
   color: #fff;
   background-color: rgb(0, 13, 131);
 }
@@ -40,7 +40,7 @@
   border: 2px solid rgb(177, 165, 0);
 }
 
-#botaoMetal:hover {
+#botaoMetal:hover, #botaoMetal:focus {
   background-color: rgb(175, 172, 0);
   color: #fff;
 }
@@ -52,7 +52,7 @@
   border: 2px solid rgb(34, 168, 0);
 }
 
-#botaoVidro:hover {
+#botaoVidro:hover, #botaoVidro:focus {
   background-color: rgb(0, 119, 36);
   color: #fff;
 }
@@ -64,7 +64,7 @@
   border: 2px solid rgb(206, 0, 0);
 }
 
-#botaoPlastico:hover {
+#botaoPlastico:hover, #botaoPlastico:focus {
   background-color: rgb(136, 0, 0);
   color: #fff;
 }
@@ -76,7 +76,7 @@
   border: 2px solid rgb(124, 20, 20);
 }
 
-#botaoOrganicos:hover {
+#botaoOrganicos:hover, #botaoOrganicos:focus {
   background-color: rgb(88, 4, 4);
   color: #fff;
 }
@@ -88,7 +88,7 @@
   border: 2px solid rgb(187, 187, 187);
 }
 
-#botaoEletronicos:hover {
+#botaoEletronicos:hover, #botaoEletronicos:focus {
   background-color: rgb(117, 117, 117);
   color: #fff;
 }
@@ -100,7 +100,7 @@
   border: 2px solid rgb(255, 145, 0);
 }
 
-#botaoOleos:hover {
+#botaoOleos:hover, #botaoOleos:focus {
   background-color: rgb(206, 99, 0);
   color: #fff;
 }
@@ -112,7 +112,7 @@
   border: 2px solid rgb(30, 147, 177);
 }
 
-#botaoLimpar:hover {
+#botaoLimpar:hover, #botaoLimpar:focus {
   background-color: rgb(16, 91, 110);
   color: #fff;
 }
@@ -120,6 +120,18 @@
 #cidades {
   margin-bottom: 15px;
   gap: 0.5rem;
+}
+
+.cidadesButtons {
+  padding: 3px;
+  background-color: white;
+  color: rgb(109, 109, 109);
+  transition: all .3s ease;
+}
+
+.cidadesButtons:hover, .cidadesButtons:focus {
+  background-color: rgb(109, 109, 109);
+  color: #fff;
 }
 
 #mapa {
