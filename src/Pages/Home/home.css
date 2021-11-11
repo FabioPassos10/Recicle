@@ -10,13 +10,25 @@
   width: 100%;
   height: 1000px;
   max-height: 50vh;
+  font-family: 'Kalam', cursive;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(../../assets/hero1.jpg);
-  background-size: 100vw;
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0 1em 1em rgba(0, 0, 0, 0.809);
 }
+
+#titleHero {
+  font-size: 180px;
+  margin-top: 104px;
+}
+
 /* #DivCMap {
   background-color: rgba(26, 49, 54, 0.966);
   width: 96%;
@@ -51,6 +63,7 @@
     z-index: 1;
   }
 }
+
 @media (max-width: 1048px) {
   /* #Hero {
     background-color: rgb(160, 158, 158);
@@ -58,6 +71,9 @@
     height: 900px;
     max-height: 50vh;
     background-image: url(../../assets/hero1.jpg);
+    font-family: 'Kalam', cursive;
+    background-image: url(../../assets/hero1.jpg);
+    background-size: cover;
     background-size: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -73,6 +89,7 @@
     z-index: 1;
   }
 }
+
 @media (max-width: 948px) {
   #Triangulo {
     width: 0;
@@ -91,8 +108,13 @@
     background-color: gray;
     margin-top: 2%;
     margin-bottom: 2%;
-  }
+ 
 }
+#titleHero {
+  font-size: 140px;
+  margin-top: 84px;
+}
+
 @media (max-width: 700px) {
   #Triangulo {
     width: 0;
@@ -113,6 +135,7 @@
     margin-bottom: 2%;
   }
 }
+
 @media (max-width: 500px) {
   /* #Hero {
     background-color: rgb(160, 158, 158);
@@ -120,13 +143,16 @@
     height: 200px;
     /* max-height: 20vh; */
   /* background-image: url(../../assets/hero3.jpg);
+    max-height: 20vh;
+    font-family: 'Kalam', cursive;
+    background-image: url(../../assets/hero1.jpg);
+    background-size: cover;
     background-size: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0 1em 1em rgba(0, 0, 0, 0.809); */
-  /* 
-  } */
+    box-shadow: 0 1em 1em rgba(19, 18, 18, 0.809);
+  }
   #Triangulo {
     width: 0;
     height: 0;
@@ -141,13 +167,20 @@
     width: 100%;
     height: 500;
     max-height: 50vh;
-    background-image: url(../../assets/hero3.jpg);
+    background-image: url(../../assets/hero1.jpg);
+    background-size: cover;
     background-size: 50vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
     box-shadow: 0 1em 1em rgba(0, 0, 0, 0.809);
-  } */
+  }
+
+  #titleHero {
+    font-size: 60px;
+    margin-top: 84px;
+  }
 }
+
 .RedondPt2 {
   margin: auto;
   border-radius: 360px;
@@ -208,6 +241,8 @@
 }
 
 .col-HomeCardEletronico {
+
+.col-HomeCard {
   background-color: white;
   margin-right: 0.5%;
   padding: 12px;

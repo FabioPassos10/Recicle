@@ -23,71 +23,99 @@
 }
 
 #botaoPapel {
-  padding: 2px;
+  padding: 3px;
   color: rgb(23, 38, 170);
   background-color: rgb(255, 255, 255);
   border: 2px solid rgb(23, 38, 170);
 }
 
 #botaoPapel:hover {
-  background-color: rgb(0, 13, 131);
   color: #fff;
+  background-color: rgb(0, 13, 131);
 }
 
 #botaoMetal {
-  background-color: rgb(214, 200, 0);
+  padding: 3px;
+  color:  rgb(214, 200, 0);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(177, 165, 0);
 }
 
 #botaoMetal:hover {
   background-color: rgb(175, 172, 0);
+  color: #fff;
 }
 
 #botaoVidro {
-  background-color: rgb(34, 168, 0);
+  padding: 3px;
+  color: rgb(34, 168, 0);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(34, 168, 0);
 }
 
 #botaoVidro:hover {
   background-color: rgb(0, 119, 36);
+  color: #fff;
 }
 
 #botaoPlastico {
-  background-color: rgb(206, 0, 0);
+  padding: 3px;
+  color: rgb(206, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(206, 0, 0);
 }
 
 #botaoPlastico:hover {
   background-color: rgb(136, 0, 0);
+  color: #fff;
 }
 
 #botaoOrganicos {
-  background-color: rgb(124, 20, 20);
+  padding: 3px;
+  color: rgb(124, 20, 20);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(124, 20, 20);
 }
 
 #botaoOrganicos:hover {
   background-color: rgb(88, 4, 4);
+  color: #fff;
 }
 
 #botaoEletronicos {
-  background-color: rgb(187, 187, 187);
+  padding: 3px;
+  color: rgb(187, 187, 187);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(187, 187, 187);
 }
 
 #botaoEletronicos:hover {
   background-color: rgb(117, 117, 117);
+  color: #fff;
 }
 
 #botaoOleos {
-  background-color: rgb(255, 145, 0);
+  padding: 3px;
+  color: rgb(255, 145, 0);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 145, 0);
 }
 
 #botaoOleos:hover {
   background-color: rgb(206, 99, 0);
+  color: #fff;
 }
 
 #botaoLimpar {
-  background-color: rgb(30, 147, 177);
+  padding: 3px;
+  color: rgb(30, 147, 177);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(30, 147, 177);
 }
 
 #botaoLimpar:hover {
   background-color: rgb(16, 91, 110);
+  color: #fff;
 }
 
 #cidades {
