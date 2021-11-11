@@ -25,37 +25,7 @@ const Mapa = () => {
 
   return (
     <div className="container">
-      <Container fluid={true} >
-        <Row
-         xs="4" md="8" sm="4" xl="8" lg="8"
-        >
-          <Col className="bg-light border">
-          {/* Btn 1 */}
-    </Col>
-          <Col className="bg-light border">
-          {/* Btn 1 */}
-    </Col>
-          <Col className="bg-light border">
-          {/* Btn 1 */}
-    </Col>
-          <Col className="bg-light border">
-          {/* Btn 1 */}
-    </Col>
-    <Col className="bg-light border">
-          {/* Btn 1 */}
-    </Col>
-          <Col className="bg-light border">
-          {/* Btn 1 */}
-    </Col>
-          <Col className="bg-light border">
-          {/* Btn 1 */}
-    </Col>
-          <Col className="bg-light border">
-          {/* Btn 1 */}
-    </Col>
-    
-        </Row>
-      </Container>
+
       <div id="divButtons">
         <Button id="botaoPapel" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Papel")}><img src={lixoPapel} width="50px" height="60px" /> Papel</Button>
         <Button id="botaoMetal" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Metal")}><img src={lixoMetal} width="50px" height="60px" /> Metal</Button>
