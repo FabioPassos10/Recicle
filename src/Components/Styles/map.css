@@ -1,9 +1,97 @@
 #divButtons {
-  background-color: rgb(216, 215, 215);
-  height: 90px;
   width: 80%;
   margin: 0 auto;
   margin-bottom: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tiposDeLixo {
+  background-color: rgb(255, 255, 255);
+  width: 82px;
+  height: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all .5s ease;
+  border: none;
+  padding: 2px;
+}
+
+#botaoPapel {
+  padding: 2px;
+  color: rgb(23, 38, 170);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(23, 38, 170);
+}
+
+#botaoPapel:hover {
+  background-color: rgb(0, 13, 131);
+  color: #fff;
+}
+
+#botaoMetal {
+  background-color: rgb(214, 200, 0);
+}
+
+#botaoMetal:hover {
+  background-color: rgb(175, 172, 0);
+}
+
+#botaoVidro {
+  background-color: rgb(34, 168, 0);
+}
+
+#botaoVidro:hover {
+  background-color: rgb(0, 119, 36);
+}
+
+#botaoPlastico {
+  background-color: rgb(206, 0, 0);
+}
+
+#botaoPlastico:hover {
+  background-color: rgb(136, 0, 0);
+}
+
+#botaoOrganicos {
+  background-color: rgb(124, 20, 20);
+}
+
+#botaoOrganicos:hover {
+  background-color: rgb(88, 4, 4);
+}
+
+#botaoEletronicos {
+  background-color: rgb(187, 187, 187);
+}
+
+#botaoEletronicos:hover {
+  background-color: rgb(117, 117, 117);
+}
+
+#botaoOleos {
+  background-color: rgb(255, 145, 0);
+}
+
+#botaoOleos:hover {
+  background-color: rgb(206, 99, 0);
+}
+
+#botaoLimpar {
+  background-color: rgb(30, 147, 177);
+}
+
+#botaoLimpar:hover {
+  background-color: rgb(16, 91, 110);
+}
+
+#cidades {
+  margin-bottom: 15px;
+  gap: 0.5rem;
 }
 
 #mapa {
@@ -12,4 +100,10 @@
   border: 60px solid rgba(26, 49, 54, 0.966);
   border-radius: 22px;
   z-index: 3 !important;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }

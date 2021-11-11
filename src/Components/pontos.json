@@ -3,8 +3,9 @@
     "nome": "Hospital 22 de outubro",
     "x": -22.42535322294484,
     "y": -46.9647394661826,
-    "descricao": "Pilhas e Baterias",
-    "local": "Mogi Mirim"
+    "descricao": "Eletrônicos",
+    "local": "Mogi Mirim",
+    "endereco": "endereco"
   },
   {
     "nome": "Unidade de Reciclagem de resíduos",
@@ -17,7 +18,7 @@
     "nome": "Santa Rita Reciclagem",
     "x": -22.431625344502855,
     "y": -46.938099329403144,
-    "descricao": "",
+    "descricao": "Papel, Metal, Plástico, Óleos, Eletrônicos, Orgânicos",
     "local": "Mogi Mirim"
   },
   {
@@ -38,7 +39,7 @@
     "nome": "Rei Fer",
     "x": -22.415497503455164,
     "y": -46.962247002417406,
-    "descricao": "Metal (ferro velho)",
+    "descricao": "Metal",
     "local": "Mogi Mirim"
   },
   {

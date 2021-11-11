@@ -16,7 +16,7 @@ export default function Home(props) {
           <Mapa></Mapa>
         </div>
       </div>
-       <div id="Triangulo"></div>
+      s <div id="Triangulo"></div>
       <div id="DivCard_Home">
         <div id="CardDent">
           <Container fluid={true} style={{ paddingTop: "200px" }}>

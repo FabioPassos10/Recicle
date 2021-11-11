@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "jsx": "react-jsX",
+    "jsx": "react",
     "target": "es5",
     "module": "esnext",
     "esModuleInterop": true,
