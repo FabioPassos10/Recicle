@@ -35,12 +35,14 @@ const Mapa = () => {
         <Button id="botaoOleos" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Óleos")}><img src={lixoOleo} width="50px" height="60px" /> Óleos</Button>
         <Button id="botaoLimpar" className="tiposDeLixo" onClick={() => mudarFiltroTipo("")}>Limpar Filtros</Button>
       </div>
-      <ButtonGroup id="cidades">
+      <div>
+        <ButtonGroup id="cidades">
           <Button outline onClick={() => mudarFiltroCidade("Mogi Mirim")}>Mogi Mirim</Button>
           <Button outline onClick={() => mudarFiltroCidade("Mogi Guaçu")}>Mogi Guaçu</Button>
           <Button outline onClick={() => mudarFiltroCidade("Itapira")}>Itapira</Button>
           <Button outline onClick={() => mudarFiltroCidade("")}>Todas</Button>
         </ButtonGroup>
+      </div>
       <MapContainer
         id="mapa"
         center={[-22.4136, -46.9029]}

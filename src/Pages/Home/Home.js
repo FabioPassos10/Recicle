@@ -8,7 +8,9 @@ import "./home.css";
 export default function Home(props) {
   return (
     <>
-      <Container id="Hero" fluid={true}></Container>
+      <Container id="Hero" fluid={true}>
+        <h1 id="titleHero"> ReCircle </h1>
+      </Container>
 
       <div id="DivCMap">
         <div id="Mapadiv">
