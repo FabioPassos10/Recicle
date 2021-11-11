@@ -157,7 +157,16 @@
   margin-top: 2%;
   margin-bottom: 2%;
 }
-.col-HomeCard {
+.col-HomeCardPapel {
+  background-color: white;
+  margin-right: 0.5%;
+  padding: 12px;
+  border-radius: 12px;
+  border: solid 2px blue;
+  margin-top: 5%;
+}
+
+.col-HomeCardPlastico {
   background-color: white;
   margin-right: 0.5%;
   padding: 12px;
@@ -165,7 +174,54 @@
   border: solid 2px red;
   margin-top: 5%;
 }
-.DivImgLixo {
+
+.col-HomeCardVidro {
+  background-color: white;
+  margin-right: 0.5%;
+  padding: 12px;
+  border-radius: 12px;
+  border: solid 2px green;
+  margin-top: 5%;
+}
+
+.col-HomeCardMetal {
+  background-color: white;
+  margin-right: 0.5%;
+  padding: 12px;
+  border-radius: 12px;
+  border: solid 2px yellow;
+  margin-top: 5%;
+}
+
+.col-HomeCardOrganico {
+  background-color: white;
+  margin-right: 0.5%;
+  padding: 12px;
+  border-radius: 12px;
+  border: solid 2px brown;
+  margin-top: 5%;
+}
+
+.col-HomeCardEletronico {
+  background-color: white;
+  margin-right: 0.5%;
+  padding: 12px;
+  border-radius: 12px;
+  border: solid 2px white;
+  margin-top: 5%;
+}
+
+.DivImgLixoPapel {
+  height: 200px;
+  width: 60%;
+  border-radius: 12px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+  border: solid 2px blue;
+}
+
+.DivImgLixoPlastico {
   height: 200px;
   width: 60%;
   border-radius: 12px;
@@ -174,6 +230,47 @@
   margin-bottom: 30px;
   border: solid 2px red;
 }
+
+.DivImgLixoVidro {
+  height: 200px;
+  width: 60%;
+  border-radius: 12px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+  border: solid 2px green;
+}
+
+.DivImgLixoMetal {
+  height: 200px;
+  width: 60%;
+  border-radius: 12px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+  border: solid 2px yellow;
+}
+
+.DivImgLixoEletronico {
+  height: 200px;
+  width: 60%;
+  border-radius: 12px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+  border: solid 2px white;
+}
+
+.DivImgLixoOrganico {
+  height: 200px;
+  width: 60%;
+  border-radius: 12px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+  border: solid 2px brown;
+}
+
 #DivIlustracaoHome {
   background-image: url(../../assets/Ilust.png) !important;
   z-index: 2;
