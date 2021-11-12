@@ -153,9 +153,9 @@ export default function Home(props) {
               </Col>
               <br />
               <Col>
-                <div className="col-HomeCardEletronico">
+                <div className="col-HomeCardOleos">
                   <div className="CardPartc1">
-                    <div className="DivImgLixoEletronico"></div>
+                    <div className="DivImgLixoOleos"></div>
                   </div>
                   <div className="CardPartc1">
                     Urna quam curabitur fermentum ullamcorper tortor metus ut
