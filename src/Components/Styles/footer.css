@@ -2,10 +2,15 @@
 #Footer {
   bottom: 0;
   width: 100%;
-  background-color: rgb(41, 39, 39);
+  background: rgba(5, 98, 95, 0.952);
+  box-shadow: 1em 1em 1em 1em black;
   color: rgb(255, 255, 255);
   text-align: center;
   height: 200px;
   margin-top: auto;
   margin-bottom: 0;
+}
+
+span {
+  font-size: 1.3em;
 }

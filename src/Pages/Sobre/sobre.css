@@ -1,0 +1,35 @@
+.CardPartc1 {
+  text-align: justify;
+}
+
+
+.col-SobreCard {
+  box-shadow: 1em 1em 3em black;
+  padding: 12px;
+  border: 2px solid gray;
+  border-radius: 12px;
+}
+
+.CardFoto {
+  margin: auto;
+  background-color: gray;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 300px;
+  height: 300px;
+  border: 2px solid gray;
+  border-radius: 12px;
+}
+
+.CardTexto{
+  padding: 12px;
+  text-align: justify;
+}
+
+.Col-CardOrientador{
+  box-shadow: 1em 1em 3em black;
+  padding: 12px;
+  border: 2px solid gray;
+  border-radius: 12px;
+  width: 100%;
+}

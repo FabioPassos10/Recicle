@@ -1,80 +1,71 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import pontos from "./pontos.json";
+import { ButtonGroup, Button, Container, Col, Row, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from "reactstrap";
+import lixoMetal from '../../src/assets/lixo metal.png';
+import lixoOleo from '../../src/assets/lixo oleo.png';
+import lixoOrganico from '../../src/assets/lixo organico.png';
+import lixoEletronico from '../../src/assets/lixo eletronico.png';
+import lixoPapel from '../../src/assets/lixo papel.png';
+import lixoVidro from '../../src/assets/lixo vidro.png';
+import lixoPlastico from '../../src/assets/lixo plastico.png';
+
 
 import "./Styles/map.css";
 
 const Mapa = () => {
+  const [filtroTipo, setFiltroTipo] = useState("");
+  const [filtroCidade, setFiltroCidade] = useState("");
+
+  const pontosFiltrados = pontos
+    .filter((pontos) => pontos.descricao?.includes(filtroTipo))
+    .filter((pontos) => pontos.local?.includes(filtroCidade));
+  const mudarFiltroTipo = (arg: string) => setFiltroTipo(arg);
+  const mudarFiltroCidade = (arg: string) => setFiltroCidade(arg);
+
   return (
-    <MapContainer
-      center={[-22.432, -46.9582]}
-      zoom={15}
-      scrollWheelZoom={false}
-      fullscreenControl={true}
-    >
-      <TileLayer
-        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-      <Marker position={[-22.42535322294484, -46.9647394661826]}>
-        <Popup>
-          <h3>Hospital 22 de outubro</h3>
-          <p>pilhas - baterias</p>
-        </Popup>
-      </Marker>
-      <Marker position={[-22.426459414665985, -46.95148736206531]}>
-        <Popup>
-          <h3>Unidade de reciclagem de resíduos</h3>
-          <p>eletrônicos</p>
-        </Popup>
-      </Marker>
-      <Marker position={[-22.431625344502855, -46.938099329403144]}>
-        <Popup>
-          <h3>Santa Rita Reciclagem</h3>
-        </Popup>
-      </Marker>
-      <Marker position={[-22.43084032629549, -46.9594548331026]}>
-        <Popup>
-          <h3>Nelson Sucatas</h3>
-          <p>metal</p>
-        </Popup>
-      </Marker>
-      <Marker position={[-22.418894546959958, -46.97793400111249]}>
-        <Popup>
-          <h3>RBM Comércio Reciclagem e Beneficiamento de Metais</h3>
-          <p>metais</p>
-        </Popup>
-      </Marker>
-      <Marker position={[-22.372842415387957, -46.9542089465968]}>
-        <Popup>
-          <h3>Ecorecicla</h3>
-        </Popup>
-      </Marker>
-      <Marker position={[-22.415497503455164, -46.962247002417406]}>
-        <Popup>
-          <h3>Rei Fer (ferro velho)</h3>
-          <p>metal</p>
-        </Popup>
-      </Marker>
-      <Marker position={[-22.418425233503182, -46.971520289469275]}>
-        <Popup>
-          <h3>Pro Vaso Comércio Fertilizantes Orgânicos</h3>
-          <p>orgânicos</p>
-        </Popup>
-      </Marker>
-      <Marker position={[-22.434673516033623, -46.98502202642122]}>
-        <Popup>
-          <h3>Eco Óleo Comércio de Óleos</h3>
-          <p>óleo</p>
-        </Popup>
-      </Marker>
-      <Marker position={[-22.41516279382412, -46.96197569501861]}>
-        <Popup>
-          <h3>R J Pereira Mogi Mirim</h3>
-          <p>papel</p>
-        </Popup>
-      </Marker>
-    </MapContainer>
-   
+    <div className="container">
+
+      <div id="divButtons">
+        <Button id="botaoPapel" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Papel")}><img src={lixoPapel} width="50px" height="60px" /> Papel</Button>
+        <Button id="botaoMetal" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Metal")}><img src={lixoMetal} width="50px" height="60px" /> Metal</Button>
+        <Button id="botaoVidro" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Vidro")}><img src={lixoVidro} width="50px" height="60px" /> Vidro</Button>
+        <Button id="botaoPlastico" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Plástico")}><img src={lixoPlastico} width="50px" height="60px" /> Plástico</Button>
+        <Button id="botaoOrganicos" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Orgânicos")}><img src={lixoOrganico} width="50px" height="60px" /> Ôrganicos</Button>
+        <Button id="botaoEletronicos" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Eletrônicos")}><img src={lixoEletronico} width="50px" height="60px" /> Eletrônicos</Button>
+        <Button id="botaoOleos" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Óleos")}><img src={lixoOleo} width="50px" height="60px" /> Óleos</Button>
+        <Button id="botaoLimpar" className="tiposDeLixo" onClick={() => mudarFiltroTipo("")}>Limpar Filtros</Button>
+      </div>
+      <div>
+        <ButtonGroup id="cidades">
+          <Button outline onClick={() => mudarFiltroCidade("Mogi Mirim")}>Mogi Mirim</Button>
+          <Button outline onClick={() => mudarFiltroCidade("Mogi Guaçu")}>Mogi Guaçu</Button>
+          <Button outline onClick={() => mudarFiltroCidade("Itapira")}>Itapira</Button>
+          <Button outline onClick={() => mudarFiltroCidade("")}>Todas</Button>
+        </ButtonGroup>
+      </div>
+      <MapContainer
+        id="mapa"
+        center={[-22.4136, -46.9029]}
+        zoom={13}
+        scrollWheelZoom={false}
+        fullscreenControl={true}
+      >
+        <TileLayer
+          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        {pontosFiltrados.map((pontos) => (
+          <Marker position={[pontos.x, pontos.y]}>
+            <Popup>
+              <h5>{pontos.nome}</h5>
+              <p>{pontos.descricao}</p>
+              <p>{pontos.endereco}</p>
+            </Popup>
+          </Marker>
+        ))}
+      </MapContainer>
+    </div>
   );
 };
 
