@@ -3,60 +3,368 @@
     "nome": "Hospital 22 de outubro",
     "x": -22.42535322294484,
     "y": -46.9647394661826,
-    "descricao": "Pilhas e Baterias"
+    "descricao": "Pilhas, Eletrônicos",
+    "local": "Mogi Mirim",
+    "endereco":"Av. 22 de Outubro, 733 - Jardim Santa Helena, Mogi Mirim"
   },
   {
     "nome": "Unidade de Reciclagem de resíduos",
     "x": -22.426459414665985,
     "y": -46.95148736206531,
-    "descricao": "Eletrônicos"
+    "descricao": "Papel, Plástico, Vidro, Eletrônicos, Metal, Pilhas, Óleos",
+    "local": "Mogi Mirim",
+    "endereco": "Jardim Panorama, Mogi Mirim"
   },
   {
     "nome": "Santa Rita Reciclagem",
     "x": -22.431625344502855,
     "y": -46.938099329403144,
-    "descricao": ""
+    "descricao": "Papel, Plástico, Vidro, Eletrônicos, Metal, Pilhas, Óleos",
+    "local": "Mogi Mirim",
+    "endereco":"Rod. Élzio Mariotoni, 200 - Mirante, Mogi Mirim"
   },
   {
     "nome": "Nelson Sucatas",
     "x": -22.43084032629549,
     "y": -46.9594548331026,
-    "descricao": "Metal"
+    "descricao": "Metal",
+    "local": "Mogi Mirim",
+    "endereco":"Av. Santo Antônio, 369 - Centro, Mogi Mirim"
   },
   {
     "nome": "RBM Comércio Reciclagem e Beneficiamento de Metais",
     "x": -22.418894546959958,
     "y": -46.97793400111249,
-    "descricao": "Metal"
-  },
-  {
-    "nome": "Ecorecicla",
-    "x": -22.372842415387957,
-    "y": -46.9542089465968,
-    "descricao": ""
+    "descricao": "Metal",
+    "local": "Mogi Mirim",
+    "endereco": "Av. Jucelino Kubitscheck de Oliveira, 2001 - Lot. Inocoop, Mogi Mirim"
   },
   {
     "nome": "Rei Fer",
     "x": -22.415497503455164,
     "y": -46.962247002417406,
-    "descricao": "Metal (ferro velho)"
+    "descricao": "Metal",
+    "local": "Mogi Mirim",
+    "endereco":"Av. Pedro Botesi, 944 - Jardim Santa Helena, Mogi Mirim - SP, 13806-019"
   },
   {
     "nome": "Pro Vaso Comércio Fertilizantes Orgânicos",
     "x": -22.418425233503182,
     "y": -46.971520289469275,
-    "descricao": "Orgânicos"
+    "descricao": "Orgânicos",
+    "local": "Mogi Mirim",
+    "endereco":"Av. Jucelino Kubitscheck de Oliveira, 1429 - Lot. Inocoop, Mogi Mirim"
   },
   {
     "nome": "Eco Óleo Comércio de Óleos",
     "x": -22.434673516033623,
     "y": -46.98502202642122,
-    "descricao": "Óleos"
+    "descricao": "Óleos",
+    "local": "Mogi Mirim",
+    "endereco":"Rod. Wilson Finardi, 2 - Lot. Santa Ana, Mogi Mirim"
   },
   {
     "nome": "R J Pereira Mogi Mirim",
     "x": -22.41516279382412,
     "y": -46.96197569501861,
-    "descricao": "Papel"
+    "descricao": "Papel",
+    "local": "Mogi Mirim",
+    "endereco":"Av. Pedro Botesi, 948 - Vila Santa Luzia, Mogi Mirim"
+  },
+  {
+    "nome": "Ecorecicla",
+    "x": -22.372842415387957,
+    "y": -46.9542089465968,
+    "descricao": "Papel, Plástico, Vidro, Eletrônicos, Metal, Pilhas, Óleos",
+    "local": "Mogi Guaçu",
+    "endereco":"Rua Nair Casagrande, 284 - Lot. Guacu Parque Real, Mogi Guaçu"
+  },
+  {
+    "nome": "ECOPONTO CAIC",
+    "x": -22.332484735795166,
+    "y": -46.92531477847538,
+    "descricao": "Eletrônicos",
+    "local": "Mogi Guaçu",
+    "endereco": "Rua José Jaime de Campos, 30, Jardim Santa Terezinha"
+  },
+  {
+    "nome": "ECOPONTO Pelezão",
+    "x": -22.336785352064894,
+    "y": -46.95001875269149,
+    "descricao": "Eletrônicos",
+    "local": "Mogi Guaçu",
+    "endereco": "Centro Esportivo “Alcides Macena Maria”, Rua Irati, 28, Jardim Ypê II"
+  },
+  {
+    "nome": "ECOPONTO Pedalinho",
+    "x": -22.341782355014757,
+    "y": -46.931037077873775,
+    "descricao": "Eletrônicos",
+    "local": "Mogi Guaçu",
+    "endereco": "Jardim dos Lagos, Rua Reinaldo da Silveira Bueno, 47-235, Jardim Novo II"
+  },
+  {
+    "nome": "ECOPONTO SSM",
+    "x": -22.365595947186534,
+    "y": -46.950278607025716,
+    "descricao": "Papel, Plástico, Vidro, Eletrônicos, Metal, Pilhas, Óleos, Orgânicos",
+    "local": "Mogi Guaçu",
+    "endereco": "Pátio Municipal, Avenida Paulista, 346, Jardim Centenário"
+  },
+  {
+    "nome": "ECOPONTO Parque Chico Mendes",
+    "x": -22.388397972599325,
+    "y": -46.933431249823954,
+    "descricao": "Eletrônicos",
+    "local": "Mogi Guaçu",
+    "endereco": "Rua Benevenor de Mello, Jardim Bandeirantes"
+  },
+  {
+    "nome": "ECOPONTO ZONA SUL",
+    "x": -22.392309182366507,
+    "y": -46.9428974506262,
+    "descricao": "Eletrônicos",
+    "local": "Mogi Guaçu",
+    "endereco": "Rua Sérgio Sínico, 254, Jardim Itacolomy II"
+  },
+  {
+    "nome": "ECOPONTO ZONA LESTE",
+    "x": -22.35667286399753,
+    "y": -46.913447683396974,
+    "descricao": "Eletrônicos",
+    "local": "Mogi Guaçu",
+    "endereco": "Rua Guerino Papa, 91, Jardim Califórnia"
+  },
+  {
+    "nome": "ECOPONTO BULEVARD RIO",
+    "x": -22.37550413135196,
+    "y": -46.94472085424499,
+    "descricao": "Papel, Plástico, Vidro, Eletrônicos, Metal, Pilhas, Óleos",
+    "local": "Mogi Guaçu",
+    "endereco": "Rua Luiz Seco, Centro, Mogi Guaçu"
+  },
+  {
+    "nome": "TGA Tech Gestão Ambiental",
+    "x": -22.300192315653774,
+    "y": -46.97106661776257,
+    "descricao": "Papel, Plástico, Vidro, Eletrônicos, Metal, Pilhas",
+    "local": "Mogi Guaçu",
+    "endereco": "R. Jorge Margy, 1345 - Jardim California, Mogi Guaçu"
+  },
+  {
+    "nome": "Guaçu Reciclagem Indústria Comércio",
+    "x": -22.340278483399764,
+    "y": -46.93043223427779,
+    "descricao": "Papel, Plástico, Vidro, Eletrônicos, Metal, Pilhas, Óleos",
+    "local": "Mogi Guaçu",
+    "endereco": "R. Marli Aparecida Leme, 1445 - Jardim Sao Camilo, Mogi Guaçu"
+  },
+  {
+    "nome":"Emanuplast",
+    "x":-22.325432318567334,
+    "y":-46.929042244238076,
+    "descricao":"Plástico",
+    "local":"Mogi Guaçu",
+    "endereco":"R. Maria do C. V. Sampaio, 581 - Parque Industrial Joao Batista Caruso, Mogi Guaçu"
+  },
+  {
+    "nome":"GuaçuKata",
+    "x":-22.389308547712158,
+    "y":-46.93672349080468,
+    "descricao":"Metal",
+    "local":"Mogi Guaçu",
+    "endereco":"R. Prof. Armando dos Santos, 1211 - Jardim Bandeirantes, Mogi Guaçu"
+  },
+  {
+    "nome":"Eder sucatas",
+    "x":-22.35650513468922,
+    "y":-46.915735955614004,
+    "descricao":"Metal",
+    "local":"Mogi Guaçu",
+    "endereco":"Av. Nagibe Mate Merhej, 931 - Jardim Esplanada, Mogi Guaçu"
+  },
+  {
+    "nome":"Nelson reciclagem",
+    "x":-22.342150454265408,
+    "y":-46.944734178884076,
+    "descricao":"Papel, Plástico, Vidro, Eletrônicos, Metal, Pilhas, Óleos",
+    "local":"Mogi Guaçu",
+    "endereco":"R. Adelina Simões Signoretti, 40 - Vila Leila, Mogi Guaçu"
+  },
+  {
+    "nome":"Ferro Velho",
+    "x":-22.33689192157122,
+    "y":-46.92769124473802,
+    "descricao":"Metal",
+    "local":"Mogi Guaçu",
+    "endereco":"Av. Suécia, 1810 - Jardim Santa Terezinha, Mogi Guaçu"
+  },
+  {
+    "nome":"ReciclaRosa",
+    "x":-22.32874455958353,
+    "y":-46.94309621470686,
+    "descricao":"Papel",
+    "local":"Mogi Guaçu",
+    "endereco":"Rua Lourdes Cezaretto de Camargo, Mogi Guaçu"
+  },
+  {
+    "nome":"ECOPEL",
+    "x":-22.3081249533325,
+    "y":-46.9681798033854,
+    "descricao":"Papel, Plástico, Metal",
+    "local":"Mogi Guaçu",
+    "endereco":" Av. Nivaldo Roberto Ferne, 330 - Parque Industrial Mogi Guacu, Mogi Guaçu"
+  },
+  {
+    "nome":"Ferro Velho Romeu",
+    "x":-22.39206440117092,
+    "y":-46.9434098392938,
+    "descricao":"Metal",
+    "local":"Mogi Guaçu",
+    "endereco":"R. Sérgio Sínico - Jardim Guacu Mirim III, Mogi Guaçu"
+  },
+  {
+    "nome":"Associação Cooper 3Rs",
+    "x":-22.357524247056162,
+    "y":-46.91434985920787,
+    "descricao":"Papel, Plástico, Vidro, Eletrônicos, Metal, Pilhas",
+    "local":"Mogi Guaçu",
+    "endereco":"Av. Nagibe Mate Merhej, 1070 - Jardim Esplanada, Mogi Guaçu"
+  },
+  {
+    "nome":"L&A Reciclagem",
+    "x":-22.308660709675237,
+    "y":-46.947215079891905,
+    "descricao":"Papel, Plástico, Vidro, Eletrônicos, Metal, Pilhas, Óleos",
+    "local":"Mogi Guaçu",
+    "endereco":"R. João Batista Marchiori, número 20 - Parque residencial Ype Amarelo"
+  },
+  {
+    "nome":"Ferro Velho do Sr Pedro",
+    "x":-22.382039131273316,
+    "y":-46.926257781002654,
+    "descricao":"Metal",
+    "local":"Mogi Guaçu",
+    "endereco":"R. João Pessiquele, 20 - Jardim Santa Madalena, Mogi Guaçu"
+  },
+  {
+    "nome":"WF Brasil Indústria Reciclagem Refratários",
+    "x":-22.30267619369804,
+    "y":-46.97457421947854,
+    "descricao":"Papel, Plástico, Vidro, Eletrônicos, Metal, Pilhas",
+    "local":"Mogi Guaçu",
+    "endereco":"R. Oswaldo Maximiano, 106 - Mogi Guaçu"
+  },
+  {
+    "nome":"Cash Metais",
+    "x":-22.39845757534855,
+    "y":-46.944036371431174,
+    "descricao":"Metal",
+    "local":"Mogi Guaçu",
+    "endereco":"R. Simão Bortoto, 191 - Parque Duas Nascentes, Mogi Guaçu"
+  },
+  {
+    "nome":"Sucatas Carvalho",
+    "x":-22.318893634255005,
+    "y":-46.92223129502061,
+    "descricao":"Metal",
+    "local":"Mogi Guaçu",
+    "endereco":"R. Maria Aparecida Dequeche, 2285 - Jardim Santa Marta, Mogi Guaçu"
+  },
+  {
+    "nome":"Ferro velho do Gordo",
+    "x":-22.340534068276064,
+    "y":-46.94275822969389,
+    "descricao":"Metal",
+    "local":"Mogi Guaçu",
+    "endereco":"Av. Clara Lanzi Bueno, 461 - Jardim Sao Jose, Mogi Guaçu"
+  },
+  {
+    "nome":"Comércio de Ferros São João",
+    "x":-22.325766046166983,
+    "y":-46.95690402440096,
+    "descricao":"Metal",
+    "local":"Mogi Guaçu",
+    "endereco":"R. Cel. Delmiro Gouvêia, 136 - Parque Industrial Getulio Vargas, Mogi Guaçu"
+  },
+  {
+    "nome":"Jopava Sucatas",
+    "x":-22.424813280079572,
+    "y":-46.826784307206395,
+    "descricao":"Papel, Plástico, Vidro, Eletrônicos, Metal, Pilhas",
+    "local":"Itapira",
+    "endereco":"Rua Dorothéia de Freitas, 48 - Lot. Joao de Barros, Itapira"
+  },
+  {
+    "nome":"Salamanca Reciclagem",
+    "x":-22.425844300461517,
+    "y":-46.82323266556521,
+    "descricao":"Papel, Plástico, Vidro, Eletrônicos, Metal, Pilhas, Óleos",
+    "local":"Itapira",
+    "endereco":"Vila Penha do Rio do Peixe, Itapira"
+  },
+  {
+    "nome":"Brimapel",
+    "x":-22.424555794447993,
+    "y":-46.82793239626937,
+    "descricao":"Papel, Plástico, Vidro, Eletrônicos, Metal, Pilhas, Óleos",
+    "local":"Itapira",
+    "endereco":"R. João Batista Rocha, 120 - Lot. Della Rocha, Itapira"
+  },
+  {
+    "nome":"Sucata Leao",
+    "x":-22.424408270820827,
+    "y":-46.827374496814215,
+    "descricao":"Metal",
+    "local":"Itapira",
+    "endereco":"Av. Henriqueta Soares, 775 - Jardim Soares, Itapira"
+  },
+  {
+    "nome":"Sonho Verde Reciclagem",
+    "x":-22.433357231518425,
+    "y":-46.80971085323443,
+    "descricao":"Papel, Plástico, Vidro, Eletrônicos, Metal, Pilhas, Óleos",
+    "local":"Itapira",
+    "endereco":"R. Polônia, 269 - Jardim Rachel, Itapira"
+  },
+  {
+    "nome":"E J Comércio de Sucatas Brasil",
+    "x":-22.423655350719454,
+    "y":-46.82781910241736,
+    "descricao":"Metal",
+    "local":"Itapira",
+    "endereco":"Av. Henriqueta Soares, 855 - Jardim Soares, Itapira"
+  },
+  {
+    "nome":"Sucata Barão",
+    "x":-22.43465677071306,
+    "y":-46.81729118225187,
+    "descricao":"Metal",
+    "local":"Itapira",
+    "endereco":"Jardim Magali, Itapira"
+  },
+  {
+    "nome":"ASCORSI - Associação dos Catadores de Resíduos Sólidos de Itapira",
+    "x":-22.42199999024528,
+    "y":-46.82672434344118,
+    "descricao":"Papel, Plástico, Vidro, Eletrônicos, Metal, Pilhas, Óleos",
+    "local":"Itapira",
+    "endereco":"R. Prof. Fenizio Marchini, 1010 - Vila Penha do Rio do Peixe, Itapira"
+  },
+  {
+    "nome":"Sucatas Italianos",
+    "x":-22.442990128307134,
+    "y":-46.81852206433251,
+    "descricao":"Metal",
+    "local":"Itapira",
+    "endereco":"Av. dos Italianos, 1972 - Centro, Itapira"
+  },
+  {
+    "nome":"Cia de Saneamento Básico do Estado de São Paulo Sabesp",
+    "x":-22.44134188909563,
+    "y":-46.820252333647204,
+    "descricao":"Papel, Plástico, Vidro, Eletrônicos, Metal, Pilhas, Óleos, Orgânicos",
+    "local":"Itapira",
+    "endereco":"R. Rui Barbosa, 918 - Santa Cruz, Itapira"
   }
 ]

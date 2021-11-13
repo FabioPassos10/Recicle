@@ -20,10 +20,10 @@ function Grafico() {
   return (
     <div className="App">
       <header className="App-header">
-        <div style={{ display: "flex" }}>
+        <div style={{ display: "flex", height: "500px" }}>
           <Chart
-            width={"37.5rem"}
-            height={"25rem"}
+            width={"100%"}
+            height={"100%"}
             chartType="BarChart"
             data={dataBar}
             options={optionsBar}

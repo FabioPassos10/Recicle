@@ -1,50 +1,92 @@
-main {
-  margin-top: 2em;
+.graf {
+  box-shadow: 2em 2em rgb(160, 158, 158);
+  margin-bottom: 5em;
+  background: rgb(56, 53, 53);
+  color: white;
 }
 
-.divBarChart {
-  background-color: #3a3d3a;
-  color: #fff;
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 4%;
-  padding: 5% 5% 5% 5%;
-  box-shadow: 2em 2em rgb(193, 191, 191);
-}
-
-.divTexto {
-  margin-top: 1em;
-}
-
-.linha {
-  width: 90%;
-  height: 0.08em;
-  margin-left: 5%;
-  margin-right: 5%;
-  background-color: #3a3d3a;
-}
-
-.divPieChart {
-  background-color: #3a3d3a;
-  color: #fff;
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-bottom: 4%;
-  margin-top: 4%;
-  padding: 5% 5% 5% 5%;
-  box-shadow: 2em 2em rgb(193, 191, 191);
-}
-
-.textos {
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  font-size: 1.3em;
-}
-
-.sectionCards {
+.grafico {
   width: 100%;
-  background-color: #28525b;
+}
+
+.chart {
+  justify-content: center;
+  align-self: center;
+}
+
+.text-grafico {
+  margin-top: 30px;
+  padding-left: 0px;
+  padding-right: 15px;
+  width: 100%;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.text-chart {
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 60px;
+  width: 100%;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.text-mid {
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 75px;
+}
+
+.vl {
+  border-left: 8px solid rgb(0, 51, 51);
+}
+
+.dicas {
+  /* position: absolute; */
+  background-color: rgb(0, 51, 51);
+  width: 100%;
+  padding-top: 10px;
+  bottom: 0px;
+}
+
+.row {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.col-9 {
+  background-color: white;
+  /* height: 220px; */
+}
+
+.div-img {
+  background-color: white;
+}
+
+.img-dica {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.text-dicas {
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.hr {
+  /* width: 80%; */
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.divgraficPie {
+  height: 600px;
+  width: 100%;
 }
