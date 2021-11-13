@@ -1,33 +1,22 @@
 /* =========Home============= */
-
-#Mapadiv {
+/* #Mapadiv {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
   margin-top: 3.5%;
-  width: 100% !important;
-}
-
+  width: 95% !important;
+} */
 #Hero {
   background-color: rgb(160, 158, 158);
   width: 100%;
-  height: 50vh;
+  height: 1000px;
   max-height: 50vh;
-  font-family: 'Kalam', cursive;
-  font-weight: 700;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-image: url(../../assets/hero1.jpg);
-  background-size: cover;
+  background-size: 100vw;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: cover;
   box-shadow: 0 1em 1em rgba(0, 0, 0, 0.809);
 }
-
-#titleHero {
-  font-size: 180px;
-  margin-top: 104px;
-}
-
 /* #DivCMap {
   background-color: rgba(26, 49, 54, 0.966);
   width: 96%;
@@ -49,11 +38,7 @@
   background-color: #044844ea;
   box-shadow: 0 1em 1em 1em black;
   padding-bottom: 2%;
-  /* border-radius: 190px 190px 0px 0px; */
-  /* background-image: url(../../assets/IlustraçãoFreepik.png); */
-  /* background-repeat: no-repeat;
-  background-position-y: bottom; */
-  /* background-size: 1690px 500px; */
+  
 }
 
 @media (max-width: 1900px) and (orientation: landscape) {
@@ -62,26 +47,23 @@
     height: 0;
     border-left: 1490px solid transparent;
     border-right: 0px solid transparent;
-    border-bottom: 400px solid rgba(45, 175, 160, 0.66);
+    border-bottom: 400px solid rgba(57, 212, 223, 0.66);
     float: right;
     z-index: 1;
   }
 }
-
 @media (max-width: 1048px) {
-  #Hero {
+  /* #Hero {
     background-color: rgb(160, 158, 158);
     width: 100%;
-    height: 600px;
+    height: 900px;
     max-height: 50vh;
-    font-family: 'Kalam', cursive;
     background-image: url(../../assets/hero1.jpg);
-    background-size: cover;
     background-size: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
     box-shadow: 0 1em 1em rgba(0, 0, 0, 0.809);
-  }
+  } */
   #Triangulo {
     width: 0;
     height: 0;
@@ -92,7 +74,6 @@
     z-index: 1;
   }
 }
-
 @media (max-width: 948px) {
   #Triangulo {
     width: 0;
@@ -103,12 +84,16 @@
     float: right;
     z-index: 1;
   }
-  #titleHero {
-    font-size: 140px;
-    margin-top: 84px;
+  .RedondPt2 {
+    margin: auto;
+    border-radius: 360px;
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
 }
-
 @media (max-width: 700px) {
   #Triangulo {
     width: 0;
@@ -119,23 +104,30 @@
     float: right;
     z-index: 1;
   }
+  .RedondPt2 {
+    margin: auto;
+    border-radius: 360px;
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
 }
-
 @media (max-width: 500px) {
-  #Hero {
+  /* #Hero {
     background-color: rgb(160, 158, 158);
     width: 100%;
     height: 200px;
-    max-height: 20vh;
-    font-family: 'Kalam', cursive;
-    background-image: url(../../assets/hero1.jpg);
-    background-size: cover;
+    /* max-height: 20vh; */
+  /* background-image: url(../../assets/hero3.jpg);
     background-size: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0 1em 1em rgba(19, 18, 18, 0.809);
-  }
+    box-shadow: 0 1em 1em rgba(0, 0, 0, 0.809); */
+  /* 
+  } */
   #Triangulo {
     width: 0;
     height: 0;
@@ -145,25 +137,18 @@
     float: right;
     z-index: 1;
   }
-  #Hero {
+  /* #Hero {
     background-color: rgb(160, 158, 158);
     width: 100%;
     height: 500;
     max-height: 50vh;
-    background-image: url(../../assets/hero1.jpg);
-    background-size: cover;
+    background-image: url(../../assets/hero3.jpg);
     background-size: 50vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
     box-shadow: 0 1em 1em rgba(0, 0, 0, 0.809);
-  }
-
-  #titleHero {
-    font-size: 60px;
-    margin-top: 84px;
-  }
+  } */
 }
-
 .RedondPt2 {
   margin: auto;
   border-radius: 360px;
@@ -173,8 +158,131 @@
   margin-top: 2%;
   margin-bottom: 2%;
 }
-
-.col-HomeCard {
+.col-HomeCardOleos {
   background-color: white;
-  margin-right: 1%;
+  margin-right: 0.5%;
+  padding: 12px;
+  border-radius: 12px;
+  border: solid 3px orange;
+  margin-top: 5%;
+  box-shadow: 1em 1em 2em black;
+}
+
+.col-HomeCardPapel {
+  background-color: white;
+  margin-right: 0.5%;
+  padding: 12px;
+  border-radius: 12px;
+  border: solid 3px blue;
+  margin-top: 5%;
+  box-shadow: 1em 1em 2em black;
+}
+
+.col-HomeCardPlastico {
+  background-color: white;
+  margin-right: 0.5%;
+  padding: 12px;
+  border-radius: 12px;
+  border: solid 3px red;
+  margin-top: 5%;
+  box-shadow: 1em 1em 2em black;
+}
+
+.col-HomeCardMetal {
+  background-color: white;
+  margin-right: 0.5%;
+  padding: 12px;
+  border-radius: 12px;
+  border: solid 3px yellow;
+  margin-top: 5%;
+  box-shadow: 1em 1em 2em black;
+}
+
+.col-HomeCardVidro {
+  background-color: white;
+  margin-right: 0.5%;
+  padding: 12px;
+  border-radius: 12px;
+  border: solid 3px green;
+  margin-top: 5%;
+  box-shadow: 1em 1em 2em black;
+}
+
+.col-HomeCardOrganico {
+  background-color: white;
+  margin-right: 0.5%;
+  padding: 12px;
+  border-radius: 12px;
+  border: solid 3px brown;
+  margin-top: 5%;
+  box-shadow: 1em 1em 2em black;
+}
+
+.DivImgLixoPapel {
+  height: 200px;
+  width: 60%;
+  border-radius: 12px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+  border: solid 2px blue;
+}
+
+.DivImgLixoPlastico {
+  height: 200px;
+  width: 60%;
+  border-radius: 12px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+  border: solid 2px red;
+}
+
+.DivImgLixoMetal {
+  height: 200px;
+  width: 60%;
+  border-radius: 12px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+  border: solid 2px yellow;
+}
+
+.DivImgLixoVidro {
+  height: 200px;
+  width: 60%;
+  border-radius: 12px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+  border: solid 2px green;
+}
+
+.DivImgLixoOrganico {
+  height: 200px;
+  width: 60%;
+  border-radius: 12px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+  border: solid 2px brown;
+}
+
+.DivImgLixoOleos {
+  height: 200px;
+  width: 60%;
+  border-radius: 12px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+  border: solid 2px orange;
+}
+
+#DivIlustracaoHome {
+  background-image: url(../../assets/Ilust.png) !important;
+  z-index: 2;
+  background-size: cover;
+  width: 90%;
+  height: 600px;
+  margin: auto;
 }

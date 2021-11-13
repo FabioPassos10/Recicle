@@ -25,6 +25,7 @@ const Mapa = () => {
 
   return (
     <div className="container">
+
       <div id="divButtons">
         <Button id="botaoPapel" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Papel")}><img src={lixoPapel} width="50px" height="60px" /> Papel</Button>
         <Button id="botaoMetal" className="tiposDeLixo" onClick={() => mudarFiltroTipo("Metal")}><img src={lixoMetal} width="50px" height="60px" /> Metal</Button>
