@@ -1,13 +1,134 @@
-#grafico {
-  box-shadow: 1em 1em rgb(193, 191, 191);
-  background-color: gray;
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
-  padding-left: 5%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+.graf {
+  box-shadow: 2em 2em rgb(160, 158, 158);
+  margin-bottom: 5em;
+  background: rgb(56, 53, 53);
+  color: white;
 }
-#divtextDicas {
-  margin-top: 5%;
+
+.grafico {
+  width: 100%;
+}
+
+.chart {
+  justify-content: center;
+  align-self: center;
+}
+
+.text-grafico {
+  margin-top: 30px;
+  padding-left: 0px;
+  padding-right: 15px;
+  width: 100%;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.text-chart {
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 60px;
+  width: 100%;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.text-mid {
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 75px;
+}
+
+.vl {
+  border-left: 8px solid rgb(0, 51, 51);
+}
+
+.dicas {
+  /* position: absolute; */
+  background-color: rgb(0,51,51);
+  width: 100%;
+  padding-top: 10px;
+  bottom: 0px;
+}
+
+.row {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.col-9 {
+  background-color: white;
+  display: inline-block;
+}
+
+.div-img {
+  background-color: white;
+}
+
+.img-dica {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.hr {
+  /* width: 80%; */
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.more-text {
+  /* background-color: white; */
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1;
+  top: -60px;
+}
+
+.more-text:before {
+  transition: visibility 0.45s 0.45s, opacity 0.45s linear;
+}
+
+.text-dicas {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 20px;
+  transition: all 0.25s ease-out;
+  transform: scale(1);
+  background-color: white;
+  height: 100px;
+  position: relative;
+}
+
+.text-dicas:before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 145px;
+  background-color: white;
+  transform-origin: 0 0;
+  transition: all 0.25s ease-out;
+}
+
+.text-dicas:hover:before {
+  transition: all 0.25s ease-out;
+  z-index:9999;
+  transform: scaleY(1.5);
+}
+
+.text-dicas:hover .more-text{
+  transition: opacity 0.45s linear;
+  /* background-color:rgba(255, 255, 255, 1); */
+  z-index:9999;
+  visibility: visible;
+  opacity: 1;
+  top: -60px;
 }

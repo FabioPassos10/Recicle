@@ -1,39 +1,201 @@
 import React from "react";
+import Grafico from "../../Components/BarChart";
 import PieChart from "../../Components/PieChart";
-import BarChart from "../../Components/BarChart";
-import "./dicas.css";
-{
-  /* Importando o css que faltava */
-}
+
+import LixoAmarelo from "../../Components/lixoAmarelo";
+import LixoAzul from "../../Components/lixoAzul";
+import LixoMarrom from "../../Components/lixoMarrom";
+import LixoVerde from "../../Components/lixoVerde";
+import LixoVermelho from "../../Components/lixoVermelho";
+
+import "../../Pages/Dicas/dicas.css";
 
 export default function Dicas() {
   return (
     <section>
-      <div id="grafico">
-        <PieChart /> {/*Gráfico de pizza */}
-        {/* Eu separei os graficos em dois para você conseguir colocar eles nolocal correto*/}
-        <div id="divtextDicas">
-          {" "}
-          <p>
-            Lorem ipsum dolor sit amet. Eos iste nemo sit animi sunt vel enim
-            dignissimos sed alias voluptatem eos nostrum quis sed eaque vero et
-            Quis cupiditate. Est labore excepturi aut maxime distinctio eos
-            cumque quos sit facilis expedita. In ipsa dolor et molestiae
-            doloremque et impedit reprehenderit est voluptate dolores ea
-            corrupti suscipit. Qui galisum consequatur ut totam sequi ex vitae
-            ipsum.{" "}
-          </p>
-          <p>
-            Sed quas consequatur qui laboriosam veritatis est molestiae velit
-            aut nihil delectus sed dolor molestiae hic eius optio qui deserunt
-            accusantium. Eos nisi aliquid et perspiciatis corrupti vel dolor
-            molestiae sed rerum quae.{" "}
-          </p>
+      <div class="container">
+        <div class="row">
+          <div class="graf row">
+            <div class="col-xs-7 col-md-7 col-sm-12 grafico">
+              {<Grafico />}
+            </div>
+            <div class="col-xs-5 col-md-5 col-sm-12">
+              <p class="text-grafico">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                usto! Laudantium, quod?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                usto! Laudantium, quod?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                usto! Laudantium, quod?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                usto! Laudantium, quod?
+                </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="graf">
+            <div class="col-12 justify-content-center chart">
+              {<PieChart />}
+            </div>
+            <div class="col-12">
+              <p class="text-chart">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                  Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                  usto! Laudantium, quod?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                  Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                  usto! Laudantium, quod?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                  Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                  usto! Laudantium, quod?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                  Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                  usto! Laudantium, quod?
+                  </p>
+            </div>
+          </div>
         </div>
       </div>
-      {/* <BarChart /> */}
-      {/*  Gráfico de Barra */}
-      {/* usa esses de exemplo caso não qeira apaga tudo */}
+
+      <div class="container text-mid">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+          Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+          usto! Laudantium, quod?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+          Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+          usto! Laudantium, quod?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+          Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+          usto! Laudantium, quod?</p>
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-10 vl">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+            Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+            usto! Laudantium, quod?</p>
+          </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+          Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+          usto! Laudantium, quod?</p>
+      </div>
+
+      <div class="dicas d-flex">
+        <div class="container">
+          <div class="external">
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-md-2 col-sm-6 m-2 div-img d-flex justify-content-center">
+                    <div class="img-dica mt-3">
+                      {<LixoAmarelo/>}
+                    </div>
+                  </div>
+                  <div class="col-md-9 col-sm-7 m-2 text-dicas">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                        Aliquam possimus...
+                          <div class="more-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                          Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                          usto! Laudantium, quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                          Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                          usto! Laudantium, quod?</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr class="hr" />
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-md-9 col-sm-7 m-2 text-dicas">
+                  <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                        Aliquam possimus...
+                          <div class="more-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                          Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                          usto! Laudantium, quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                          Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                          usto! Laudantium, quod?</div>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-6 m-2 div-img d-flex justify-content-center">
+                    <div class="img-dica mt-3">
+                      {<LixoAzul/>}
+                    </div>
+                  </div>  
+                </div>
+              </div>
+              <hr class="hr" />
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-md-2 col-sm-6 m-2 div-img img-dica d-flex justify-content-center">
+                    <div class="img-dica mt-3">
+                      {<LixoMarrom/>}
+                    </div>
+                  </div>
+                  <div class="col-md-9 col-sm-7 m-2 text-dicas">
+                  <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                        Aliquam possimus...
+                          <div class="more-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                          Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                          usto! Laudantium, quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                          Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                          usto! Laudantium, quod?</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr class="hr" />
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-md-9 col-sm-7 m-2 text-dicas">
+                  <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                        Aliquam possimus...
+                          <div class="more-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                          Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                          usto! Laudantium, quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                          Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                          usto! Laudantium, quod?</div>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-sm-6 m-2 div-img d-flex justify-content-center">
+                    <div class="img-dica mt-3">
+                      {<LixoVerde/>}
+                    </div>  
+                  </div>
+                </div>
+              </div>
+              <hr class="hr" />
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-md-2 col-sm-6 m-2 div-img d-flex justify-content-center">
+                    <div class="img-dica mt-3">
+                      {<LixoVermelho/>}
+                    </div>
+                  </div>
+                  <div class="col-md-9 col-sm-6 m-2 text-dicas">
+                  <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                        Aliquam possimus...
+                          <div class="more-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                          Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                          usto! Laudantium, quod?Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minima dolorem facere optio quam. 
+                          Aliquam possimus ab qui facere placeat magnam laboriosam quod temporibus iure autem, exercitationem i
+                          usto! Laudantium, quod?</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
