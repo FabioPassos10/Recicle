@@ -158,15 +158,77 @@
   margin-top: 2%;
   margin-bottom: 2%;
 }
-.col-HomeCard {
+.col-HomeCardOleos {
   background-color: white;
   margin-right: 0.5%;
   padding: 12px;
   border-radius: 12px;
-  border: solid 2px red;
+  border: solid 3px orange;
   margin-top: 5%;
+  box-shadow: 1em 1em 2em black;
 }
-.DivImgLixo {
+
+.col-HomeCardPapel {
+  background-color: white;
+  margin-right: 0.5%;
+  padding: 12px;
+  border-radius: 12px;
+  border: solid 3px blue;
+  margin-top: 5%;
+  box-shadow: 1em 1em 2em black;
+}
+
+.col-HomeCardPlastico {
+  background-color: white;
+  margin-right: 0.5%;
+  padding: 12px;
+  border-radius: 12px;
+  border: solid 3px red;
+  margin-top: 5%;
+  box-shadow: 1em 1em 2em black;
+}
+
+.col-HomeCardMetal {
+  background-color: white;
+  margin-right: 0.5%;
+  padding: 12px;
+  border-radius: 12px;
+  border: solid 3px yellow;
+  margin-top: 5%;
+  box-shadow: 1em 1em 2em black;
+}
+
+.col-HomeCardVidro {
+  background-color: white;
+  margin-right: 0.5%;
+  padding: 12px;
+  border-radius: 12px;
+  border: solid 3px green;
+  margin-top: 5%;
+  box-shadow: 1em 1em 2em black;
+}
+
+.col-HomeCardOrganico {
+  background-color: white;
+  margin-right: 0.5%;
+  padding: 12px;
+  border-radius: 12px;
+  border: solid 3px brown;
+  margin-top: 5%;
+  box-shadow: 1em 1em 2em black;
+}
+
+.DivImgLixoPapel {
+  height: 200px;
+  width: 60%;
+  border-radius: 12px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+  border: solid 2px blue;
+}
+
+.DivImgLixoPlastico {
   height: 200px;
   width: 60%;
   border-radius: 12px;
@@ -175,6 +237,47 @@
   margin-bottom: 30px;
   border: solid 2px red;
 }
+
+.DivImgLixoMetal {
+  height: 200px;
+  width: 60%;
+  border-radius: 12px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+  border: solid 2px yellow;
+}
+
+.DivImgLixoVidro {
+  height: 200px;
+  width: 60%;
+  border-radius: 12px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+  border: solid 2px green;
+}
+
+.DivImgLixoOrganico {
+  height: 200px;
+  width: 60%;
+  border-radius: 12px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+  border: solid 2px brown;
+}
+
+.DivImgLixoOleos {
+  height: 200px;
+  width: 60%;
+  border-radius: 12px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+  border: solid 2px orange;
+}
+
 #DivIlustracaoHome {
   background-image: url(../../assets/Ilust.png) !important;
   z-index: 2;

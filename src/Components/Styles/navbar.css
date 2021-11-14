@@ -74,6 +74,7 @@ nav #icon {
     display: block;
   }
   nav ul {
+    z-index:1;
     position: fixed;
     width: 100%;
     height: 300px;
