@@ -3,10 +3,11 @@ import imglixo from "../assets/lixo verde.png";
 
 function Verde() {
   return (
-    <img
+    <img style={{ display: "flex", height: "150px", marginTop: "25px", marginBottom: "15px"}}
       src={imglixo}
       alt="Reciclagem"
-      height="200px"
+      height={"100%"}
+      width={"100%"}
       margin="10px"
     />
   );
