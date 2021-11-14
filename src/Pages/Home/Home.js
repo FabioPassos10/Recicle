@@ -18,7 +18,7 @@ export default function Home(props) {
           <Mapa></Mapa>
         </div>
       </div>
-      s <div id="Triangulo"></div>
+      <div id="Triangulo"></div>
       <div id="DivCard_Home">
         <div id="CardDent">
           <Container fluid={true} style={{ paddingTop: "200px" }}>
@@ -29,7 +29,7 @@ export default function Home(props) {
                   <div className="CardPartc1">
                     <div className="DivImgLixoPapel"></div>
                   </div>
-                    <div className="CardPartc1"> 
+                  <div className="CardPartc1">
                     Urna quam curabitur fermentum ullamcorper tortor metus ut
                     arcu scelerisque hac donec vitae, eleifend consequat
                     elementum justo suscipit libero nisl donec malesuada sapien
@@ -54,7 +54,7 @@ export default function Home(props) {
                   <div className="CardPartc1">
                     <div className="DivImgLixoPlastico"></div>
                   </div>
-                  <div className="CardPartc1"> 
+                  <div className="CardPartc1">
                     Urna quam curabitur fermentum ullamcorper tortor metus ut
                     arcu scelerisque hac donec vitae, eleifend consequat
                     elementum justo suscipit libero nisl donec malesuada sapien
@@ -78,7 +78,7 @@ export default function Home(props) {
                   <div className="CardPartc1">
                     <div className="DivImgLixoMetal"></div>
                   </div>
-                  <div className="CardPartc1"> 
+                  <div className="CardPartc1">
                     Urna quam curabitur fermentum ullamcorper tortor metus ut
                     arcu scelerisque hac donec vitae, eleifend consequat
                     elementum justo suscipit libero nisl donec malesuada sapien
@@ -107,7 +107,7 @@ export default function Home(props) {
                   <div className="CardPartc1">
                     <div className="DivImgLixoVidro"></div>
                   </div>
-                  <div className="CardPartc1"> 
+                  <div className="CardPartc1">
                     Urna quam curabitur fermentum ullamcorper tortor metus ut
                     arcu scelerisque hac donec vitae, eleifend consequat
                     elementum justo suscipit libero nisl donec malesuada sapien
