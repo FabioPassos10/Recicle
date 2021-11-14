@@ -17,7 +17,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
   border: none;
   padding: 2px;
 }
@@ -36,7 +36,7 @@
 
 #botaoMetal {
   padding: 3px;
-  color:  rgb(214, 200, 0);
+  color: rgb(214, 200, 0);
   background-color: rgb(255, 255, 255);
   border: 2px solid rgb(177, 165, 0);
 }
@@ -125,8 +125,8 @@
 
 #mapa {
   width: 100%;
-  height: 800px;
-  border: 60px solid rgba(26, 49, 54, 0.966);
+  height: 490px;
+  border: 20px solid rgba(48, 93, 103, 0.966);
   border-radius: 22px;
   z-index: 3 !important;
 }
