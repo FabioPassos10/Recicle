@@ -1,12 +1,12 @@
 import React from "react";
 import Grafico from "../../Components/BarChart";
 import PieChart from "../../Components/PieChart";
-
 import LixoAmarelo from "../../Components/lixoAmarelo";
 import LixoAzul from "../../Components/lixoAzul";
 import LixoMarrom from "../../Components/lixoMarrom";
 import LixoVerde from "../../Components/lixoVerde";
 import LixoVermelho from "../../Components/lixoVermelho";
+import Table from "../../Components/Table";
 
 import "../../Pages/Dicas/dicas.css";
 
@@ -87,6 +87,7 @@ export default function Dicas() {
           placeat magnam laboriosam quod temporibus iure autem, exercitationem i
           usto! Laudantium, quod?
         </p>
+        <Table />
         <div className="row">
           <div className="col-2"></div>
           <div className="col-10 vl">
@@ -106,21 +107,21 @@ export default function Dicas() {
         </p>
       </div>
 
-      <div class="dicas d-flex">
-        <div class="container">
-          <div class="external">
-            <div class="row">
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-md-2 col-sm-6 m-2 div-img d-flex justify-content-center">
-                    <div class="img-dica mt-3">{<LixoAmarelo />}</div>
+      <div className="dicas d-flex">
+        <div className="container">
+          <div className="external">
+            <div className="row">
+              <div className="col-12">
+                <div className="row">
+                  <div className="col-md-2 col-sm-6 m-2 div-img d-flex justify-content-center">
+                    <div className="img-dica mt-3">{<LixoAmarelo />}</div>
                   </div>
-                  <div class="col-md-9 col-sm-7 m-2 text-dicas">
+                  <div className="col-md-9 col-sm-7 m-2 text-dicas">
                     <div>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Possimus minima dolorem facere optio quam. Aliquam
                       possimus...
-                      <div class="more-text">
+                      <div className="more-text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Possimus minima dolorem facere optio quam. Aliquam
                         possimus ab qui facere placeat magnam laboriosam quod
@@ -135,15 +136,15 @@ export default function Dicas() {
                   </div>
                 </div>
               </div>
-              <hr class="hr" />
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-md-9 col-sm-7 m-2 text-dicas">
+              <hr className="hr" />
+              <div className="col-12">
+                <div className="row">
+                  <div className="col-md-9 col-sm-7 m-2 text-dicas">
                     <div>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Possimus minima dolorem facere optio quam. Aliquam
                       possimus...
-                      <div class="more-text">
+                      <div className="more-text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Possimus minima dolorem facere optio quam. Aliquam
                         possimus ab qui facere placeat magnam laboriosam quod
@@ -156,23 +157,23 @@ export default function Dicas() {
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-2 col-sm-6 m-2 div-img d-flex justify-content-center">
-                    <div class="img-dica mt-3">{<LixoAzul />}</div>
+                  <div className="col-md-2 col-sm-6 m-2 div-img d-flex justify-content-center">
+                    <div className="img-dica mt-3">{<LixoAzul />}</div>
                   </div>
                 </div>
               </div>
-              <hr class="hr" />
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-md-2 col-sm-6 m-2 div-img img-dica d-flex justify-content-center">
-                    <div class="img-dica mt-3">{<LixoMarrom />}</div>
+              <hr className="hr" />
+              <div className="col-12">
+                <div className="row">
+                  <div className="col-md-2 col-sm-6 m-2 div-img img-dica d-flex justify-content-center">
+                    <div className="img-dica mt-3">{<LixoMarrom />}</div>
                   </div>
-                  <div class="col-md-9 col-sm-7 m-2 text-dicas">
+                  <div className="col-md-9 col-sm-7 m-2 text-dicas">
                     <div>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Possimus minima dolorem facere optio quam. Aliquam
                       possimus...
-                      <div class="more-text">
+                      <div className="more-text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Possimus minima dolorem facere optio quam. Aliquam
                         possimus ab qui facere placeat magnam laboriosam quod
@@ -187,15 +188,15 @@ export default function Dicas() {
                   </div>
                 </div>
               </div>
-              <hr class="hr" />
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-md-9 col-sm-7 m-2 text-dicas">
+              <hr className="hr" />
+              <div className="col-12">
+                <div className="row">
+                  <div className="col-md-9 col-sm-7 m-2 text-dicas">
                     <div>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Possimus minima dolorem facere optio quam. Aliquam
                       possimus...
-                      <div class="more-text">
+                      <div className="more-text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Possimus minima dolorem facere optio quam. Aliquam
                         possimus ab qui facere placeat magnam laboriosam quod
@@ -208,23 +209,23 @@ export default function Dicas() {
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-2 col-sm-6 m-2 div-img d-flex justify-content-center">
-                    <div class="img-dica mt-3">{<LixoVerde />}</div>
+                  <div className="col-md-2 col-sm-6 m-2 div-img d-flex justify-content-center">
+                    <div className="img-dica mt-3">{<LixoVerde />}</div>
                   </div>
                 </div>
               </div>
-              <hr class="hr" />
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-md-2 col-sm-6 m-2 div-img d-flex justify-content-center">
-                    <div class="img-dica mt-3">{<LixoVermelho />}</div>
+              <hr className="hr" />
+              <div className="col-12">
+                <div className="row">
+                  <div className="col-md-2 col-sm-6 m-2 div-img d-flex justify-content-center">
+                    <div className="img-dica mt-3">{<LixoVermelho />}</div>
                   </div>
-                  <div class="col-md-9 col-sm-6 m-2 text-dicas">
+                  <div className="col-md-9 col-sm-6 m-2 text-dicas">
                     <div>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Possimus minima dolorem facere optio quam. Aliquam
                       possimus...
-                      <div class="more-text">
+                      <div className="more-text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Possimus minima dolorem facere optio quam. Aliquam
                         possimus ab qui facere placeat magnam laboriosam quod

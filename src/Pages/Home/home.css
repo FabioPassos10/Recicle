@@ -165,14 +165,16 @@
   margin-top: 2%;
   margin-bottom: 2%;
 }
-.col-HomeCardOleos {
+.col-HomeCardEletronico {
   background-color: white;
   margin-right: 0.5%;
   padding: 12px;
   border-radius: 12px;
-  border: solid 3px orange;
+  border: solid 3px rgb(171, 167, 160);
   margin-top: 5%;
   box-shadow: 1em 1em 2em black;
+  min-height: 600px;
+  height: 100%;
 }
 
 .col-HomeCardPapel {
@@ -183,6 +185,8 @@
   border: solid 3px blue;
   margin-top: 5%;
   box-shadow: 1em 1em 2em black;
+  min-height: 600px;
+  height: 100%;
 }
 
 .col-HomeCardPlastico {
@@ -193,6 +197,8 @@
   border: solid 3px red;
   margin-top: 5%;
   box-shadow: 1em 1em 2em black;
+  min-height: 600px;
+  height: 100%;
 }
 
 .col-HomeCardMetal {
@@ -203,6 +209,8 @@
   border: solid 3px yellow;
   margin-top: 5%;
   box-shadow: 1em 1em 2em black;
+  min-height: 600px;
+  height: 100%;
 }
 
 .col-HomeCardVidro {
@@ -213,6 +221,8 @@
   border: solid 3px green;
   margin-top: 5%;
   box-shadow: 1em 1em 2em black;
+  min-height: 600px;
+  height: 100%;
 }
 
 .col-HomeCardOrganico {
@@ -220,69 +230,69 @@
   margin-right: 0.5%;
   padding: 12px;
   border-radius: 12px;
-  border: solid 3px brown;
+  border: solid 3px rgb(90, 48, 48);
   margin-top: 5%;
   box-shadow: 1em 1em 2em black;
+  min-height: 600px;
+  height: 100%;
 }
 
 .DivImgLixoPapel {
-  height: 200px;
+  height: 250px;
   width: 60%;
   border-radius: 12px;
-  background-color: gray;
+  padding: 2px;
   margin: auto;
   margin-bottom: 30px;
   border: solid 2px blue;
 }
 
 .DivImgLixoPlastico {
-  height: 200px;
+  height: 250px;
   width: 60%;
   border-radius: 12px;
-  background-color: gray;
+
   margin: auto;
   margin-bottom: 30px;
   border: solid 2px red;
 }
 
 .DivImgLixoMetal {
-  height: 200px;
+  height: 250px;
   width: 60%;
   border-radius: 12px;
-  background-color: gray;
+  height: 250px;
+  width: 60%;
   margin: auto;
   margin-bottom: 30px;
   border: solid 2px yellow;
 }
 
 .DivImgLixoVidro {
-  height: 200px;
+  height: 250px;
   width: 60%;
   border-radius: 12px;
-  background-color: gray;
   margin: auto;
   margin-bottom: 30px;
   border: solid 2px green;
 }
 
 .DivImgLixoOrganico {
-  height: 200px;
+  height: 250px;
   width: 60%;
   border-radius: 12px;
-  background-color: gray;
   margin: auto;
   margin-bottom: 30px;
-  border: solid 2px brown;
+  border: solid 2px rgb(90, 48, 48);
 }
 
-.DivImgLixoOleos {
-  height: 200px;
+.DivImgLixoEletronico {
+  height: 250px;
   width: 60%;
   border-radius: 12px;
-  background-color: gray;
   margin: auto;
   margin-bottom: 30px;
-  border: solid 2px orange;
+  border: solid 2px rgb(171, 167, 160);
 }
 
 #DivIlustracaoHome {

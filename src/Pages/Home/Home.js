@@ -1,18 +1,21 @@
 import React, { Component, useState } from "react";
-import Cards from "../../Components/Card";
-import "../../Components/Styles/card.css";
 import { Container, Row, Col } from "reactstrap";
 import Mapa from "../../Components/Map.tsx";
 import "./home.css";
-// import Ilustracao from "../../assets/ilust";
+import Papel from "../../Components/imgsCardHome/Papel";
+import Plastico from "../../Components/imgsCardHome/Plastico";
+import Metal from "../../Components/imgsCardHome/Metal";
+import Vidro from "../../Components/imgsCardHome/Vidro";
+import Organico from "../../Components/imgsCardHome/Organico";
+import Eletronico from "../../Components/imgsCardHome/Eletronico";
+import Ilustracao from "../../Components/imgsCardHome/Ilustracao";
 
 export default function Home(props) {
   return (
     <>
       <Container id="Hero" fluid={true}>
-        <h1 id="titleHero"> ReCircle </h1>
+        <h1 id="titleHero"> Recicle </h1>
       </Container>
-
       <div id="DivCMap">
         <div id="Mapadiv">
           <Mapa></Mapa>
@@ -27,7 +30,10 @@ export default function Home(props) {
                 <div className="col-HomeCardPapel">
                   {" "}
                   <div className="CardPartc1">
-                    <div className="DivImgLixoPapel"></div>
+                    <div className="DivImgLixoPapel">
+                      {" "}
+                      <Papel />
+                    </div>
                   </div>
                   <div className="CardPartc1">
                     Urna quam curabitur fermentum ullamcorper tortor metus ut
@@ -52,7 +58,9 @@ export default function Home(props) {
                 <div className="col-HomeCardPlastico">
                   {" "}
                   <div className="CardPartc1">
-                    <div className="DivImgLixoPlastico"></div>
+                    <div className="DivImgLixoPlastico">
+                      <Plastico />
+                    </div>
                   </div>
                   <div className="CardPartc1">
                     Urna quam curabitur fermentum ullamcorper tortor metus ut
@@ -76,7 +84,9 @@ export default function Home(props) {
               <Col>
                 <div className="col-HomeCardMetal">
                   <div className="CardPartc1">
-                    <div className="DivImgLixoMetal"></div>
+                    <div className="DivImgLixoMetal">
+                      <Metal />
+                    </div>
                   </div>
                   <div className="CardPartc1">
                     Urna quam curabitur fermentum ullamcorper tortor metus ut
@@ -103,9 +113,10 @@ export default function Home(props) {
             <Row xs="1" md="2" sm="1" xl="3" lg="3">
               <Col>
                 <div className="col-HomeCardVidro">
-                  {" "}
                   <div className="CardPartc1">
-                    <div className="DivImgLixoVidro"></div>
+                    <div className="DivImgLixoVidro">
+                      <Vidro />
+                    </div>
                   </div>
                   <div className="CardPartc1">
                     Urna quam curabitur fermentum ullamcorper tortor metus ut
@@ -131,7 +142,9 @@ export default function Home(props) {
                 <div className="col-HomeCardOrganico">
                   {" "}
                   <div className="CardPartc1">
-                    <div className="DivImgLixoOrganico"></div>
+                    <div className="DivImgLixoOrganico">
+                      <Organico />
+                    </div>
                   </div>
                   <div className="CardPartc1">
                     Urna quam curabitur fermentum ullamcorper tortor metus ut
@@ -153,9 +166,11 @@ export default function Home(props) {
               </Col>
               <br />
               <Col>
-                <div className="col-HomeCardOleos">
+                <div className="col-HomeCardEletronico">
                   <div className="CardPartc1">
-                    <div className="DivImgLixoOleos"></div>
+                    <div className="DivImgLixoEletronico">
+                      <Eletronico />
+                    </div>
                   </div>
                   <div className="CardPartc1">
                     Urna quam curabitur fermentum ullamcorper tortor metus ut
@@ -178,7 +193,9 @@ export default function Home(props) {
             </Row>
           </Container>
 
-          <Container id="DivIlustracaoHome" fluid={true}></Container>
+          <Container fluid={true}>
+            <Ilustracao />
+          </Container>
         </div>
       </div>
     </>

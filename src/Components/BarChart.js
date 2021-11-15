@@ -20,7 +20,7 @@ function Grafico() {
   return (
     <div className="App">
       <header className="App-header">
-        <div style={{ display: "flex", height: "500px" }}>
+        <div style={{ display: "flex", height: "400px" }}>
           <Chart
             width={"100%"}
             height={"100%"}

@@ -1,6 +1,7 @@
+import "./sobre.css";
 import React from "react";
 import { Row, Container, Col } from "reactstrap";
-import "./sobre.css";
+import { GithubOutlined } from "@ant-design/icons";
 
 export default function sobre(props) {
   return (
@@ -36,7 +37,7 @@ export default function sobre(props) {
         </Row>
         </Container>
 
-      <Container fluid={true} >
+      <Container fluid={true}>
         <Row xs="1" md="2" sm="1" xl="3" lg="3">
           <Col>
             <div className="col-SobreCard">
@@ -153,17 +154,33 @@ export default function sobre(props) {
         <Row>
           <Col className="Col-CardOrientador">
             <p>
-              Lorem ipsum dapibus felis neque sociosqu magna vestibulum velit dictumst sodales pharetra enim, integer et a blandit fusce viverra eros quis suspendisse elementum habitant.
-              conubia ornare vitae facilisis egestas lacus venenatis sem augue arcu magna phasellus platea sem imperdiet elementum curae ante, maecenas arcu iaculis vestibulum augue vestibulum varius semper volutpat placerat sollicitudin volutpat vestibulum semper ad.
-              mi vivamus a non condimentum sed eu purus malesuada dapibus consectetur, nec tincidunt cursus cubilia lacinia vestibulum facilisis hendrerit gravida, etiam ad neque vestibulum commodo sagittis imperdiet est quisque.
-              curae consectetur justo inceptos morbi dictum augue quisque, purus accumsan mollis posuere placerat rhoncus, curabitur posuere lacus mattis condimentum senectus.
-</p>
+              Lorem ipsum dapibus felis neque sociosqu magna vestibulum velit
+              dictumst sodales pharetra enim, integer et a blandit fusce viverra
+              eros quis suspendisse elementum habitant. conubia ornare vitae
+              facilisis egestas lacus venenatis sem augue arcu magna phasellus
+              platea sem imperdiet elementum curae ante, maecenas arcu iaculis
+              vestibulum augue vestibulum varius semper volutpat placerat
+              sollicitudin volutpat vestibulum semper ad. mi vivamus a non
+              condimentum sed eu purus malesuada dapibus consectetur, nec
+              tincidunt cursus cubilia lacinia vestibulum facilisis hendrerit
+              gravida, etiam ad neque vestibulum commodo sagittis imperdiet est
+              quisque. curae consectetur justo inceptos morbi dictum augue
+              quisque, purus accumsan mollis posuere placerat rhoncus, curabitur
+              posuere lacus mattis condimentum senectus.
+            </p>
             <p>
-              Venenatis habitasse eleifend tempor pharetra ligula metus blandit lacus, quam iaculis magna dapibus libero auctor congue dolor auctor, posuere aptent conubia felis fusce duis odio.
-              ante nisi porttitor proin libero tortor ligula fermentum porttitor massa, lobortis ut risus odio arcu potenti molestie tellus sociosqu adipiscing, sociosqu curae habitant cubilia urna erat rutrum velit.
-              mollis ut semper mauris malesuada nisi nec luctus inceptos sodales, vestibulum turpis inceptos fusce sociosqu etiam massa torquent, velit arcu duis fringilla ante habitasse congue phasellus.
-              morbi ad auctor cubilia sagittis eleifend, nam netus nostra mi non, class sed mattis blandit.
-</p>
+              Venenatis habitasse eleifend tempor pharetra ligula metus blandit
+              lacus, quam iaculis magna dapibus libero auctor congue dolor
+              auctor, posuere aptent conubia felis fusce duis odio. ante nisi
+              porttitor proin libero tortor ligula fermentum porttitor massa,
+              lobortis ut risus odio arcu potenti molestie tellus sociosqu
+              adipiscing, sociosqu curae habitant cubilia urna erat rutrum
+              velit. mollis ut semper mauris malesuada nisi nec luctus inceptos
+              sodales, vestibulum turpis inceptos fusce sociosqu etiam massa
+              torquent, velit arcu duis fringilla ante habitasse congue
+              phasellus. morbi ad auctor cubilia sagittis eleifend, nam netus
+              nostra mi non, class sed mattis blandit.
+            </p>
           </Col>
         </Row>
       </Container>
