@@ -6,21 +6,21 @@
   -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 5px 16px 10px rgba(0,0,0,0.26); 
   box-shadow: 0px 10px 13px -7px #000000, 0px 5px 16px 10px rgba(0,0,0,0.26);
   padding: 12px;
-  border: 2px solid gray;
+  border: 2px solid teal;
   border-radius: 12px;
   height: 100%;
   min-height: 800px;
+  margin-bottom: 5%;
 }
 
 .CardFoto {
   margin: auto;
-  background-color: gray;
   margin-top: 2%;
   margin-bottom: 2%;
-  width: 300px;
-  height: 300px;
-  border: 2px solid gray;
-  border-radius: 12px;
+  width: 310px;
+  height: 310px;
+  border: 10px inset teal;
+  border-radius: 360px;
 }
 
 .CardTexto {
@@ -34,4 +34,50 @@
   border: 2px solid gray;
   border-radius: 12px;
   width: 100%;
+}
+
+.p-Sobre {
+  text-align: justify;
+}
+
+.DivImgAlexandre {
+  background-image: url(../../assets/perfil\ alexandre.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.DivImgCamile {
+  background-image: url(../../assets/perfil\ camile.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.DivImgFabio {
+  background-image: url(../../assets/perfil\ fabio.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.DivImgJoaoP {
+  background-image: url(../../assets/perfil\ joao.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.DivImgLuan {
+  background-image: url(../../assets/perfil\ luan.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.DivImgLuiz {
+  background-image: url(../../assets/perfil\ luis.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
