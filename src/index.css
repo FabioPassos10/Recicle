@@ -64,3 +64,9 @@ section {
     height: 100%;
   }
 }
+a.active,
+a:hover,
+a.visited {
+  color: rgb(0, 255, 170) !important;
+  transform: 0.5s;
+}

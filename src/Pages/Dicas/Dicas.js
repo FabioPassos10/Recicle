@@ -1,12 +1,12 @@
 import React from "react";
 import Grafico from "../../Components/BarChart";
 import PieChart from "../../Components/PieChart";
-
 import LixoAmarelo from "../../Components/lixoAmarelo";
 import LixoAzul from "../../Components/lixoAzul";
 import LixoMarrom from "../../Components/lixoMarrom";
 import LixoVerde from "../../Components/lixoVerde";
 import LixoVermelho from "../../Components/lixoVermelho";
+import Table from "../../Components/Table";
 
 import "../../Pages/Dicas/dicas.css";
 
@@ -87,6 +87,7 @@ export default function Dicas() {
           placeat magnam laboriosam quod temporibus iure autem, exercitationem i
           usto! Laudantium, quod?
         </p>
+        <Table />
         <div className="row">
           <div className="col-2"></div>
           <div className="col-10 vl">

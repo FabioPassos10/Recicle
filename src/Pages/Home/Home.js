@@ -1,6 +1,4 @@
 import React, { Component, useState } from "react";
-import Cards from "../../Components/Card";
-import "../../Components/Styles/card.css";
 import { Container, Row, Col } from "reactstrap";
 import Mapa from "../../Components/Map.tsx";
 import "./home.css";
@@ -18,7 +16,6 @@ export default function Home(props) {
       <Container id="Hero" fluid={true}>
         <h1 id="titleHero"> Recicle </h1>
       </Container>
-
       <div id="DivCMap">
         <div id="Mapadiv">
           <Mapa></Mapa>
