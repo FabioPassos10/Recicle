@@ -45,21 +45,12 @@ export default function sobre(props) {
                 <div className="DivImgAlexandre"></div>
               </div>
               <div className="CardTexto">
-                Urna quam curabitur fermentum ullamcorper tortor metus ut
-                arcu scelerisque hac donec vitae, eleifend consequat
-                elementum justo suscipit libero nisl donec malesuada sapien
-                suscipit ultrices fusce, ut faucibus nam est vel vivamus
-                condimentum tincidunt senectus neque porttitor. tempus
-                vivamus integer dictumst sit tristique ac eleifend odio
-                eros, platea dapibus enim tempor per fermentum scelerisque
-                suscipit, erat pellentesque justo orci in aptent purus
-                netus. egestas himenaeos ullamcorper malesuada senectus
-                pretium aenean, vivamus at tincidunt lacinia cubilia luctus
-                proin, vulputate sodales dapibus tellus quisque. tristique
-                facilisis risus ut mollis commodo fermentum aenean neque, in
-                fusce id dictumst potenti vivamus aptent sodales mattis,
-                porttitor per felis curabitur donec ornare interdum.
-                  </div>
+                Alexandre exerceu participação intrínseca ao ramo de design em conjunto com o desenvolvimento
+                para web. Assim, o membro da equipe colaborou através da utilização das linguagens de
+                programação para a execução de páginas apresentadas no site, detendo como objetivo a
+                concretização da aparência idealizada e definida em um protótipo do projeto – qual prestou
+                auxílio à criação.
+              </div>
             </div>
           </Col>
           <br />
@@ -70,21 +61,12 @@ export default function sobre(props) {
                 <div className="DivImgCamile"></div>
               </div>
               <div className="CardTexto">
-                Urna quam curabitur fermentum ullamcorper tortor metus ut
-                arcu scelerisque hac donec vitae, eleifend consequat
-                elementum justo suscipit libero nisl donec malesuada sapien
-                suscipit ultrices fusce, ut faucibus nam est vel vivamus
-                condimentum tincidunt senectus neque porttitor. tempus
-                vivamus integer dictumst sit tristique ac eleifend odio
-                eros, platea dapibus enim tempor per fermentum scelerisque
-                suscipit, erat pellentesque justo orci in aptent purus
-                netus. egestas himenaeos ullamcorper malesuada senectus
-                pretium aenean, vivamus at tincidunt lacinia cubilia luctus
-                proin, vulputate sodales dapibus tellus quisque. tristique
-                facilisis risus ut mollis commodo fermentum aenean neque, in
-                fusce id dictumst potenti vivamus aptent sodales mattis,
-                porttitor per felis curabitur donec ornare interdum.
-                  </div>
+                Camile desempenhou funções correlatas ao design do produto apresentado, sendo a responsável pela
+                elaboração de uma logo para o projeto. Sua contribuição se estendeu à reunião de informações e
+                construção das transcrições implementadas às páginas do site que, detinham intuito de cumprir os
+                objetivos da ideia executada: compartilhar informações necessárias para a disseminação da Educação
+                Ambiental e reunir pontos de descarte de lixo próximos à região.
+              </div>
             </div>
           </Col>
           <br />
