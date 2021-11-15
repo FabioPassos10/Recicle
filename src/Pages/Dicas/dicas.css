@@ -1,6 +1,6 @@
 .graf {
-  box-shadow: 2em 2em rgb(160, 158, 158);
-  margin-bottom: 5em;
+  box-shadow: 1em 1em rgba(4, 52, 59, 0.898);
+  margin-bottom: 5%;
   background: rgb(56, 53, 53);
   color: white;
 }
@@ -40,7 +40,7 @@
 }
 
 .vl {
-  border-left: 8px solid rgb(0, 51, 51);
+  border-left: 8px solid rgb(8, 122, 140);
 }
 
 .dicas {
@@ -120,14 +120,14 @@
 
 .text-dicas:hover:before {
   transition: all 0.25s ease-out;
-  z-index:9999;
+  z-index: 9999;
   transform: scaleY(1.5);
 }
 
-.text-dicas:hover .more-text{
+.text-dicas:hover .more-text {
   transition: opacity 0.45s linear;
   /* background-color:rgba(255, 255, 255, 1); */
-  z-index:9999;
+  z-index: 9999;
   visibility: visible;
   opacity: 1;
   top: -60px;
