@@ -178,6 +178,7 @@
 }
 
 .col-HomeCardPapel {
+  grid-template-columns: 150px;
   background-color: white;
   margin-right: 0.5%;
   padding: 12px;
@@ -193,15 +194,17 @@
   background-color: white;
   margin-right: 0.5%;
   padding: 12px;
+  margin-top: 5%;
   border-radius: 12px;
   border: solid 3px red;
-  margin-top: 5%;
+  grid-template-columns: 150px;
   box-shadow: 1em 1em 2em black;
   min-height: 600px;
   height: 100%;
 }
 
 .col-HomeCardMetal {
+  grid-template-columns: 150px;
   background-color: white;
   margin-right: 0.5%;
   padding: 12px;
@@ -214,6 +217,7 @@
 }
 
 .col-HomeCardVidro {
+  grid-template-columns: 150px;
   background-color: white;
   margin-right: 0.5%;
   padding: 12px;
@@ -226,6 +230,7 @@
 }
 
 .col-HomeCardOrganico {
+  grid-template-columns: 150px;
   background-color: white;
   margin-right: 0.5%;
   padding: 12px;

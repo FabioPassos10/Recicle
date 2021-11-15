@@ -13,10 +13,12 @@ export default function NavBar() {
       ></link>
       <nav>
         {/* <Logo className="logo" /> */}
-        <label className="logo">ReCircle</label>
+        <label className="logo">Recicle</label>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <a id="aHome" href="/">
+              Home
+            </a>
           </li>
           <li>
             <a href="/Dicas">Dicas</a>
