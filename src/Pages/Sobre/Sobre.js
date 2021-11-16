@@ -2,11 +2,12 @@ import "./sobre.css";
 import React from "react";
 import { Row, Container, Col } from "reactstrap";
 import { GithubOutlined, LinkedinOutlined } from "@ant-design/icons";
+import ImgOrientador from "../../Components/imgsSobre/ImgOrientador";
 
 export default function sobre(props) {
   return (
     <section>
-      <Container id="Container-textSobre">
+      <Container className="Container-textSobre">
         <Row>
           <Col>
             <h3></h3>
@@ -198,37 +199,70 @@ export default function sobre(props) {
         </Row>
       </Container>
 
+      <Container className="Container-textSobre">
+        <Row>
+          <Col>
+            <h3>Orientadores</h3>
+          </Col>
+        </Row>
+      </Container>
+      <Container fluid={true}>
+        <Row xs="1" md="2" sm="1" xl="2" lg="2">
+          <Col>
+          <div className="col-SobreCard">
+              {" "}
+              <div className="CardFoto">
+                <div className="DivImgMaromo"></div>
+              </div>
+              <div className="CardTexto">
+              <h4>Marcos Roberto de Morais 👨‍🏫</h4>
+                <br/>
+                Marcos (Maromo) Roberto foi um dos professores que orientou a criação do TCC juntamente com a 
+                professora Simone Andreia. Graduado em Processamento de Dados (1995) Especialista em Administração de 
+                Sistemas de Informação (2005) Mestre em Educação (2010), Maromo hoje atua como professor na Escola Tecnica
+                Pedro Ferreira Alves e na Faculdade de Tecnologia Arthur de Azevedo.
+              </div>
+              <div className="redes_cardSobreMaromo">
+                <a className="a_sobre" href="https://github.com/maromo71" target="_blank">
+                  <GithubOutlined style={{}}/>
+                </a>
+              </div>
+            </div>
+            {/* */}
+          </Col>
+          <br/>
+          <Col>
+          <div className="col-SobreCard">
+              {" "}
+              <div className="CardFoto">
+                <div className="DivImgSimone"></div>
+              </div>
+              <div className="CardTexto">
+              <h4>Simone Andreia de Campos 👩‍🏫</h4>
+                <br/>
+                João idealizou o projeto em objetivo de facilitar e ajudar na procura do ideal descarte dos lixos que, 
+                muitas das vezes, é desconhecido por parte do usuário. O membro da equipe gerou os primeiros protótipos 
+                do site e foi responsável, posteriormente, por auxiliar na criação e desenvolvimentos dos demais recursos 
+                funcionais e visuais do projeto. A aba de conteúdo sobre cada membro do projeto juntamente com a localização e reconhecimento 
+                de todos os pontos de descarte da região foi elaborada por ele. 
+              </div>
+              <div className="redes_cardSobre">
+                <a className="a_sobre" href="https://github.com/PudimTI" target="_blank">
+                  <GithubOutlined style={{paddingRight:"12px"}}/>
+                </a>
+                <a className="a_sobre" href="" target="_blank">
+                  <LinkedinOutlined />
+                </a> 
+              </div>
+            </div>
+            {/* */}
+          </Col>
+        </Row>
+        </Container>
       <Container>
         <Row>
           <Col className="Col-CardOrientador">
-            <p>
-              Lorem ipsum dapibus felis neque sociosqu magna vestibulum velit
-              dictumst sodales pharetra enim, integer et a blandit fusce viverra
-              eros quis suspendisse elementum habitant. conubia ornare vitae
-              facilisis egestas lacus venenatis sem augue arcu magna phasellus
-              platea sem imperdiet elementum curae ante, maecenas arcu iaculis
-              vestibulum augue vestibulum varius semper volutpat placerat
-              sollicitudin volutpat vestibulum semper ad. mi vivamus a non
-              condimentum sed eu purus malesuada dapibus consectetur, nec
-              tincidunt cursus cubilia lacinia vestibulum facilisis hendrerit
-              gravida, etiam ad neque vestibulum commodo sagittis imperdiet est
-              quisque. curae consectetur justo inceptos morbi dictum augue
-              quisque, purus accumsan mollis posuere placerat rhoncus, curabitur
-              posuere lacus mattis condimentum senectus.
-            </p>
-            <p>
-              Venenatis habitasse eleifend tempor pharetra ligula metus blandit
-              lacus, quam iaculis magna dapibus libero auctor congue dolor
-              auctor, posuere aptent conubia felis fusce duis odio. ante nisi
-              porttitor proin libero tortor ligula fermentum porttitor massa,
-              lobortis ut risus odio arcu potenti molestie tellus sociosqu
-              adipiscing, sociosqu curae habitant cubilia urna erat rutrum
-              velit. mollis ut semper mauris malesuada nisi nec luctus inceptos
-              sodales, vestibulum turpis inceptos fusce sociosqu etiam massa
-              torquent, velit arcu duis fringilla ante habitasse congue
-              phasellus. morbi ad auctor cubilia sagittis eleifend, nam netus
-              nostra mi non, class sed mattis blandit.
-            </p>
+            <ImgOrientador></ImgOrientador>
           </Col>
         </Row>
       </Container>

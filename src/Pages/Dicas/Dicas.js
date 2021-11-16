@@ -44,46 +44,50 @@ export default function Dicas() {
             <PieChart />
 
             <div className="col-12">
+                <h4>Produção de Lixo no Brasil</h4>
               <p className="text-chart">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus minima dolorem facere optio quam. Aliquam possimus ab
-                qui facere placeat magnam laboriosam quod temporibus iure autem,
-                exercitationem i usto! Laudantium, quod? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Possimus minima dolorem
-                facere optio quam. Aliquam possimus ab qui facere placeat magnam
-                laboriosam quod temporibus iure autem, exercitationem i usto!
-                Laudantium, quod? Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Possimus minima dolorem facere optio quam.
-                Aliquam possimus ab qui facere placeat magnam laboriosam quod
-                temporibus iure autem, exercitationem i usto! Laudantium, quod?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus minima dolorem facere optio quam. Aliquam possimus ab
-                qui facere placeat magnam laboriosam quod temporibus iure autem,
-                exercitationem i usto! Laudantium, quod?
+              Conforme cita Karin Lehnardt, mais da metade do lixo brasileiro é orgânico, ou seja, originário 
+              de seres vivos e, do total produzido, apenas 3% são reciclados. São Paulo consiste na cidade 
+              brasileira que mais produz lixo, porém a região Nordeste localiza a maior quantidade de resíduos 
+              sem destinação adequada. Um brasileiro produz, em média, 1 kg de lixo por dia, assim, o país 
+              produz cerca de 250 mil toneladas de lixo diariamente. 
               </p>
             </div>
           </div>
         </div>
       </div>
-
+        <h4 id="tituloRM">A Reciclagem no Mundo</h4>
       <div className="container text-mid">
+        
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-          minima dolorem facere optio quam. Aliquam possimus ab qui facere
-          placeat magnam laboriosam quod temporibus iure autem, exercitationem i
-          usto! Laudantium, quod?
+          Segundo dispõe Karin Lehnrdt, a probabilidade de que norte-americanos reciclem é maior do que
+          votem e, mulheres normalmente expressam maior preocupação com o meio ambiente, sendo melhores
+          recicladoras do que os homens.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-          minima dolorem facere optio quam. Aliquam possimus ab qui facere
-          placeat magnam laboriosam quod temporibus iure autem, exercitationem i
-          usto! Laudantium, quod?
+          No final dos anos 1800, os vendedores ambulantes agiam como recicladores iniciais, carregando
+          sacos de itens reutilizáveis em seus vagões para vender para lojas gerais. À medida que menos
+          pessoas criavam seus próprios bens após a Revolução Industrial, o conhecimento especializado de
+          habilidades e materiais de trabalho manual tornou-se antigo. As sobras e sucatas que antes eram
+          consideradas valiosas e reutilizáveis se tornaram lixo.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-          minima dolorem facere optio quam. Aliquam possimus ab qui facere
-          placeat magnam laboriosam quod temporibus iure autem, exercitationem i
-          usto! Laudantium, quod?
+          A primeira incineração organizada de lixo começou na Inglaterra em 1874. Porém, reciclagem economiza
+          duas vezes mais energia do que a queima de lixo em um incinerador.
+        </p>
+        <p>
+          Suíça lidera taxas de reciclagem, com 52% do lixo sendo reciclado. Austrália ocupa segunda posição com
+          49,7% , seguida por Alemanha (48%), Países Baixos (46%) e Noruega (40%).
+        </p>
+
+        <p>
+          Antes do século XX, ossos foram um dos itens mais reciclados. Estes eram frequentemente
+          usados para fabricação de botões, papel e gelatina. Também eram utilizados no processamento
+          de alimentos, fotografia e cola.
+        </p>
+        <p>
+          Depois de fazer uma cirurgia de lipoaspiração, um capitão da Nova Zelândia reciclou sua gordura
+          em biocombustível para alimentar seu barco ecológico.
         </p>
         <Table />
         <div className="row">
@@ -120,15 +124,9 @@ export default function Dicas() {
                       Possimus minima dolorem facere optio quam. Aliquam
                       possimus...
                       <div className="more-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Possimus minima dolorem facere optio quam. Aliquam
-                        possimus ab qui facere placeat magnam laboriosam quod
-                        temporibus iure autem, exercitationem i usto!
-                        Laudantium, quod?Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Possimus minima dolorem facere optio
-                        quam. Aliquam possimus ab qui facere placeat magnam
-                        laboriosam quod temporibus iure autem, exercitationem i
-                        usto! Laudantium, quod?
+                      A cada tonelada de aço reciclada, deixa-se de extrair cerca de 1,5 toneladas de minério de 
+                      ferro da natureza e, a cada 75 embalagens de aço recicladas, salva-se o equivalente a uma 
+                      árvore (já que árvores são utilizadas como carvão vegetal para produção de matéria-prima virgem). 
                       </div>
                     </div>
                   </div>

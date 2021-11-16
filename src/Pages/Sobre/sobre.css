@@ -81,6 +81,20 @@
   width: 100%;
   height: 100%;
 }
+
+.DivImgMaromo {
+  background-image: url(../../assets/perfil\ maromo.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.DivImgSimone{
+  background-color: rgb(202, 198, 198);
+  width: 100%;
+  height: 100%;
+  border-radius: 360px;
+}
 #Redsoc-Sobre {
   border-radius: 12px;
   width: 80%;
@@ -125,3 +139,15 @@
   width: 40%;
   padding-bottom: 0;
 }
+
+.redes_cardSobreMaromo {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 24%;
+  bottom: 0;
+  display: inline-block;
+  text-align: center; 
+  width: 40%;
+  padding-bottom: 0;
+}
+
