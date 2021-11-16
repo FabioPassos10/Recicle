@@ -86,3 +86,42 @@
   width: 80%;
   height: 90px;
 }
+
+.a_sobre {
+  font-size: 35pt;
+  color: inherit;
+}
+
+.redes_cardSobre {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  bottom: 0;
+  display: inline-block;
+  text-align: center; 
+  width: 40%;
+  padding-bottom: 0;
+  margin-bottom: 12px;
+}
+
+#redes_sobreAlexandre {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 13%;
+  bottom: 0;
+  display: inline-block;
+  text-align: center; 
+  width: 40%;
+  padding-bottom: 0;
+}
+
+.redes_sobreLuanLuiz {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 24%;
+  bottom: 0;
+  display: inline-block;
+  text-align: center; 
+  width: 40%;
+  padding-bottom: 0;
+}

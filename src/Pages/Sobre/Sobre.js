@@ -1,7 +1,7 @@
 import "./sobre.css";
 import React from "react";
 import { Row, Container, Col } from "reactstrap";
-import { GithubOutlined } from "@ant-design/icons";
+import { GithubOutlined, LinkedinOutlined } from "@ant-design/icons";
 
 export default function sobre(props) {
   return (
@@ -54,6 +54,14 @@ export default function sobre(props) {
                 concretização da aparência idealizada e definida em um protótipo do projeto – qual prestou
                 auxílio à criação.
               </div>
+              <div id="redes_sobreAlexandre">
+                <a className="a_sobre" href="https://github.com/Alexandre2DS" target="_blank">
+                  <GithubOutlined style={{paddingRight:"12px"}}/>
+                </a>
+                <a className="a_sobre" href="" target="_blank">
+                  <LinkedinOutlined />
+                </a> 
+                </div>
             </div>
           </Col>
           <br />
@@ -72,6 +80,14 @@ export default function sobre(props) {
                 objetivos da ideia executada: compartilhar informações necessárias para a disseminação da Educação
                 Ambiental e reunir pontos de descarte de lixo próximos à região.
               </div>
+              <div className="redes_cardSobre">
+                <a className="a_sobre" href="https://github.com/luaaan" target="_blank">
+                  <GithubOutlined style={{paddingRight:"12px"}}/>
+                </a>
+                <a className="a_sobre" href="" target="_blank">
+                  <LinkedinOutlined />
+                </a> 
+                </div>
             </div>
           </Col>
           <br />
@@ -87,8 +103,16 @@ export default function sobre(props) {
                 de programação React para o back-end e programou grande parte do Mapa, no qual foi portado 
                 pelo Leaflet na linguagem JavaScript. Com isso o membro da equipe desenvolveu e auxiliou os 
                 demais participantes em diversas amplitudes do projeto. Fabio também foi responsável por 
-                elaborar o GitHub do ReCircle, no qual é formado por um código aberto e de fácil acesso. 
-                  </div>
+                elaborar o GitHub do ReCircle, no qual é formado por um código aberto e de fácil acesso.<br/>
+                </div>
+                <div className="redes_cardSobre">
+                <a className="a_sobre" href="https://github.com/FabioPassos10" target="_blank">
+                  <GithubOutlined style={{paddingRight:"12px"}}/>
+                </a>
+                <a className="a_sobre" href="" target="_blank">
+                  <LinkedinOutlined />
+                </a> 
+                </div>
             </div>
           </Col>
         </Row>
@@ -110,7 +134,15 @@ export default function sobre(props) {
                 do site e foi responsável, posteriormente, por auxiliar na criação e desenvolvimentos dos demais recursos 
                 funcionais e visuais do projeto. A aba de conteúdo sobre cada membro do projeto juntamente com a localização e reconhecimento 
                 de todos os pontos de descarte da região foi elaborada por ele. 
-                  </div>
+              </div>
+              <div className="redes_cardSobre">
+                <a className="a_sobre" href="https://github.com/PudimTI" target="_blank">
+                  <GithubOutlined style={{paddingRight:"12px"}}/>
+                </a>
+                <a className="a_sobre" href="" target="_blank">
+                  <LinkedinOutlined />
+                </a> 
+              </div>
             </div>
             {/* */}
           </Col>
@@ -125,10 +157,18 @@ export default function sobre(props) {
               <h4>Luan Araujo 👨‍🔧</h4>
                 <br/>
                 Luan auxiliou na programação do projeto, solucionando eventuais problemas no qual se deparamos 
-                no decorrer do desenvolvimento. Atuou na criação do Jason interno do site, tal qual funciona 
-                como o banco de dados interno do projeto. O membro também foi responsável por gerenciar os 
+                no decorrer do desenvolvimento. Atuou na criação do Json interno do site, tal qual tem a funcionalidade de
+                guardar de forma fixa os dados. O membro também foi responsável por gerenciar os 
                 dados do mapa, realizando um filtro funcional com a biblioteca do Leafle. 
                   </div>
+                  <div className="redes_sobreLuanLuiz">
+                <a className="a_sobre" href="https://github.com/luaaan" target="_blank">
+                  <GithubOutlined style={{paddingRight:"12px"}}/>
+                </a>
+                <a className="a_sobre" href="" target="_blank">
+                  <LinkedinOutlined />
+                </a> 
+                </div>
             </div>
           </Col>
           <br />
@@ -145,6 +185,14 @@ export default function sobre(props) {
               registro das etapas do processo de concepção do produto final almejado, bem como, exerceu 
               papel encarregado de pesquisas para ampliação dos conhecimentos necessários ao time. 
                   </div>
+                  <div className="redes_sobreLuanLuiz">
+                <a className="a_sobre" href="https://github.com/Gust4voPereira" target="_blank">
+                  <GithubOutlined style={{paddingRight:"12px"}}/>
+                </a>
+                <a className="a_sobre" href="" target="_blank">
+                  <LinkedinOutlined />
+                </a> 
+                </div>
             </div>
           </Col>
         </Row>

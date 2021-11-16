@@ -14,7 +14,7 @@ export default function Home(props) {
   return (
     <>
       <Container id="Hero" fluid={true}>
-        <h1 id="titleHero"> Recicle </h1>
+        Recicle
       </Container>
       <div id="DivCMap">
         <div id="Mapadiv">

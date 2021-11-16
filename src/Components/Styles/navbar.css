@@ -37,15 +37,16 @@ nav a {
   padding: 7px 10px;
   border-radius: 3px;
 }
-a.active,
-a:hover,
-a.visited {
+a.classe1.active,
+a.classe1:hover,
+a.classe1.visited {
   border-bottom: 4px solid rgb(20, 228, 197) !important;
   text-decoration: underline overline;
   text-decoration: underline;
   color: rgb(0, 255, 170) !important;
   transform: 0.5s;
 }
+
 
 nav #icon {
   color: white;
