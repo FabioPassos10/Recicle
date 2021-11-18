@@ -147,3 +147,12 @@ p {
   margin-left: 5%;
   margin-bottom: 2%;
 }
+
+.listaPro{
+  list-style-type: disc;
+  margin-bottom: 5px;
+}
+
+.p_dicasPLM {
+  text-align: left;
+}

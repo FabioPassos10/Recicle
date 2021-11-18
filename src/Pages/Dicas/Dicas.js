@@ -121,14 +121,21 @@ export default function Dicas() {
           A contribuição para a Coleta Seletiva pode ser feita dentro de casa, separando materiais recicláveis (metais, embalagens, papel, papelão e vidro) do lixo orgânico (restos de alimento) e de rejeitos (como fraldas, absorventes, cotonetes e papel higiênico usado).
         </p><br /><br />
 
-        <p>
-          <h4 className="tituloRM">Produção de Lixo no Mundo </h4>
-          Como exposto por Karin Lehnardt e Gabriela Dobre:
+        <p className="p_dicasPLM">
+          <h4>Produção de Lixo no Mundo</h4>
         </p>
         <p>
-          
-
-            
+          <ul>
+            <li className="listaPro">Seis milhões de toneladas de lixo são jogadas no mar todos os dias; </li>
+            <li className="listaPro">Nos últimos 100 anos, a quantidade de resíduos produzidos por humanos aumentou em mais de 10.000%; </li>
+            <li className="listaPro">Mais de 1 milhão de aves marinhas morrem anualmente devido à poluição oceânica; </li>
+            <li className="listaPro">No Oceano Pacífico, há a “Grande Porção de Lixo do Pacífico”, onde por cada 2,2 quilos de plâncton existem cerca de 13,2 quilos de lixo, incluindo cigarros, latas, sacos plásticos, garrafas, isopor, escova de dentes, balões e muito mais. O lixo se estende por mais de 6 metros para baixo da água e contém mais de 3,5 milhões de toneladas. Estima-se que a quantidade dobre nos próximos 5 anos; </li>
+            <li className="listaPro">Enterrar caixões também significa que 90.272 toneladas de aço, 2.700 toneladas de cobre e bronze e mais de 9.140 quilômetros de madeira dura cobertos de laminados tóxicos também são enterrados por ano; </li>
+            <li className="listaPro">O primeiro despejo municipal (lixão) foi criado entre os  anos 500 a.C. e 400 a.C em Atenas. </li>
+            <li className="listaPro">Adesivos, etiquetas, fita-crepe, papel-carbono, papel-toalha e papel higiênico, guardanapos com gordura, fotografias, papéis metalizados ou plastificados não são recicláveis; </li>
+            <li className="listaPro">No mar, uma linha de nylon demora 650 anos para decompor-se; </li>
+            <li className="listaPro">No processo de incineração, o lixo é queimado a temperaturas de 800 ºC a 1000 ºC. </li>
+          </ul>
         </p>
       </div>
 

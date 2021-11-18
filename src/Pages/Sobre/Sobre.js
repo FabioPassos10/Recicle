@@ -174,7 +174,7 @@ export default function sobre(props) {
                 <a className="a_sobre" href="https://github.com/luaaan" target="_blank">
                   <GithubOutlined style={{ paddingRight: "12px" }} />
                 </a>
-                <a className="a_sobre" href="" target="_blank">
+                <a className="a_sobre" href="https://www.linkedin.com/in/luan-araujo-b00262219" target="_blank">
                   <LinkedinOutlined />
                 </a>
               </div>
