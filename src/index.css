@@ -70,3 +70,7 @@ a.visited {
   color: rgb(0, 255, 170) !important;
   transform: 0.5s;
 }
+
+p {
+  font-family: "Poppins", sans-serif;
+}

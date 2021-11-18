@@ -7,7 +7,7 @@ function Vermelho() {
       src={imglixo}
       alt="Reciclagem"
       height={"100%"}
-      width={"100%"}
+      width={"100px"}
       margin="10px"
     />
   );

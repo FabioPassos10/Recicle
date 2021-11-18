@@ -20,8 +20,9 @@ export default function Dicas() {
               <Grafico />
             </div>
             <div className="col-xs-5 col-md-5 col-sm-12">
-              <h4>Importância da Reciclagem</h4>
+
               <p className="text-grafico">
+                <h4>Importância da Reciclagem</h4>
                 A reciclagem auxilia na conservação de recursos naturais, reduzindo a extração de novas
                 matérias-primas, além de proporcionar economia de energia e de gastos com limpeza urbana,
                 já que também evita a poluição. Tal prática reduz emissões de gases do efeito estufa e,
@@ -44,8 +45,9 @@ export default function Dicas() {
             <PieChart />
 
             <div className="col-12">
-              <h4>Produção de Lixo no Brasil</h4>
+
               <p className="text-chart">
+                <h4>Produção de Lixo no Brasil</h4>
                 Conforme cita Karin Lehnardt, mais da metade do lixo brasileiro é orgânico, ou seja, originário
                 de seres vivos e, do total produzido, apenas 3% são reciclados. São Paulo consiste na cidade
                 brasileira que mais produz lixo, porém a região Nordeste localiza a maior quantidade de resíduos
@@ -56,10 +58,11 @@ export default function Dicas() {
           </div>
         </div>
       </div>
-      <h4 className="tituloRM">A Reciclagem no Mundo</h4>
+
       <div className="container text-mid">
 
         <p>
+          <h4 className="tituloRM">A Reciclagem no Mundo</h4>
           Segundo dispõe Karin Lehnrdt, a probabilidade de que norte-americanos reciclem é maior do que
           votem e, mulheres normalmente expressam maior preocupação com o meio ambiente, sendo melhores
           recicladoras do que os homens.
@@ -89,21 +92,19 @@ export default function Dicas() {
           Depois de fazer uma cirurgia de lipoaspiração, um capitão da Nova Zelândia reciclou sua gordura
           em biocombustível para alimentar seu barco ecológico.
         </p>
-        <Table />
         <div className="row">
           <div className="col-2"></div>
           <div className="col-10 vl">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-              minima dolorem facere optio quam. Aliquam possimus ab qui facere
-              placeat magnam laboriosam quod temporibus iure autem,
-              exercitationem i usto! Laudantium, quod?
+              Em conformidade a dados apresentados por Júlia Azevedo e por um artigo presente no site Brasil Escola, segue-se a tabela de tempo de decomposição de alguns materiais:
             </p>
           </div>
         </div>
+        <Table />
 
-        <h4>Coleta Seletiva</h4> <br />
+
         <p>
+          <h4 className="tituloRM">Coleta Seletiva</h4> <br />
           Segundo Bruna Gentil, coleta seletiva trata-se da separação entre resíduo e lixo. Entende-se como lixo ou rejeitos tudo
           aquilo que não pode ser reutilizado e resíduo como sendo todo tipo de descarte que pode ser reciclado.
         </p>
@@ -118,9 +119,19 @@ export default function Dicas() {
         </p>
         <p>
           A contribuição para a Coleta Seletiva pode ser feita dentro de casa, separando materiais recicláveis (metais, embalagens, papel, papelão e vidro) do lixo orgânico (restos de alimento) e de rejeitos (como fraldas, absorventes, cotonetes e papel higiênico usado).
-        </p>
+        </p><br /><br />
 
+        <p>
+          <h4 className="tituloRM">Produção de Lixo no Mundo </h4>
+          Como exposto por Karin Lehnardt e Gabriela Dobre:
+        </p>
+        <p>
+          
+
+            
+        </p>
       </div>
+
 
       <div className="dicas d-flex">
         <div className="container">
