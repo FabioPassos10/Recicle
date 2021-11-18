@@ -36,7 +36,7 @@ export default function sobre(props) {
             <h3>EQUIPE</h3>
           </Col>
         </Row>
-        </Container>
+      </Container>
 
       <Container fluid={true}>
         <Row xs="1" md="2" sm="1" xl="3" lg="3">
@@ -48,21 +48,23 @@ export default function sobre(props) {
               </div>
               <div className="CardTexto">
                 <h4>Alexandre Batista 👨‍🎨</h4>
-                <br/>
-                Alexandre exerceu participação intrínseca ao ramo de design em conjunto com o desenvolvimento
-                para web. Assim, o membro da equipe colaborou através da utilização das linguagens de
-                programação para a execução de páginas apresentadas no site, detendo como objetivo a
-                concretização da aparência idealizada e definida em um protótipo do projeto – qual prestou
-                auxílio à criação.
+                <br />
+                <p>
+                  Alexandre exerceu participação intrínseca ao ramo de design em conjunto com o desenvolvimento
+                  para web. Assim, o membro da equipe colaborou através da utilização das linguagens de
+                  programação para a execução de páginas apresentadas no site, detendo como objetivo a
+                  concretização da aparência idealizada e definida em um protótipo do projeto – qual prestou
+                  auxílio à criação.
+                </p>
               </div>
               <div id="redes_sobreAlexandre">
                 <a className="a_sobre" href="https://github.com/Alexandre2DS" target="_blank">
-                  <GithubOutlined style={{paddingRight:"12px"}}/>
+                  <GithubOutlined style={{ paddingRight: "12px" }} />
                 </a>
                 <a className="a_sobre" href="" target="_blank">
                   <LinkedinOutlined />
-                </a> 
-                </div>
+                </a>
+              </div>
             </div>
           </Col>
           <br />
@@ -74,21 +76,23 @@ export default function sobre(props) {
               </div>
               <div className="CardTexto">
                 <h4>Camile Russo 👩‍🎨</h4>
-                <br/>
-                Camile desempenhou funções correlatas ao design do produto apresentado, sendo a responsável pela
-                elaboração de uma logo para o projeto. Sua contribuição se estendeu à reunião de informações e
-                construção das transcrições implementadas às páginas do site que, detinham intuito de cumprir os
-                objetivos da ideia executada: compartilhar informações necessárias para a disseminação da Educação
-                Ambiental e reunir pontos de descarte de lixo próximos à região.
+                <br />
+                <p>
+                  Camile desempenhou funções correlatas ao design do produto apresentado, sendo a responsável pela
+                  elaboração de uma logo para o projeto. Sua contribuição se estendeu à reunião de informações e
+                  construção das transcrições implementadas às páginas do site que, detinham intuito de cumprir os
+                  objetivos da ideia executada: compartilhar informações necessárias para a disseminação da Educação
+                  Ambiental e reunir pontos de descarte de lixo próximos à região.
+                </p>
               </div>
               <div className="redes_cardSobre">
                 <a className="a_sobre" href="https://github.com/luaaan" target="_blank">
-                  <GithubOutlined style={{paddingRight:"12px"}}/>
+                  <GithubOutlined style={{ paddingRight: "12px" }} />
                 </a>
                 <a className="a_sobre" href="" target="_blank">
                   <LinkedinOutlined />
-                </a> 
-                </div>
+                </a>
+              </div>
             </div>
           </Col>
           <br />
@@ -98,22 +102,24 @@ export default function sobre(props) {
                 <div className="DivImgFabio"></div>
               </div>
               <div className="CardTexto">
-              <h4>Fábio Eloy 👨‍💻</h4>
-                <br/>
-                Fabio exerceu o papel do principal programador do projeto ReCircle, selecionou a linguagem 
-                de programação React para o back-end e programou grande parte do Mapa, no qual foi portado 
-                pelo Leaflet na linguagem JavaScript. Com isso o membro da equipe desenvolveu e auxiliou os 
-                demais participantes em diversas amplitudes do projeto. Fabio também foi responsável por 
-                elaborar o GitHub do ReCircle, no qual é formado por um código aberto e de fácil acesso.<br/>
-                </div>
-                <div className="redes_cardSobre">
+                <h4>Fábio Eloy 👨‍💻</h4>
+                <br />
+                <p>
+                  Fabio exerceu o papel do principal programador do projeto ReCircle, selecionou a linguagem
+                  de programação React para o back-end e programou grande parte do Mapa, no qual foi portado
+                  pelo Leaflet na linguagem JavaScript. Com isso o membro da equipe desenvolveu e auxiliou os
+                  demais participantes em diversas amplitudes do projeto. Fabio também foi responsável por
+                elaborar o GitHub do ReCircle, no qual é formado por um código aberto e de fácil acesso.<br />
+                </p>
+              </div>
+              <div className="redes_cardSobre">
                 <a className="a_sobre" href="https://github.com/FabioPassos10" target="_blank">
-                  <GithubOutlined style={{paddingRight:"12px"}}/>
+                  <GithubOutlined style={{ paddingRight: "12px" }} />
                 </a>
                 <a className="a_sobre" href="" target="_blank">
                   <LinkedinOutlined />
-                </a> 
-                </div>
+                </a>
+              </div>
             </div>
           </Col>
         </Row>
@@ -128,21 +134,23 @@ export default function sobre(props) {
                 <div className="DivImgJoaoP"></div>
               </div>
               <div className="CardTexto">
-              <h4>João Pedro Vaz 💭</h4>
-                <br/>
-                João idealizou o projeto em objetivo de facilitar e ajudar na procura do ideal descarte dos lixos que, 
-                muitas das vezes, é desconhecido por parte do usuário. O membro da equipe gerou os primeiros protótipos 
-                do site e foi responsável, posteriormente, por auxiliar na criação e desenvolvimentos dos demais recursos 
-                funcionais e visuais do projeto. A aba de conteúdo sobre cada membro do projeto juntamente com a localização e reconhecimento 
-                de todos os pontos de descarte da região foi elaborada por ele. 
+                <h4>João Pedro Vaz 💭</h4>
+                <br />
+                <p>
+                  João idealizou o projeto em objetivo de facilitar e ajudar na procura do ideal descarte dos lixos que,
+                  muitas das vezes, é desconhecido por parte do usuário. O membro da equipe gerou os primeiros protótipos
+                  do site e foi responsável, posteriormente, por auxiliar na criação e desenvolvimentos dos demais recursos
+                  funcionais e visuais do projeto. A aba de conteúdo sobre cada membro do projeto juntamente com a localização e reconhecimento
+                  de todos os pontos de descarte da região foi elaborada por ele.
+                </p>
               </div>
               <div className="redes_cardSobre">
                 <a className="a_sobre" href="https://github.com/PudimTI" target="_blank">
-                  <GithubOutlined style={{paddingRight:"12px"}}/>
+                  <GithubOutlined style={{ paddingRight: "12px" }} />
                 </a>
                 <a className="a_sobre" href="" target="_blank">
                   <LinkedinOutlined />
-                </a> 
+                </a>
               </div>
             </div>
             {/* */}
@@ -155,21 +163,23 @@ export default function sobre(props) {
                 <div className="DivImgLuan"></div>
               </div>
               <div className="CardTexto">
-              <h4>Luan Araujo 👨‍🔧</h4>
-                <br/>
-                Luan auxiliou na programação do projeto, solucionando eventuais problemas no qual se deparamos 
-                no decorrer do desenvolvimento. Atuou na criação do Json interno do site, tal qual tem a funcionalidade de
-                guardar de forma fixa os dados. O membro também foi responsável por gerenciar os 
-                dados do mapa, realizando um filtro funcional com a biblioteca do Leafle. 
-                  </div>
-                  <div className="redes_sobreLuanLuiz">
+                <h4>Luan Araujo 👨‍🔧</h4>
+                <br />
+                <p>
+                  Luan auxiliou na programação do projeto, solucionando eventuais problemas no qual se deparamos
+                  no decorrer do desenvolvimento. Atuou na criação do Json interno do site, tal qual tem a funcionalidade de
+                  guardar de forma fixa os dados. O membro também foi responsável por gerenciar os
+                  dados do mapa, realizando um filtro funcional com a biblioteca do Leafle.
+                </p>
+              </div>
+              <div className="redes_sobreLuanLuiz">
                 <a className="a_sobre" href="https://github.com/luaaan" target="_blank">
-                  <GithubOutlined style={{paddingRight:"12px"}}/>
+                  <GithubOutlined style={{ paddingRight: "12px" }} />
                 </a>
                 <a className="a_sobre" href="" target="_blank">
                   <LinkedinOutlined />
-                </a> 
-                </div>
+                </a>
+              </div>
             </div>
           </Col>
           <br />
@@ -179,21 +189,23 @@ export default function sobre(props) {
                 <div className="DivImgLuiz"></div>
               </div>
               <div className="CardTexto">
-              <h4>Luiz Gustavo 📄</h4>
-                <br/>
-              Luiz deteve como responsabilidade a produção de conteúdos textuais para monografia, de mesmo 
-              modo que o apoio ao desenvolvimento web. Dessa forma, o integrante prestou cooperação ao 
-              registro das etapas do processo de concepção do produto final almejado, bem como, exerceu 
-              papel encarregado de pesquisas para ampliação dos conhecimentos necessários ao time. 
-                  </div>
-                  <div className="redes_sobreLuanLuiz">
+                <h4>Luiz Gustavo 📄</h4>
+                <br />
+                <p>
+                  Luiz deteve como responsabilidade a produção de conteúdos textuais para monografia, de mesmo
+                  modo que o apoio ao desenvolvimento web. Dessa forma, o integrante prestou cooperação ao
+                  registro das etapas do processo de concepção do produto final almejado, bem como, exerceu
+                  papel encarregado de pesquisas para ampliação dos conhecimentos necessários ao time.
+                </p>
+              </div>
+              <div className="redes_sobreLuanLuiz">
                 <a className="a_sobre" href="https://github.com/Gust4voPereira" target="_blank">
-                  <GithubOutlined style={{paddingRight:"12px"}}/>
+                  <GithubOutlined style={{ paddingRight: "12px" }} />
                 </a>
                 <a className="a_sobre" href="" target="_blank">
                   <LinkedinOutlined />
-                </a> 
-                </div>
+                </a>
+              </div>
             </div>
           </Col>
         </Row>
@@ -209,56 +221,60 @@ export default function sobre(props) {
       <Container fluid={true}>
         <Row xs="1" md="2" sm="1" xl="2" lg="2">
           <Col>
-          <div className="col-SobreCard">
+            <div className="col-SobreCard">
               {" "}
               <div className="CardFoto">
                 <div className="DivImgMaromo"></div>
               </div>
               <div className="CardTexto">
-              <h4>Marcos Roberto de Morais 👨‍🏫</h4>
-                <br/>
-                Marcos (Maromo) Roberto foi um dos professores que orientou a criação do TCC juntamente com a 
-                professora Simone Andreia. Graduado em Processamento de Dados (1995) Especialista em Administração de 
-                Sistemas de Informação (2005) Mestre em Educação (2010), Maromo hoje atua como professor na Escola Tecnica
-                Pedro Ferreira Alves e na Faculdade de Tecnologia Arthur de Azevedo.
+                <h4>Marcos Roberto de Morais 👨‍🏫</h4>
+                <br />
+                <p>
+                  Marcos (Maromo) Roberto foi um dos professores que orientou a criação do TCC juntamente com a
+                  professora Simone Andreia. Graduado em Processamento de Dados (1995) Especialista em Administração de
+                  Sistemas de Informação (2005) Mestre em Educação (2010), Maromo hoje atua como professor na Escola Tecnica
+                  Pedro Ferreira Alves e na Faculdade de Tecnologia Arthur de Azevedo.
+                </p>
               </div>
               <div className="redes_cardSobreMaromo">
                 <a className="a_sobre" href="https://github.com/maromo71" target="_blank">
-                  <GithubOutlined style={{}}/>
+                  <GithubOutlined style={{}} />
                 </a>
               </div>
             </div>
             {/* */}
           </Col>
-          <br/>
+          <br />
           <Col>
-          <div className="col-SobreCard">
+            <div className="col-SobreCard">
               {" "}
               <div className="CardFoto">
                 <div className="DivImgSimone"></div>
               </div>
               <div className="CardTexto">
-              <h4>Simone Andreia de Campos 👩‍🏫</h4>
-                <br/>
-                João idealizou o projeto em objetivo de facilitar e ajudar na procura do ideal descarte dos lixos que, 
-                muitas das vezes, é desconhecido por parte do usuário. O membro da equipe gerou os primeiros protótipos 
-                do site e foi responsável, posteriormente, por auxiliar na criação e desenvolvimentos dos demais recursos 
-                funcionais e visuais do projeto. A aba de conteúdo sobre cada membro do projeto juntamente com a localização e reconhecimento 
-                de todos os pontos de descarte da região foi elaborada por ele. 
+                <h4>Simone Andreia de Campos 👩‍🏫</h4>
+                <br />
+                <p>
+                  João idealizou o projeto em objetivo de facilitar e ajudar na procura do ideal descarte dos lixos que,
+                  muitas das vezes, é desconhecido por parte do usuário. O membro da equipe gerou os primeiros protótipos
+                  do site e foi responsável, posteriormente, por auxiliar na criação e desenvolvimentos dos demais recursos
+                  funcionais e visuais do projeto. A aba de conteúdo sobre cada membro do projeto juntamente com a localização e reconhecimento
+                  de todos os pontos de descarte da região foi elaborada por ele.
+                </p>
               </div>
               <div className="redes_cardSobre">
                 <a className="a_sobre" href="https://github.com/PudimTI" target="_blank">
-                  <GithubOutlined style={{paddingRight:"12px"}}/>
+                  <GithubOutlined style={{ paddingRight: "12px" }} />
                 </a>
                 <a className="a_sobre" href="" target="_blank">
                   <LinkedinOutlined />
-                </a> 
+                </a>
               </div>
             </div>
             {/* */}
           </Col>
         </Row>
-        </Container>
+      </Container>
       <Container>
         <Row>
           <Col className="Col-CardOrientador">
