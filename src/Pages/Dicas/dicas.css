@@ -4,10 +4,11 @@ p {
 }
 
 .graf {
-  box-shadow: 1em 1em rgba(4, 52, 59, 0.898);
+  box-shadow: 2em 2em rgba(184, 188, 189, 0.898);
   margin-bottom: 5%;
   background: rgb(56, 53, 53);
   color: white;
+  border-radius: 12px;
 }
 
 .grafico {
