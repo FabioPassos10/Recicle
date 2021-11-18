@@ -12,8 +12,8 @@ function Eletronico() {
       }}
       src={eletronico}
       alt="Reciclagem"
-      height={"100%"}
-      width={"100%"}
+      height={"95%"}
+      width={"95%"}
       margin="10px"
     />
   );

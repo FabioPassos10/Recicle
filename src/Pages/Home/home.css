@@ -246,58 +246,65 @@
   height: 250px;
   width: 60%;
   border-radius: 12px;
+  border: 12px double blue;
   padding: 2px;
   margin: auto;
   margin-bottom: 30px;
-  border: solid 2px blue;
+  padding-left: 8px;
+
 }
 
 .DivImgLixoPlastico {
   height: 250px;
-  width: 60%;
+  width: 65%;
   border-radius: 12px;
-
+  border: 12px double red;
   margin: auto;
   margin-bottom: 30px;
-  border: solid 2px red;
+  padding-left: 8px;
+
 }
 
 .DivImgLixoMetal {
   height: 250px;
   width: 60%;
   border-radius: 12px;
+  border: 12px double yellow;
   height: 250px;
   width: 60%;
   margin: auto;
   margin-bottom: 30px;
-  border: solid 2px yellow;
+  padding-left: 8px;
 }
 
 .DivImgLixoVidro {
   height: 250px;
   width: 60%;
   border-radius: 12px;
+  border: 12px double green;
   margin: auto;
   margin-bottom: 30px;
-  border: solid 2px green;
+  padding-left: 8px;
 }
 
 .DivImgLixoOrganico {
   height: 250px;
   width: 60%;
   border-radius: 12px;
+  border: 12px double rgb(90, 48, 48);
   margin: auto;
   margin-bottom: 30px;
-  border: solid 2px rgb(90, 48, 48);
+  padding-left: 8px;
 }
 
 .DivImgLixoEletronico {
   height: 250px;
   width: 60%;
   border-radius: 12px;
+  border: 12px double rgb(171, 167, 160);
   margin: auto;
   margin-bottom: 30px;
-  border: solid 2px rgb(171, 167, 160);
+  padding-left: 8px;
 }
 
 #DivIlustracaoHome {

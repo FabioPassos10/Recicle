@@ -36,20 +36,14 @@ export default function Home(props) {
                     </div>
                   </div>
                   <div className="CardPartc1">
-                    Urna quam curabitur fermentum ullamcorper tortor metus ut
-                    arcu scelerisque hac donec vitae, eleifend consequat
-                    elementum justo suscipit libero nisl donec malesuada sapien
-                    suscipit ultrices fusce, ut faucibus nam est vel vivamus
-                    condimentum tincidunt senectus neque porttitor. tempus
-                    vivamus integer dictumst sit tristique ac eleifend odio
-                    eros, platea dapibus enim tempor per fermentum scelerisque
-                    suscipit, erat pellentesque justo orci in aptent purus
-                    netus. egestas himenaeos ullamcorper malesuada senectus
-                    pretium aenean, vivamus at tincidunt lacinia cubilia luctus
-                    proin, vulputate sodales dapibus tellus quisque. tristique
-                    facilisis risus ut mollis commodo fermentum aenean neque, in
-                    fusce id dictumst potenti vivamus aptent sodales mattis,
-                    porttitor per felis curabitur donec ornare interdum.
+                    <p>
+                      O lixo de cor azul é designado para o descarte de: Jornais, revistas, folha sulfite, rascunhos, folhas de caderno, formulários, caixas de papelão, aparas de papel, envelopes, cartazes, panletos e coisas do gênero.
+                    </p>
+                    
+                    <p>
+                      Porém, há algumas restrições, como: adesivos, papel carbono,, celofane, guardanapos, bitucas de cigarro, papéis plastificados, metalizados, papéis sanitários, etc.
+                    </p>
+                    
                   </div>
                 </div>
               </Col>
