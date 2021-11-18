@@ -1,3 +1,8 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13pt;
+}
+
 .graf {
   box-shadow: 2em 2em rgba(184, 188, 189, 0.898);
   margin-bottom: 5%;
@@ -136,4 +141,9 @@
 .divgraficPie {
   height: 600px;
   width: 100%;
+}
+
+.tituloRM {
+  margin-left: 5%;
+  margin-bottom: 2%;
 }

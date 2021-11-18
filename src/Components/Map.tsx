@@ -38,10 +38,10 @@ const Mapa = () => {
       </div>
       <div>
         <ButtonGroup id="cidades">
-          <Button outline onClick={() => mudarFiltroCidade("Mogi Mirim")}>Mogi Mirim</Button>
-          <Button outline onClick={() => mudarFiltroCidade("Mogi Guaçu")}>Mogi Guaçu</Button>
-          <Button outline onClick={() => mudarFiltroCidade("Itapira")}>Itapira</Button>
-          <Button outline onClick={() => mudarFiltroCidade("")}>Todas</Button>
+          <Button class="cidadesButtons" outline onClick={() => mudarFiltroCidade("Mogi Mirim")}>Mogi Mirim</Button>
+          <Button class="cidadesButtons" outline onClick={() => mudarFiltroCidade("Mogi Guaçu")}>Mogi Guaçu</Button>
+          <Button class="cidadesButtons" outline onClick={() => mudarFiltroCidade("Itapira")}>Itapira</Button>
+          <Button class="cidadesButtons" outline onClick={() => mudarFiltroCidade("")}>Todas</Button>
         </ButtonGroup>
       </div>
       <MapContainer

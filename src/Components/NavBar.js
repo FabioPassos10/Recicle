@@ -16,15 +16,15 @@ export default function NavBar() {
         <label className="logo">Recicle</label>
         <ul>
           <li>
-            <a id="aHome" href="/">
+            <a className="classe1" href="/">
               Home
             </a>
           </li>
           <li>
-            <a href="/Dicas">Dicas</a>
+            <a className="classe1" href="/Dicas">Dicas</a>
           </li>
           <li>
-            <a href="/Sobre">Sobre Nós</a>
+            <a className="classe1" href="/Sobre">Sobre Nós</a>
           </li>
         </ul>
         <label id="icon">
