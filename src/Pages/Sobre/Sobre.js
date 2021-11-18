@@ -86,10 +86,8 @@ export default function sobre(props) {
                 </p>
               </div>
               <div className="redes_cardSobre">
-                <a className="a_sobre" href="https://github.com/luaaan" target="_blank">
-                  <GithubOutlined style={{ paddingRight: "12px" }} />
-                </a>
-                <a className="a_sobre" href="" target="_blank">
+
+                <a className="a_sobre" href="https://www.linkedin.com/in/camile-russo-715ab3213" target="_blank">
                   <LinkedinOutlined />
                 </a>
               </div>
