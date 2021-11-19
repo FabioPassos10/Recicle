@@ -123,6 +123,7 @@ export default function Dicas() {
 
         <p className="p_dicasPLM">
           <h4>Produção de Lixo no Mundo</h4>
+          Como exposto por Karin Lehnardt e Gabriela Dobre: 
         </p>
         <p>
           <ul>
@@ -151,14 +152,27 @@ export default function Dicas() {
                   </div>
                   <div className="col-md-9 col-sm-7 m-2 text-dicas">
                     <div>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Possimus minima dolorem facere optio quam. Aliquam
-                      possimus...
-                      <div className="more-text">
-                        A cada tonelada de aço reciclada, deixa-se de extrair cerca de 1,5 toneladas de minério de
-                        ferro da natureza e, a cada 75 embalagens de aço recicladas, salva-se o equivalente a uma
-                        árvore (já que árvores são utilizadas como carvão vegetal para produção de matéria-prima virgem).
-                      </div>
+                      <p>
+                        <h4>Metal</h4>
+
+                        Segundo dados apresentados por Recicla Sampa e Karin Lehnardt:
+                      
+                        A cada tonelada de aço reciclada, deixa-se de extrair cerca de 1,5 toneladas de minério de ferro da natureza e, a cada 75 embalagens de aço recicladas, salva-se o equivalente a uma árvore (já que árvores são utilizadas como carvão vegetal para produção de matéria-prima virgem).
+                        </p><p>
+                        A decomposição de uma lata de aço leva de 3 a 10 anos e não compromete o solo nem o meio ambiente. A mesma retorna a seu estado de óxido de ferro;
+
+                        O material é infinitamente reciclável, ou seja, pode passar pelo processo de reciclagem inúmeras vezes quando coletada e destinada corretamente ás usinas recicladores;
+                        </p><p>
+                        100 quilos reciclados desse material economizam uma quantidade de energia equivalente a três horas de TV ligada, além de que, com a reciclagem do aço, siderúrgicas conseguem economizar energia equivalente ao abastecimento de 18 milhões de residências por ano;
+                        </p><p>
+                        Mais de 20 milhões de latas de aço são recicladas por ano e, todas elas, são fabricadas com até 25% de sucata;
+                        </p><p>
+                        Reciclar as latinhas e transformar em aço gera economia de, 70% de gasto energético de uma siderúrgica, 90% do uso de uma matéria prima virgem, 40% do consumo de água e reduz 76% dos poluentes na água, 86% dos poluentes do ar e de 97% dos resíduos de mineração;
+                        </p><p>
+                        Se colocadas de ponta a ponta, todas as latas de alumínio reciclado em todo o mundo no ano de 2010 dariam a volta na Terra cerca de 169 vezes;
+
+                          Reciclar latas de alumínio gasta 95% menos energia que produzir uma nova.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -168,20 +182,45 @@ export default function Dicas() {
                 <div className="row">
                   <div className="col-md-9 col-sm-7 m-2 text-dicas">
                     <div>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Possimus minima dolorem facere optio quam. Aliquam
-                      possimus...
-                      <div className="more-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Possimus minima dolorem facere optio quam. Aliquam
-                        possimus ab qui facere placeat magnam laboriosam quod
-                        temporibus iure autem, exercitationem i usto!
-                        Laudantium, quod?Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Possimus minima dolorem facere optio
-                        quam. Aliquam possimus ab qui facere placeat magnam
-                        laboriosam quod temporibus iure autem, exercitationem i
-                        usto! Laudantium, quod?
-                      </div>
+                      <p>
+                        <h4>Papel</h4>
+                      Em congruência a dados apresentados por Bioresíduos Ambiental e Karin Lehnardt:
+                      </p>
+                      <p>
+                      Reciclar uma tonelada de papel economiza 2,5 mil litros de petróleo, 26,5 mil litros de água e evita que 17 árvores sejam derrubadas;
+                      </p><p>
+                      27 mil árvores são derrubadas diariamente para a produção de papel higiênico;
+                      </p><p>
+                      A reciclagem de papel foi realizada pela primeira vez no Japão, em 1031;
+                      </p><p>
+                      Se norte-americanos reciclassem apenas 1/10 de seus jornais, mais de 25 milhões de árvores seriam salvas a cada ano;
+                      </p><p>
+                      São consumidos 70% menos energia e 30% menos água para reciclar o papel do que para fazê-lo a partir da matéria-prima;
+                      </p><p>
+                      A produção de papel é a terceira que consome mais energia de todas as indústrias, correspondendo a 12% de toda a energia do setor industrial;
+                      </p><p>
+                      A indústria de celulose e papel utiliza aproximadamente 10 litros de água por folha durante o processamento de matérias-primas;
+                      </p><p>
+                      Dentro da área de fabricação, a indústria de celulose e papel é o quarto maior emissor de gases de efeito estufa;
+                      </p><p>
+                      O papel representa um dos principais componentes de resíduos sólidos em aterros, com aproximadamente 16% deles;
+                      </p><p>
+                      Quando o papel se decompõe em um aterro, libera metano, um gás de efeito estufa muito mais potente que o dióxido de carbono;
+                      </p><p>
+                      Papel reciclado é diferente do papel ecológico. O papel ecológico é necessariamente aquele que não utiliza cloro como alvejante;
+                      </p><p>
+                      Para produzir uma tonelada de papel, é necessário aproximadamente 115.000 litros de água;
+                      </p><p>
+                      A fabricação de papel a partir de resíduos de papel economiza cerca de 85% da água usada na produção normal de papel e reduz a poluição da água em 92%;
+                      </p><p>
+                      Uma tonelada de papel reciclado economiza aproximadamente 0,4 hectares de floresta;
+                      </p><p>
+                      Uma família utiliza, em média, 6 árvores de papel por ano;
+                      </p><p>
+                      45% de todas as cópias impressas e fotocópias acabam no depósito de lixo antes do final do dia em que são produzidas;
+                      </p><p>
+                      O papel pode ser reciclado até 11 vezes em diferentes tipos de papelão.
+                      </p>
                     </div>
                   </div>
                   <div className="col-md-2 col-sm-6 m-2 div-img d-flex justify-content-center">
@@ -200,17 +239,6 @@ export default function Dicas() {
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Possimus minima dolorem facere optio quam. Aliquam
                       possimus...
-                      <div className="more-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Possimus minima dolorem facere optio quam. Aliquam
-                        possimus ab qui facere placeat magnam laboriosam quod
-                        temporibus iure autem, exercitationem i usto!
-                        Laudantium, quod?Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Possimus minima dolorem facere optio
-                        quam. Aliquam possimus ab qui facere placeat magnam
-                        laboriosam quod temporibus iure autem, exercitationem i
-                        usto! Laudantium, quod?
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -221,26 +249,30 @@ export default function Dicas() {
                   <div className="col-md-9 col-sm-7 m-2 text-dicas">
                     <div>
 
-                      <div className="more-text">
-                        De acordo com o que aponta Monik da Silveira Suçuarana, o vidro é infinitamente
+                      <div>
+                        <h4>Vidro</h4>
+                        <p>
+                         De acordo com o que aponta Monik da Silveira Suçuarana, o vidro é infinitamente
                         reciclável, podendo passar pelo processo muitas vezes sem perder suas qualidades.
                         Também é 100% reciclável, ou seja, não há perda de material durante o processo. Para
                         cada tonelada de caco de vidro, uma tonelada de vidro novo é produzida. Porém, para que
                         a mesma quantia seja produzida, são necessárias 1,2 toneladas de matéria-prima.
-
+                        </p>
+                        <p>
                         O vidro coletado é encaminhado para as empresas responsáveis pela triagem, limpeza e
                         comercialização de vidros. Nesses locais, o vidro é separado por tipo e cor, e passa por
                         um rigoroso processo de limpeza, através do qual todas as impurezas como tampas, gargalos
                         de metal, papéis, restos de produtos químicos, etc. são removidas.
-
+                        </p>
                         Posteriormente, são triturados e transformados em cacos de tamanho homogêneo, que são
                         aquecidos a temperaturas acima dos 1300°C. O material se funde e, como o vidro derretido
                         é maleável, pode assumir diferentes formas, originando novos produtos.
-
+                        <p>
                         Existem alguns tipos de vidros que não são recicláveis, como os espelhos, vidros de
                         automóveis, vidros de janelas e box de banheiro, lâmpadas e utensílios de vidro temperado.
                         Isso porque geralmente não existem tecnologias suficientes para a reciclagem destes, ou o
                         processo é trabalhoso e desvantajoso economicamente.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -257,20 +289,20 @@ export default function Dicas() {
                   </div>
                   <div className="col-md-9 col-sm-6 m-2 text-dicas">
                     <div>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Possimus minima dolorem facere optio quam. Aliquam
-                      possimus...
-                      <div className="more-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Possimus minima dolorem facere optio quam. Aliquam
-                        possimus ab qui facere placeat magnam laboriosam quod
-                        temporibus iure autem, exercitationem i usto!
-                        Laudantium, quod?Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Possimus minima dolorem facere optio
-                        quam. Aliquam possimus ab qui facere placeat magnam
-                        laboriosam quod temporibus iure autem, exercitationem i
-                        usto! Laudantium, quod?
-                      </div>
+                      <p>
+                        <h4>Plástico</h4>
+                      Reciclar uma garrafa de plástico pode economizar energia suficiente para manter uma lâmpada de 600W acesa durante seis horas;
+                      </p>
+                      <p>
+                      Cerca de 46.000 peças de plástico flutuam em cada quilômetro quadrado de nossos oceanos;
+                      </p>
+                      <p>
+                      Em todo o mundo, se utiliza cerca de 1 trilhão de sacolas plásticas, o equivalente a 100 milhões de barris de petróleo;
+                      </p><p>
+                      Henderson é uma ilha remota do Pacífico Sul onde está localizada a maior densidade de lixo plástico do planeta, estimada em 37,7 milhões de pedaços de plástico;
+                      </p><p>
+                      Reciclar uma tonelada de plástico economiza 130 kg de petróleo.
+                      </p>
                     </div>
                   </div>
                 </div>

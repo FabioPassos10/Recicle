@@ -111,20 +111,20 @@ p {
   position: relative;
 }
 
-.text-dicas:before {
-  z-index: -1;
+.text-dicas {
+  /* z-index: -1;
   content: "";
   position: absolute;
   left: 0;
-  top: 0;
+  top: 0; */
   width: 100%;
-  height: 145px;
+  height: 100%;
   background-color: white;
-  transform-origin: 0 0;
-  transition: all 0.25s ease-out;
+  /* transform-origin: 0 0;
+  transition: all 0.25s ease-out; */
 }
 
-.text-dicas:hover:before {
+/* .text-dicas:hover:before {
   transition: all 0.25s ease-out;
   z-index: 9999;
   transform: scaleY(1.5);
@@ -133,11 +133,11 @@ p {
 .text-dicas:hover .more-text {
   transition: opacity 0.45s linear;
   /* background-color:rgba(255, 255, 255, 1); */
-  z-index: 9999;
+  /* z-index: 9999;
   visibility: visible;
   opacity: 1;
   top: -60px;
-}
+} */ 
 .divgraficPie {
   height: 600px;
   width: 100%;
@@ -150,9 +150,17 @@ p {
 
 .listaPro{
   list-style-type: disc;
-  margin-bottom: 5px;
+  list-style: disc;
+  margin-bottom: 1%;
+  list-style-position: inside;
 }
 
 .p_dicasPLM {
   text-align: left;
+}
+
+ul {
+  list-style: square;
+  list-style-type: square;
+  list-style-position: inside;
 }
