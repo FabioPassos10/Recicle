@@ -152,3 +152,16 @@
   padding-bottom: 0;
 }
 
+#gitSobre {
+  box-shadow: 1em 1em rgba(184, 188, 189, 0.898);
+  margin-bottom: 5%;
+  background: rgb(56, 53, 53);
+  color: white;
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+}
+
+#gitSobre-text {
+  padding-top: 4%;
+}

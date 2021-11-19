@@ -55,7 +55,7 @@ export default function sobre(props) {
                   programação para a execução de páginas apresentadas no site, detendo como objetivo a
                   concretização da aparência idealizada e definida em um protótipo do projeto – qual prestou
                   auxílio à criação.
-                </p>
+                </p><br/>
               </div>
               <div id="redes_sobreAlexandre">
                 <a className="a_sobre" href="https://github.com/Alexandre2DS" target="_blank">
@@ -104,7 +104,7 @@ export default function sobre(props) {
                 <br />
                 <p>
                   Fabio exerceu o papel do principal programador do projeto ReCircle, selecionou a linguagem
-                  de programação React para o back-end e programou grande parte do Mapa, no qual foi portado
+                  de programação React para o back-end e auxiliou na programação do Mapa, no qual foi portado
                   pelo Leaflet na linguagem JavaScript. Com isso o membro da equipe desenvolveu e auxiliou os
                   demais participantes em diversas amplitudes do projeto. Fabio também foi responsável por
                 elaborar o GitHub do ReCircle, no qual é formado por um código aberto e de fácil acesso.<br />
@@ -174,7 +174,7 @@ export default function sobre(props) {
                 <a className="a_sobre" href="https://github.com/luaaan" target="_blank">
                   <GithubOutlined style={{ paddingRight: "12px" }} />
                 </a>
-                <a className="a_sobre" href="" target="_blank">
+                <a className="a_sobre" href="https://www.linkedin.com/in/luan-araujo-b00262219" target="_blank">
                   <LinkedinOutlined />
                 </a>
               </div>
@@ -273,6 +273,22 @@ export default function sobre(props) {
           </Col>
         </Row>
       </Container>
+
+      <Container>
+        <Row>
+          <Col>
+            <div id="gitSobre">
+            <a className="a_sobre" href="https://github.com/FabioPassos10/Recicle" target="_blank">
+                  <GithubOutlined style={{ float: "left", padding: "12px"}} />
+            </a>
+            <p id="gitSobre-text">
+              Gostou do Recicle? Acesse nosso repositorio no GitHub!
+            </p>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+
       <Container>
         <Row>
           <Col className="Col-CardOrientador">
