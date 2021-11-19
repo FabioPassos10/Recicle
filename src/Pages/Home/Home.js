@@ -39,11 +39,11 @@ export default function Home(props) {
                     <p>
                       O lixo de cor azul é designado para o descarte de: Jornais, revistas, folha sulfite, rascunhos, folhas de caderno, formulários, caixas de papelão, aparas de papel, envelopes, cartazes, panletos e coisas do gênero.
                     </p>
-                    
+
                     <p>
-                      Porém, há algumas restrições, como: adesivos, papel carbono,, celofane, guardanapos, bitucas de cigarro, papéis plastificados, metalizados, papéis sanitários, etc.
+                      Porém, há algumas restrições, como: adesivos, papel carbono, celofane, guardanapos, bitucas de cigarro, papéis plastificados, metalizados, papéis sanitários, etc.
                     </p>
-                    
+
                   </div>
                 </div>
               </Col>
@@ -57,20 +57,13 @@ export default function Home(props) {
                     </div>
                   </div>
                   <div className="CardPartc1">
-                    Urna quam curabitur fermentum ullamcorper tortor metus ut
-                    arcu scelerisque hac donec vitae, eleifend consequat
-                    elementum justo suscipit libero nisl donec malesuada sapien
-                    suscipit ultrices fusce, ut faucibus nam est vel vivamus
-                    condimentum tincidunt senectus neque porttitor. tempus
-                    vivamus integer dictumst sit tristique ac eleifend odio
-                    eros, platea dapibus enim tempor per fermentum scelerisque
-                    suscipit, erat pellentesque justo orci in aptent purus
-                    netus. egestas himenaeos ullamcorper malesuada senectus
-                    pretium aenean, vivamus at tincidunt lacinia cubilia luctus
-                    proin, vulputate sodales dapibus tellus quisque. tristique
-                    facilisis risus ut mollis commodo fermentum aenean neque, in
-                    fusce id dictumst potenti vivamus aptent sodales mattis,
-                    porttitor per felis curabitur donec ornare interdum.
+                  <p>
+                    A cor vermelha representa o lixo designado para o descarte descarte de materias plásticos, como: copos, sacolas, frascos, potes, tampinhas, tubos de PVC, embalagens PET (sucos, água, refrigerante, etc).
+                    </p>
+
+                    <p>
+                      Há alguns materiais que não se encaixam nessa classificação, são eles: cabos de panelas, adesivos, espuma, acrílico, embalagens metalizadas (biscoito e salgadinhos).</p>
+
                   </div>
                 </div>
               </Col>
@@ -83,20 +76,14 @@ export default function Home(props) {
                     </div>
                   </div>
                   <div className="CardPartc1">
-                    Urna quam curabitur fermentum ullamcorper tortor metus ut
-                    arcu scelerisque hac donec vitae, eleifend consequat
-                    elementum justo suscipit libero nisl donec malesuada sapien
-                    suscipit ultrices fusce, ut faucibus nam est vel vivamus
-                    condimentum tincidunt senectus neque porttitor. tempus
-                    vivamus integer dictumst sit tristique ac eleifend odio
-                    eros, platea dapibus enim tempor per fermentum scelerisque
-                    suscipit, erat pellentesque justo orci in aptent purus
-                    netus. egestas himenaeos ullamcorper malesuada senectus
-                    pretium aenean, vivamus at tincidunt lacinia cubilia luctus
-                    proin, vulputate sodales dapibus tellus quisque. tristique
-                    facilisis risus ut mollis commodo fermentum aenean neque, in
-                    fusce id dictumst potenti vivamus aptent sodales mattis,
-                    porttitor per felis curabitur donec ornare interdum.
+                  <p>
+                      A cor amarela representa o lixo designado para o descarte descarte de metais, como: tampinhas de garrafa, lacres de latinhas, latas, ferragens, arames, chapas, pregos, parafusos, porcas e coisas do gênero.
+                    </p>
+
+                    <p>
+                      Há alguns materiais que não se encaixam nessa classificação, como: grampos, esponjas de aço, aerosóis, latas de tinta ou verniz, solventes ou químicos, latas de insenticida, etc.
+                    </p>
+
                   </div>
                 </div>
               </Col>
@@ -113,20 +100,13 @@ export default function Home(props) {
                     </div>
                   </div>
                   <div className="CardPartc1">
-                    Urna quam curabitur fermentum ullamcorper tortor metus ut
-                    arcu scelerisque hac donec vitae, eleifend consequat
-                    elementum justo suscipit libero nisl donec malesuada sapien
-                    suscipit ultrices fusce, ut faucibus nam est vel vivamus
-                    condimentum tincidunt senectus neque porttitor. tempus
-                    vivamus integer dictumst sit tristique ac eleifend odio
-                    eros, platea dapibus enim tempor per fermentum scelerisque
-                    suscipit, erat pellentesque justo orci in aptent purus
-                    netus. egestas himenaeos ullamcorper malesuada senectus
-                    pretium aenean, vivamus at tincidunt lacinia cubilia luctus
-                    proin, vulputate sodales dapibus tellus quisque. tristique
-                    facilisis risus ut mollis commodo fermentum aenean neque, in
-                    fusce id dictumst potenti vivamus aptent sodales mattis,
-                    porttitor per felis curabitur donec ornare interdum.
+                    <p>
+                      O descarte de vidros é representada pela cor verde, e neles são descartados coisas como: garrafas, potes de conserva, frascos (feitos de vidro), copos e cacos dos resíduos citados, etc.
+                    </p>
+
+                    <p>
+                      Há materiais que não se devem ser descartados nesse lixo, são eles: espelhos, óculos, vidros temperados, cêramicas, porcelanas, tubos de TV, tampas de forno, etc.
+                    </p>
                   </div>
                 </div>
                 {/* */}
@@ -141,20 +121,13 @@ export default function Home(props) {
                     </div>
                   </div>
                   <div className="CardPartc1">
-                    Urna quam curabitur fermentum ullamcorper tortor metus ut
-                    arcu scelerisque hac donec vitae, eleifend consequat
-                    elementum justo suscipit libero nisl donec malesuada sapien
-                    suscipit ultrices fusce, ut faucibus nam est vel vivamus
-                    condimentum tincidunt senectus neque porttitor. tempus
-                    vivamus integer dictumst sit tristique ac eleifend odio
-                    eros, platea dapibus enim tempor per fermentum scelerisque
-                    suscipit, erat pellentesque justo orci in aptent purus
-                    netus. egestas himenaeos ullamcorper malesuada senectus
-                    pretium aenean, vivamus at tincidunt lacinia cubilia luctus
-                    proin, vulputate sodales dapibus tellus quisque. tristique
-                    facilisis risus ut mollis commodo fermentum aenean neque, in
-                    fusce id dictumst potenti vivamus aptent sodales mattis,
-                    porttitor per felis curabitur donec ornare interdum.
+                    <p>
+                      No lixo de cor marrom, se descarta resíduos orgânicos, como: cascas de frutas, legumoes e verduras, saquinhos de chá, restos de pães, bisoitos, pó e coador de café, esterco de animais herbívoros (galinhas, cavalos, gado).
+                    </p>
+
+                    <p>
+                      Há restrições do que não se caracterizam como lixo orgânico, como: produtos químicos, remédios, papéis higiênicos, guardanapos sujos, gorduras, óleos, graxa, leite e derivados, ossos, restos de carne, etc.
+                    </p>
                   </div>
                 </div>
               </Col>
@@ -167,20 +140,9 @@ export default function Home(props) {
                     </div>
                   </div>
                   <div className="CardPartc1">
-                    Urna quam curabitur fermentum ullamcorper tortor metus ut
-                    arcu scelerisque hac donec vitae, eleifend consequat
-                    elementum justo suscipit libero nisl donec malesuada sapien
-                    suscipit ultrices fusce, ut faucibus nam est vel vivamus
-                    condimentum tincidunt senectus neque porttitor. tempus
-                    vivamus integer dictumst sit tristique ac eleifend odio
-                    eros, platea dapibus enim tempor per fermentum scelerisque
-                    suscipit, erat pellentesque justo orci in aptent purus
-                    netus. egestas himenaeos ullamcorper malesuada senectus
-                    pretium aenean, vivamus at tincidunt lacinia cubilia luctus
-                    proin, vulputate sodales dapibus tellus quisque. tristique
-                    facilisis risus ut mollis commodo fermentum aenean neque, in
-                    fusce id dictumst potenti vivamus aptent sodales mattis,
-                    porttitor per felis curabitur donec ornare interdum.
+                    <p>
+                      O lixo de cor branca, representa o descarte de lixo eletrônico, como: celulares, notebooks, impressoras, tablets, mouses, teclados, fones de ouvido, cabos de carregador, pilhas, baterias, computadores de mesa, etc.
+                    </p>
                   </div>
                 </div>
               </Col>
