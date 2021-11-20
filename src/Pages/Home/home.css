@@ -263,7 +263,7 @@
   margin-right: 0.5%;
   padding: 12px;
   border-radius: 12px;
-  border: solid 3px blue;
+  border: solid 3px #323589;
   margin-top: 5%;
   box-shadow: 1em 1em 2em black;
   min-height: 600px;
@@ -276,7 +276,7 @@
   padding: 12px;
   margin-top: 5%;
   border-radius: 12px;
-  border: solid 3px red;
+  border: solid 3px #e34220;
   grid-template-columns: 150px;
   box-shadow: 1em 1em 2em black;
   min-height: 600px;
@@ -289,7 +289,7 @@
   margin-right: 0.5%;
   padding: 12px;
   border-radius: 12px;
-  border: solid 3px yellow;
+  border: solid 3px #fcff00;
   margin-top: 5%;
   box-shadow: 1em 1em 2em black;
   min-height: 600px;
@@ -302,7 +302,7 @@
   margin-right: 0.5%;
   padding: 12px;
   border-radius: 12px;
-  border: solid 3px green;
+  border: solid 3px #32893a;
   margin-top: 5%;
   box-shadow: 1em 1em 2em black;
   min-height: 600px;
@@ -315,7 +315,7 @@
   margin-right: 0.5%;
   padding: 12px;
   border-radius: 12px;
-  border: solid 3px rgb(90, 48, 48);
+  border: solid 3px #3b0909;
   margin-top: 5%;
   box-shadow: 1em 1em 2em black;
   min-height: 600px;
@@ -326,7 +326,7 @@
   height: 250px;
   width: 60%;
   border-radius: 12px;
-  border: 12px double blue;
+  border: 12px double #323589;
   padding: 2px;
   margin: auto;
   margin-bottom: 30px;
@@ -338,7 +338,8 @@
   height: 250px;
   width: 65%;
   border-radius: 12px;
-  border: 12px double red;
+  border: 12px double  #e34220;
+  box-shadow: 1em 1em 8em black;
   margin: auto;
   margin-bottom: 30px;
   padding-left: 8px;
@@ -349,7 +350,7 @@
   height: 250px;
   width: 60%;
   border-radius: 12px;
-  border: 12px double yellow;
+  border: 12px double #fcff00;
   height: 250px;
   width: 60%;
   margin: auto;
@@ -361,7 +362,7 @@
   height: 250px;
   width: 60%;
   border-radius: 12px;
-  border: 12px double green;
+  border: 12px double #32893a;
   margin: auto;
   margin-bottom: 30px;
   padding-left: 8px;
@@ -371,7 +372,7 @@
   height: 250px;
   width: 60%;
   border-radius: 12px;
-  border: 12px double rgb(90, 48, 48);
+  border: 12px double #3b0909;
   margin: auto;
   margin-bottom: 30px;
   padding-left: 8px;
@@ -401,3 +402,4 @@
 #CardDent {
   height: 100%;
 }
+

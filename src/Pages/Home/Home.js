@@ -28,10 +28,8 @@ export default function Home(props) {
             <Row xs="1" md="2" sm="1" xl="3" lg="3">
               <Col>
                 <div className="col-HomeCardPapel">
-                  {" "}
                   <div className="CardPartc1">
                     <div className="DivImgLixoPapel">
-                      {" "}
                       <Papel />
                     </div>
                   </div>
