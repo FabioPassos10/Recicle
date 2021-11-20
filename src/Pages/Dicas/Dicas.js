@@ -7,6 +7,7 @@ import LixoMarrom from "../../Components/lixoMarrom";
 import LixoVerde from "../../Components/lixoVerde";
 import LixoVermelho from "../../Components/lixoVermelho";
 import Table from "../../Components/Table";
+import Garrafa from "../../Components/ImgVetores/Garrafa"
 
 import "../../Pages/Dicas/dicas.css";
 
@@ -306,6 +307,7 @@ export default function Dicas() {
                     </div>
                   </div>
                 </div>
+                    <Garrafa/>
               </div>
             </div>
           </div>

@@ -3,11 +3,15 @@ import React from "react";
 import { Row, Container, Col } from "reactstrap";
 import { GithubOutlined, LinkedinOutlined } from "@ant-design/icons";
 import ImgOrientador from "../../Components/imgsSobre/ImgOrientador";
+import MundoReciclagem from "../../Components/ImgVetores/MundoReciclagem";
+
+
 
 export default function sobre(props) {
   return (
     <section>
       <Container className="Container-textSobre">
+      <MundoReciclagem/>
         <Row>
           <Col>
             <h3></h3>
