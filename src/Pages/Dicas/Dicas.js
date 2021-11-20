@@ -6,6 +6,7 @@ import LixoAzul from "../../Components/lixoAzul";
 import LixoMarrom from "../../Components/lixoMarrom";
 import LixoVerde from "../../Components/lixoVerde";
 import LixoVermelho from "../../Components/lixoVermelho";
+import LixoBranco from "../../Components/lixoBranco";
 import Table from "../../Components/Table";
 
 import "../../Pages/Dicas/dicas.css";
@@ -232,13 +233,20 @@ export default function Dicas() {
               <div className="col-12">
                 <div className="row">
                   <div className="col-md-2 col-sm-6 m-2 div-img img-dica d-flex justify-content-center">
-                    <div className="img-dica mt-3">{<LixoMarrom />}</div>
+                    <div className="img-dica mt-3">{<LixoBranco />}</div>
                   </div>
                   <div className="col-md-9 col-sm-7 m-2 text-dicas">
                     <div>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Possimus minima dolorem facere optio quam. Aliquam
-                      possimus...
+                      <h4>Eletrônico</h4>
+                      <p>
+                        Mais de 50 milhões de toneladas de resíduos eletrônicos, como computadores e celulares, são criados anualmente. Empresas vendem produtos que se destinam a ser descartáveis, ou seja, que tenham propositalmente baixa durabilidade. Assim, consumidores são obrigados a comprar novos modelos, porém, tal ato contribui para a alta poluição causada por este tipo de lixo.
+                      </p><p>
+                        Mais de 70% do lixo eletrônico acaba na China, onde grande parte é reciclada em oficinas familiares. Seus métodos de reciclagem são muitas vezes primitivos e podem criar sérios contaminantes ambientais e riscos à saúde.
+                      </p><p>
+                        Agbogbloshie é um dos maiores lixões eletrônicos do mundo. Localizado na cidade de Accra, em Gana, o local é considerado o mais tóxico do planeta.
+                      </p><p>
+                        A quantidade de lixo eletrônico entregue a cada ano equivale a 100 milhões de árvores.
+                      </p>
                     </div>
                   </div>
                 </div>

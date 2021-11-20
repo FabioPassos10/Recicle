@@ -103,9 +103,9 @@ export default function sobre(props) {
                 <h4>Fábio Eloy 👨‍💻</h4>
                 <br />
                 <p>
-                  Fabio exerceu o papel do principal programador do projeto ReCircle, selecionou a linguagem
+                  Fabio exerceu o papel do principal programador do projeto Recicle, selecionou a linguagem
                   de programação React para o back-end e auxiliou na programação do Mapa, no qual foi portado
-                  pelo Leaflet na linguagem JavaScript. Com isso o membro da equipe desenvolveu e auxiliou os
+                  pelo Leaflet na linguagem TypeScript. Com isso o membro da equipe desenvolveu e auxiliou os
                   demais participantes em diversas amplitudes do projeto. Fabio também foi responsável por
                 elaborar o GitHub do ReCircle, no qual é formado por um código aberto e de fácil acesso.<br />
                 </p>
@@ -253,20 +253,10 @@ export default function sobre(props) {
                 <h4>Simone Andreia de Campos 👩‍🏫</h4>
                 <br />
                 <p>
-                  João idealizou o projeto em objetivo de facilitar e ajudar na procura do ideal descarte dos lixos que,
-                  muitas das vezes, é desconhecido por parte do usuário. O membro da equipe gerou os primeiros protótipos
-                  do site e foi responsável, posteriormente, por auxiliar na criação e desenvolvimentos dos demais recursos
-                  funcionais e visuais do projeto. A aba de conteúdo sobre cada membro do projeto juntamente com a localização e reconhecimento
-                  de todos os pontos de descarte da região foi elaborada por ele.
+                  Simone Andreia foi um dos professores que orientou a criação do TCC juntamente com a
+                  professor Marcos Rodrigo. Lesciona na Escola Tecnica Pedro Ferreira Alves como professora de curso
+                  tecnico de informatica.
                 </p>
-              </div>
-              <div className="redes_cardSobre">
-                <a className="a_sobre" href="https://github.com/PudimTI" target="_blank">
-                  <GithubOutlined style={{ paddingRight: "12px" }} />
-                </a>
-                <a className="a_sobre" href="" target="_blank">
-                  <LinkedinOutlined />
-                </a>
               </div>
             </div>
             {/* */}
