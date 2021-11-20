@@ -317,7 +317,7 @@
   border-radius: 12px;
   border: solid 3px #3b0909;
   margin-top: 5%;
-  box-shadow: 1em 1em 2em black;
+
   min-height: 600px;
   height: 100%;
 }
@@ -339,7 +339,6 @@
   width: 65%;
   border-radius: 12px;
   border: 12px double  #e34220;
-  box-shadow: 1em 1em 8em black;
   margin: auto;
   margin-bottom: 30px;
   padding-left: 8px;
