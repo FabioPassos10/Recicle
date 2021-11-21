@@ -3,16 +3,16 @@ import { Chart } from "react-google-charts";
 
 function PieChart() {
   const [options, setOptions] = useState({
-    title: "Quantidade de Lixo produzida",
+    title: "Lixo potencialmente reciclavel",
   });
   const [optionsBar, setOptionsBar] = useState({
     title: "Geração RSU Brasil",
   });
   const [data, setData] = useState([
     ["Lixo", "Quantidade produzida em toneladas por ano"],
-    ["Papel", 39],
-    ["metais", 16],
-    ["Metal", 50],
+    ["Lixo Total", 39],
+    ["Lixo Reciclavel", 16],
+    ["Lixo Efetivamente Recicaldo", 50],
   ]);
 
   return (
