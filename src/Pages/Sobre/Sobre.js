@@ -344,13 +344,12 @@ export default function sobre(props) {
           </Col>
         </Row>
       </Container>
-
+      
       <Container>
         <Row>
           <Col className="Col-CardOrientador">
             <ImgOrientador />
           </Col>
-          <HCL />
         </Row>
       </Container>
     </section>

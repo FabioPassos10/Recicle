@@ -8,7 +8,8 @@ import LixoVerde from "../../Components/lixoVerde";
 import LixoVermelho from "../../Components/lixoVermelho";
 import LixoBranco from "../../Components/lixoBranco";
 import Table from "../../Components/Table";
-import Garrafa from "../../Components/ImgVetores/Garrafa"
+import Garrafa from "../../Components/ImgVetores/Garrafa";
+import TableOngs from "../../Components/TableOngs";
 
 import "../../Pages/Dicas/dicas.css";
 
@@ -24,7 +25,16 @@ export default function Dicas() {
             <div className="col-xs-5 col-md-5 col-sm-12">
 
               <p className="text-grafico">
-                <h4>Importância da Reciclagem</h4>
+                <h4>RSU no Brasil</h4>
+                <br/>
+                Com mais de 200 milhões de habitantes, o Brasil é um dos países que mais gera resíduos sólidos - materiais, substâncias e objetos descartados - cuja destinação final deveria receber tratamento com soluções economicamente viáveis, de acordo com a legislação e as tecnologias atualmente disponíveis, mas acabam, ainda em parte, sendo despejados a céu aberto, lançados na rede pública de esgotos ou até queimados.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <p>
+        <h4>Importância da Reciclagem</h4>
                 A reciclagem auxilia na conservação de recursos naturais, reduzindo a extração de novas
                 matérias-primas, além de proporcionar economia de energia e de gastos com limpeza urbana,
                 já que também evita a poluição. Tal prática reduz emissões de gases do efeito estufa e,
@@ -37,8 +47,13 @@ export default function Dicas() {
                 anaeróbia (processo de decomposição da matéria orgânica por bactérias em um meio onde não há a presença
                 de oxigênio). Processos anaeróbicos geram enorme quantidade de gás metano, um dos principais contribuintes
                 para o aquecimento global.
-              </p>
-            </div>
+        </p>
+        <div className="row">
+          <div className="col-2"></div>
+          <div className="col-10 vl">
+            <p>
+              O descarte inadequado de lixo é proibido no Brasil desde 1954, pela Lei 2.312 de 3 de setembro, pelo Código Nacional da Saúde. Essa proibição foi reforçada em 1981 pela Política Nacional de Meio Ambiente.
+            </p>
           </div>
         </div>
 
@@ -60,9 +75,11 @@ export default function Dicas() {
           </div>
         </div>
       </div>
-
+      
       <div className="container text-mid">
 
+        <h3>Apoie uma ONG!</h3><br/>
+      <TableOngs /> <br/> <br/>
         <p>
           <h4 className="tituloRM">A Reciclagem no Mundo</h4>
           Segundo dispõe Karin Lehnrdt, a probabilidade de que norte-americanos reciclem é maior do que
@@ -315,7 +332,6 @@ export default function Dicas() {
                     </div>
                   </div>
                 </div>
-                    <Garrafa/>
               </div>
             </div>
           </div>

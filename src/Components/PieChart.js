@@ -10,9 +10,9 @@ function PieChart() {
   });
   const [data, setData] = useState([
     ["Lixo", "Quantidade produzida em toneladas por ano"],
-    ["Lixo Total", 39],
-    ["Lixo Reciclavel", 16],
-    ["Lixo Efetivamente Recicaldo", 50],
+    ["Lixo Total", 66],
+    ["Lixo Reciclavel", 30],
+    ["Lixo Efetivamente Recicaldo",3],
   ]);
 
   return (

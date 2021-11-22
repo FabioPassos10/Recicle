@@ -6,11 +6,25 @@
 
   color: rgb(255, 255, 255);
   text-align: center;
-  height: 200px;
+  height: 300px;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 span {
   font-size: 1.3em;
+}
+
+.divRef {
+  margin-right: 2%;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.a_footer {
+  color: inherit;
+}
+
+.gitFooter {
+  border-left: 5px solid teal;
 }
