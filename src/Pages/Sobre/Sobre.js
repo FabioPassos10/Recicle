@@ -16,7 +16,7 @@ export default function sobre(props) {
             <h3></h3>
 
             <p className="p-Sobre">
-              O projeto ReCircle é originário do desenvolvimento de um Trabalho
+              O projeto Recicle é originário do desenvolvimento de um Trabalho
               de Conclusão de Curso (TCC) realizado por alunos do 3º ano do
               Curso Técnico em Desenvolvimento de Sistemas Integrado ao Ensino
               Médio (3º EMDS) ministrado na instituição de ensino ETEC Pedro
